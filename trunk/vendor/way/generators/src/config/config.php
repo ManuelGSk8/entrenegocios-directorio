@@ -29,7 +29,7 @@ return [
     |--------------------------------------------------------------------------
     |
     */
-    'model_target_path'   => app_path('models'),
+    'model_target_path'   => app_path('Entities'),
 
     'controller_target_path'   => app_path('controllers'),
 

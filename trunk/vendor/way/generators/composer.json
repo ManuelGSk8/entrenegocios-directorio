@@ -1,6 +1,6 @@
 {
     "name": "way/generators",
-    "description": "Rapidly generate resources, migrations, models, and much more.",
+    "description": "Rapidly generate resources, migrations, Entities, and much more.",
     "license": "MIT",
     "authors": [
         {

@@ -1,7 +1,8 @@
 <?php
-
 // Composer: "fzaninotto/faker": "v1.3.0"
 use Faker\Factory as Faker;
+
+use Directorio\Entities\Negocio;
 
 class NegocioTableSeeder extends Seeder {
 
@@ -22,7 +23,7 @@ class NegocioTableSeeder extends Seeder {
                 'website'           => $faker->url,
                 'web_fb'            => $faker->url,
                 'web_tw'            => $faker->url,
-                'rubro_id'          => $faker->randomElement([1,2,3]),
+                'rubros_id'          => $faker->randomElement([1,2,3]),
                 'slug'              => \Str::slug($nombre_negocio)
 
 			]);
