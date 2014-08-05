@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
+
+//categorias/pasteleria-dulces/1
+Route::get('categorias/{slug}/{id}', ['as' => 'rubros', 'uses' => 'NegocioController@rubros']);
+
+//yammis-peru/1
+Route::get('/{slug}/{id}', ['as' => 'negocio', 'uses' => 'NegocioController@show']);
+

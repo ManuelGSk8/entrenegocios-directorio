@@ -1,5 +1,6 @@
 <?php
 
+use Directorio\Entities\Rubros;
 
 class RubrosTableSeeder extends Seeder {
 

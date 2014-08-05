@@ -22,8 +22,8 @@ class CreateNegocioTable extends Migration {
             $table->string('website')->nulllable();
             $table->string('web_fb')->nulllable();
             $table->string('web_tw')->nulllable();
-            $table->integer('rubro_id')->unsigned();
-            $table->foreign('rubro_id')->references('id')->on('rubros')->onDelete('cascade');
+            $table->integer('rubros_id')->unsigned();
+            $table->foreign('rubros_id')->references('id')->on('rubros')->onDelete('cascade');
 
             $table->string('slug');
 

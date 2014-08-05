@@ -195,7 +195,7 @@ class Collection extends BaseCollection {
 	}
 
 	/**
-	 * Returns only the models from the collection with the specified keys.
+	 * Returns only the Entities from the collection with the specified keys.
 	 *
 	 * @param  mixed  $keys
 	 * @return \Illuminate\Database\Eloquent\Collection
@@ -208,7 +208,7 @@ class Collection extends BaseCollection {
 	}
 
 	/**
-	 * Returns all models in the collection except the models with specified keys.
+	 * Returns all Entities in the collection except the Entities with specified keys.
 	 *
 	 * @param  mixed  $keys
 	 * @return \Illuminate\Database\Eloquent\Collection
