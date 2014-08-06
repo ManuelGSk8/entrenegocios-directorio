@@ -93,7 +93,7 @@ function generateUpToDateMimeArray()
             'svg'  => 'image/svg+xml',
             'tif'  => 'image/tiff',
             'tiff' => 'image/tiff',
-            'ttf'  => 'application/x-font-truetype',
+            'ttf'  => 'application/x-fonts-truetype',
             'txt'  => 'text/plain',
             'vcf'  => 'text/x-vcard',
             'wav'  => 'audio/wav',

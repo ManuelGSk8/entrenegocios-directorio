@@ -280,9 +280,9 @@ class File extends \Faker\Provider\Base
             'fgd',
             'swa'
         ),
-        'application/x-font-ttf'                                                    => array('ttf', 'ttc'),
-        'application/x-font-type1'                                                  => array('pfa', 'pfb', 'pfm', 'afm'),
-        'application/x-font-woff'                                                   => 'woff',
+        'application/x-fonts-ttf'                                                    => array('ttf', 'ttc'),
+        'application/x-fonts-type1'                                                  => array('pfa', 'pfb', 'pfm', 'afm'),
+        'application/x-fonts-woff'                                                   => 'woff',
         'application/x-freearc'                                                     => 'arc',
         'application/x-futuresplash'                                                => 'spl',
         'application/x-gca-compressed'                                              => 'gca',

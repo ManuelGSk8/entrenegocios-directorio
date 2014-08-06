@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo asset('bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo asset('font-icon/icon_style.css'); ?>" rel="stylesheet">
     <link href="<?php echo asset('font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet">
 
     <!-- Custom styles for this template -->
