@@ -1,0 +1,56 @@
+@import url(entypostyle.css);
+*, *:after, *:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row_icon {
+    /*margin: 0.5em 0;*/
+    float: left;
+    clear: both;
+    background: transparent;
+}
+
+.row_icon  i {
+    cursor: pointer;
+    display: inline-block;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+.row_icon:nth-child(2) {
+    background: transparent;
+}
+.row_icon i {
+    color: white;
+    padding: 7px;
+    position: relative;
+    background: transparent;
+}
+.transition:hover{
+    top: -2px;
+}
+
+.row_icon .fb {
+    background: #3b5998;
+    border-left: none;
+}
+.row_icon .tw {
+    background: #00a0d1;
+}
+.row_icon .gp {
+    background: #db4a39;
+}
+.row_icon .pi {
+    background: #c8232c;
+}
+.row_icon .dr {
+    background: #ea4c89;
+    border-right: none;
+}
+.disable{
+     background: #8C8C8C !important;
+ }
+
