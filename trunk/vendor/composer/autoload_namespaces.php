@@ -42,4 +42,5 @@ return array(
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
     'Boris' => array($vendorDir . '/d11wtq/boris/lib'),
     'Barryvdh\\Debugbar' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
+    'Appitventures\\Phpgmaps\\' => array($vendorDir . '/appitventures/phpgmaps/src'),
 );

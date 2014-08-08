@@ -18,7 +18,8 @@ class CreateProductosTable extends Migration {
 
             $table->integer('negocio_id')->unsigned();
             $table->foreign('negocio_id')->references('id')->on('negocio');
-            $table->string('url_image');
+            $table->string('url_image_350x350');
+            $table->string('url_image_800x600');
             $table->text('descripcion')->nullable();
 
 			$table->timestamps();

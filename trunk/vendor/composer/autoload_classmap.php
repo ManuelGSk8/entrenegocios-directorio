@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Appitventures\\Phpgmaps\\Facades\\Phpgmaps' => $vendorDir . '/appitventures/phpgmaps/src/Appitventures/Phpgmaps/Facades/Phpgmaps.php',
+    'Appitventures\\Phpgmaps\\Phpgmaps' => $vendorDir . '/appitventures/phpgmaps/src/Appitventures/Phpgmaps/Phpgmaps.php',
+    'Appitventures\\Phpgmaps\\PhpgmapsServiceProvider' => $vendorDir . '/appitventures/phpgmaps/src/Appitventures/Phpgmaps/PhpgmapsServiceProvider.php',
     'Barryvdh\\Debugbar\\Console\\ClearCommand' => $vendorDir . '/barryvdh/laravel-debugbar/src/Barryvdh/Debugbar/Console/ClearCommand.php',
     'Barryvdh\\Debugbar\\Console\\PublishCommand' => $vendorDir . '/barryvdh/laravel-debugbar/src/Barryvdh/Debugbar/Console/PublishCommand.php',
     'Barryvdh\\Debugbar\\DataCollector\\AuthCollector' => $vendorDir . '/barryvdh/laravel-debugbar/src/Barryvdh/Debugbar/DataCollector/AuthCollector.php',
@@ -107,6 +110,7 @@ return array(
     'Directorio\\Entities\\Productos' => $baseDir . '/app/Directorio/Entities/Productos.php',
     'Directorio\\Entities\\Rubros' => $baseDir . '/app/Directorio/Entities/Rubros.php',
     'Directorio\\Entities\\User' => $baseDir . '/app/Directorio/Entities/User.php',
+    'Directorio\\Repositories\\NegocioRepo' => $baseDir . '/app/Directorio/Repositories/NegocioRepo.php',
     'Directorio\\Repositories\\RubroRepo' => $baseDir . '/app/Directorio/Repositories/RubroRepo.php',
     'Faker\\Documentor' => $vendorDir . '/fzaninotto/faker/src/Faker/Documentor.php',
     'Faker\\Factory' => $vendorDir . '/fzaninotto/faker/src/Faker/Factory.php',
@@ -950,7 +954,6 @@ return array(
     'Patchwork\\TurkishUtf8' => $vendorDir . '/patchwork/utf8/class/Patchwork/TurkishUtf8.php',
     'Patchwork\\Utf8' => $vendorDir . '/patchwork/utf8/class/Patchwork/Utf8.php',
     'Patchwork\\Utf8\\Bootup' => $vendorDir . '/patchwork/utf8/class/Patchwork/Utf8/Bootup.php',
-    'Patchwork\\Utf8\\WinFsStreamWrapper' => $vendorDir . '/patchwork/utf8/class/Patchwork/Utf8/WinFsStreamWrapper.php',
     'Predis\\Autoloader' => $vendorDir . '/predis/predis/lib/Predis/Autoloader.php',
     'Predis\\BasicClientInterface' => $vendorDir . '/predis/predis/lib/Predis/BasicClientInterface.php',
     'Predis\\Client' => $vendorDir . '/predis/predis/lib/Predis/Client.php',
@@ -1473,7 +1476,6 @@ return array(
     'Symfony\\Component\\HttpFoundation\\RequestMatcher' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/RequestMatcher.php',
     'Symfony\\Component\\HttpFoundation\\RequestMatcherInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/RequestMatcherInterface.php',
     'Symfony\\Component\\HttpFoundation\\RequestStack' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/RequestStack.php',
-    'Symfony\\Component\\HttpFoundation\\Resources\\stubs\\FakeFile' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/FakeFile.php',
     'Symfony\\Component\\HttpFoundation\\Response' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php',
     'Symfony\\Component\\HttpFoundation\\ResponseHeaderBag' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/ResponseHeaderBag.php',
     'Symfony\\Component\\HttpFoundation\\ServerBag' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/ServerBag.php',
@@ -1504,6 +1506,7 @@ return array(
     'Symfony\\Component\\HttpFoundation\\Session\\Storage\\Proxy\\SessionHandlerProxy' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/Proxy/SessionHandlerProxy.php',
     'Symfony\\Component\\HttpFoundation\\Session\\Storage\\SessionStorageInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Session/Storage/SessionStorageInterface.php',
     'Symfony\\Component\\HttpFoundation\\StreamedResponse' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/StreamedResponse.php',
+    'Symfony\\Component\\HttpFoundation\\Tests\\File\\FakeFile' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/File/FakeFile.php',
     'Symfony\\Component\\HttpFoundation\\Tests\\ResponseTestCase' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/ResponseTestCase.php',
     'Symfony\\Component\\HttpKernel\\Bundle\\Bundle' => $vendorDir . '/symfony/http-kernel/Symfony/Component/HttpKernel/Bundle/Bundle.php',
     'Symfony\\Component\\HttpKernel\\Bundle\\BundleInterface' => $vendorDir . '/symfony/http-kernel/Symfony/Component/HttpKernel/Bundle/BundleInterface.php',

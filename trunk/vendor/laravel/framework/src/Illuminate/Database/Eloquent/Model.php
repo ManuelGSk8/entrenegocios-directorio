@@ -46,7 +46,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	protected $primaryKey = 'id';
 
 	/**
-	 * The number of Entities to return for pagination.
+	 * The number of models to return for pagination.
 	 *
 	 * @var int
 	 */
@@ -186,7 +186,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	protected static $dispatcher;
 
 	/**
-	 * The array of booted Entities.
+	 * The array of booted models.
 	 *
 	 * @var array
 	 */
@@ -282,7 +282,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 		static::$mutatorCache[$class] = array();
 
 		// Here we will extract all of the mutated attributes so that we can quickly
-		// spin through them after we export Entities to their array form, which we
+		// spin through them after we export models to their array form, which we
 		// need to be fast. This will let us always know the attributes mutate.
 		foreach (get_class_methods($class) as $method)
 		{
@@ -387,7 +387,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Fill the model with an array of attributes.
 	 *
 	 * @param  array  $attributes
-	 * @return \Illuminate\Database\Eloquent\Model|static
+	 * @return $this
 	 *
 	 * @throws MassAssignmentException
 	 */
@@ -436,7 +436,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 *
 	 * @param  array  $attributes
 	 * @param  bool   $exists
-	 * @return \Illuminate\Database\Eloquent\Model|static
+	 * @return static
 	 */
 	public function newInstance($attributes = array(), $exists = false)
 	{
@@ -454,7 +454,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Create a new model instance that is existing.
 	 *
 	 * @param  array  $attributes
-	 * @return \Illuminate\Database\Eloquent\Model|static
+	 * @return static
 	 */
 	public function newFromBuilder($attributes = array())
 	{
@@ -466,7 +466,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Create a collection of Entities from plain arrays.
+	 * Create a collection of models from plain arrays.
 	 *
 	 * @param  array  $items
 	 * @param  string  $connection
@@ -492,7 +492,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Create a collection of Entities from a raw query.
+	 * Create a collection of models from a raw query.
 	 *
 	 * @param  string  $query
 	 * @param  array  $bindings
@@ -517,7 +517,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Save a new model and return the instance.
 	 *
 	 * @param  array  $attributes
-	 * @return \Illuminate\Database\Eloquent\Model|static
+	 * @return static
 	 */
 	public static function create(array $attributes)
 	{
@@ -532,7 +532,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Get the first record matching the attributes or create it.
 	 *
 	 * @param  array  $attributes
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return static
 	 */
 	public static function firstOrCreate(array $attributes)
 	{
@@ -548,7 +548,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Get the first record matching the attributes or instantiate it.
 	 *
 	 * @param  array  $attributes
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return static
 	 */
 	public static function firstOrNew(array $attributes)
 	{
@@ -565,7 +565,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 *
 	 * @param  array  $attributes
 	 * @param  array  $values
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return static
 	 */
 	public static function updateOrCreate(array $attributes, array $values = array())
 	{
@@ -580,7 +580,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Get the first model for the given attributes.
 	 *
 	 * @param  array  $attributes
-	 * @return \Illuminate\Database\Eloquent\Model|null
+	 * @return static|null
 	 */
 	protected static function firstByAttributes($attributes)
 	{
@@ -616,7 +616,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Get all of the Entities from the database.
+	 * Get all of the models from the database.
 	 *
 	 * @param  array  $columns
 	 * @return \Illuminate\Database\Eloquent\Collection|static[]
@@ -633,7 +633,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 *
 	 * @param  mixed  $id
 	 * @param  array  $columns
-	 * @return \Illuminate\Database\Eloquent\Model|Collection|static
+	 * @return \Illuminate\Support\Collection|static
 	 */
 	public static function find($id, $columns = array('*'))
 	{
@@ -649,7 +649,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 *
 	 * @param  mixed  $id
 	 * @param  array  $columns
-	 * @return \Illuminate\Database\Eloquent\Model|Collection|static
+	 * @return \Illuminate\Support\Collection|static
 	 */
 	public static function findOrNew($id, $columns = array('*'))
 	{
@@ -663,7 +663,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 *
 	 * @param  mixed  $id
 	 * @param  array  $columns
-	 * @return \Illuminate\Database\Eloquent\Model|Collection|static
+	 * @return \Illuminate\Support\Collection|static
 	 *
 	 * @throws ModelNotFoundException
 	 */
@@ -678,7 +678,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Eager load relations on the model.
 	 *
 	 * @param  array|string  $relations
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function load($relations)
 	{
@@ -780,7 +780,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 		$instance = new $related;
 
 		// Once we have the foreign key names, we'll just create a new Eloquent query
-		// for the related Entities and returns the relationship instance which will
+		// for the related models and returns the relationship instance which will
 		// actually be responsible for retrieving and hydrating every relations.
 		$query = $instance->newQuery();
 
@@ -929,7 +929,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 		$otherKey = $otherKey ?: $instance->getForeignKey();
 
 		// If no table name was provided, we can guess it by concatenating the two
-		// Entities using underscores in alphabetical order. The two model names
+		// models using underscores in alphabetical order. The two model names
 		// are transformed to snake case from their default CamelCase also.
 		if (is_null($table))
 		{
@@ -1030,9 +1030,9 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 */
 	public function joiningTable($related)
 	{
-		// The joining table name, by convention, is simply the snake cased Entities
+		// The joining table name, by convention, is simply the snake cased models
 		// sorted alphabetically and concatenated with an underscore, so we can
-		// just sort the Entities and join them together to get the table name.
+		// just sort the models and join them together to get the table name.
 		$base = snake_case(class_basename($this));
 
 		$related = snake_case(class_basename($related));
@@ -1048,7 +1048,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Destroy the Entities for the given IDs.
+	 * Destroy the models for the given IDs.
 	 *
 	 * @param  array|int  $ids
 	 * @return int
@@ -1064,7 +1064,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 
 		$instance = new static;
 
-		// We will actually pull the Entities from the database table and call delete on
+		// We will actually pull the models from the database table and call delete on
 		// each of them individually so that their events get fired properly with a
 		// correct set of attributes in case the developers wants to check these.
 		$key = $instance->getKeyName();
@@ -1094,8 +1094,8 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 		{
 			if ($this->fireModelEvent('deleting') === false) return false;
 
-			// Here, we'll touch the owning Entities, verifying these timestamps get updated
-			// for the Entities. This will allow any caching to get broken on the parents
+			// Here, we'll touch the owning models, verifying these timestamps get updated
+			// for the models. This will allow any caching to get broken on the parents
 			// by the timestamp. Then we will go ahead and delete the model instance.
 			$this->touchOwners();
 
@@ -1326,7 +1326,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Update the model in the database.
 	 *
 	 * @param  array  $attributes
-	 * @return mixed
+	 * @return bool|int
 	 */
 	public function update(array $attributes = array())
 	{
@@ -1428,7 +1428,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 		if (count($dirty) > 0)
 		{
 			// If the updating event returns false, we will cancel the update operation so
-			// developers can hook Validation systems into their Entities and cancel this
+			// developers can hook Validation systems into their models and cancel this
 			// operation if the model does not pass validation. Otherwise, we update.
 			if ($this->fireModelEvent('updating') === false)
 			{
@@ -1445,7 +1445,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 
 			// Once we have run the update operation, we will fire the "updated" event for
 			// this model instance. This will allow developers to hook into these after
-			// Entities are updated, giving them a chance to do any special processing.
+			// models are updated, giving them a chance to do any special processing.
 			$dirty = $this->getDirty();
 
 			if (count($dirty) > 0)
@@ -1489,7 +1489,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 
 		// If the table is not incrementing we'll simply insert this attributes as they
 		// are, as this attributes arrays must contain an "id" column already placed
-		// there by the developer as the manually determined key for these Entities.
+		// there by the developer as the manually determined key for these models.
 		else
 		{
 			$query->insert($attributes);
@@ -1556,7 +1556,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 
 		// We will append the names of the class to the event to distinguish it from
 		// other model events that are fired, allowing us to listen on each model
-		// event set individually instead of catching event for all the Entities.
+		// event set individually instead of catching event for all the models.
 		$event = "eloquent.{$event}: ".get_class($this);
 
 		$method = $halt ? 'until' : 'fire';
@@ -1903,7 +1903,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Get the number of Entities to return per page.
+	 * Get the number of models to return per page.
 	 *
 	 * @return int
 	 */
@@ -1913,7 +1913,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Set the number of Entities to return per page.
+	 * Set the number of models to return per page.
 	 *
 	 * @param  int   $perPage
 	 * @return void
@@ -1990,7 +1990,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Set the fillable attributes for the model.
 	 *
 	 * @param  array  $fillable
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function fillable(array $fillable)
 	{
@@ -2003,7 +2003,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Set the guarded attributes for the model.
 	 *
 	 * @param  array  $guarded
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function guard(array $guarded)
 	{
@@ -2252,7 +2252,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 			if (in_array($key, $this->hidden)) continue;
 
 			// If the values implements the Arrayable interface we can just call this
-			// toArray method on the instances which will convert both Entities and
+			// toArray method on the instances which will convert both models and
 			// collections to their proper array form and we'll set the values.
 			if ($value instanceof ArrayableInterface)
 			{
@@ -2261,7 +2261,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 
 			// If the value is null, we'll still go ahead and set it in this list of
 			// attributes since null is used to represent empty relationships if
-			// if it a has one or belongs to type relationships on the Entities.
+			// if it a has one or belongs to type relationships on the models.
 			elseif (is_null($value))
 			{
 				$relation = $value;
@@ -2657,7 +2657,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	/**
 	 * Sync the original attributes with the current.
 	 *
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function syncOriginal()
 	{
@@ -2670,7 +2670,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Sync a single original attribute with its current value.
 	 *
 	 * @param  string  $attribute
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function syncOriginalAttribute($attribute)
 	{
@@ -2765,7 +2765,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 *
 	 * @param  string  $relation
 	 * @param  mixed   $value
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function setRelation($relation, $value)
 	{
@@ -2778,7 +2778,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Set the entire relations array on the model.
 	 *
 	 * @param  array  $relations
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function setRelations(array $relations)
 	{
@@ -2811,7 +2811,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	 * Set the connection associated with the model.
 	 *
 	 * @param  string  $name
-	 * @return \Illuminate\Database\Eloquent\Model
+	 * @return $this
 	 */
 	public function setConnection($name)
 	{
@@ -2853,7 +2853,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Unset the connection resolver for Entities.
+	 * Unset the connection resolver for models.
 	 *
 	 * @return void
 	 */
@@ -2884,7 +2884,7 @@ abstract class Model implements ArrayAccess, ArrayableInterface, JsonableInterfa
 	}
 
 	/**
-	 * Unset the event dispatcher for Entities.
+	 * Unset the event dispatcher for models.
 	 *
 	 * @return void
 	 */
