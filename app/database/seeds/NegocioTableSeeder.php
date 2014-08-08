@@ -23,7 +23,15 @@ class NegocioTableSeeder extends Seeder {
                 'website'           => $faker->url,
                 'web_fb'            => $faker->url,
                 'web_tw'            => $faker->url,
-                'rubros_id'          => $faker->randomElement([1,2,3]),
+                'rubros_id'         => $faker->randomElement([1,2,3]),
+                'movil'             => $faker->phoneNumber,
+                'fijo'              => $faker->phoneNumber,
+                'mail'              => $faker->email,
+                'flag_direccion'    => $faker->randomElement([0,1]),
+                'direccion'         => $faker->address(),
+                'flag_mapa'         => $faker->randomElement([0,1]),
+                'latitud'           => $faker->latitude(),
+                'longitud'          => $faker->longitude(),
                 'slug'              => \Str::slug($nombre_negocio)
 
 			]);

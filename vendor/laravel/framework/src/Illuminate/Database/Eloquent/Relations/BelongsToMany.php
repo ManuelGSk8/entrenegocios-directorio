@@ -138,14 +138,14 @@ class BelongsToMany extends Relation {
 	{
 		// First we'll add the proper select columns onto the query so it is run with
 		// the proper columns. Then, we will get the results and hydrate out pivot
-		// Entities with the result of those columns as a separate model relation.
+		// models with the result of those columns as a separate model relation.
 		$select = $this->getSelectColumns($columns);
 
 		$models = $this->query->addSelect($select)->getModels();
 
 		$this->hydratePivotRelation($models);
 
-		// If we actually found Entities we will also eager load any relationships that
+		// If we actually found models we will also eager load any relationships that
 		// have been specified as needing to be eager loaded. This will solve the
 		// n + 1 query problem for the developer and also increase performance.
 		if (count($models) > 0)
@@ -178,7 +178,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Hydrate the pivot table relationship on the Entities.
+	 * Hydrate the pivot table relationship on the models.
 	 *
 	 * @param  array  $models
 	 * @return void
@@ -210,7 +210,7 @@ class BelongsToMany extends Relation {
 		{
 			// To get the pivots attributes we will just take any of the attributes which
 			// begin with "pivot_" and add those to this arrays, as well as unsetting
-			// them from the parent's Entities since they exist in a different table.
+			// them from the parent's models since they exist in a different table.
 			if (strpos($key, 'pivot_') === 0)
 			{
 				$values[substr($key, 6)] = $value;
@@ -311,8 +311,8 @@ class BelongsToMany extends Relation {
 		$defaults = array($this->foreignKey, $this->otherKey);
 
 		// We need to alias all of the pivot columns with the "pivot_" prefix so we
-		// can easily extract them out of the Entities and put them into the pivot
-		// relationships when they are retrieved and hydrated into the Entities.
+		// can easily extract them out of the models and put them into the pivot
+		// relationships when they are retrieved and hydrated into the models.
 		$columns = array();
 
 		foreach (array_merge($defaults, $this->pivotColumns) as $column)
@@ -327,7 +327,7 @@ class BelongsToMany extends Relation {
 	 * Set the join clause for the relation query.
 	 *
 	 * @param  \Illuminate\Database\Eloquent\Builder|null
-	 * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+	 * @return $this
 	 */
 	protected function setJoin($query = null)
 	{
@@ -335,7 +335,7 @@ class BelongsToMany extends Relation {
 
 		// We need to join to the intermediate table on the related model's primary
 		// key column with the intermediate table's foreign key for the related
-		// model instance. Then we can set the "where" for the parent Entities.
+		// model instance. Then we can set the "where" for the parent models.
 		$baseTable = $this->related->getTable();
 
 		$key = $baseTable.'.'.$this->related->getKeyName();
@@ -348,7 +348,7 @@ class BelongsToMany extends Relation {
 	/**
 	 * Set the where clause for the relation query.
 	 *
-	 * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+	 * @return $this
 	 */
 	protected function setWhere()
 	{
@@ -371,7 +371,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Initialize the relation on a set of Entities.
+	 * Initialize the relation on a set of models.
 	 *
 	 * @param  array   $models
 	 * @param  string  $relation
@@ -401,7 +401,7 @@ class BelongsToMany extends Relation {
 
 		// Once we have an array dictionary of child objects we can easily match the
 		// children back to their parent using the dictionary and the keys on the
-		// the parent Entities. Then we will return the hydrated Entities back out.
+		// the parent models. Then we will return the hydrated models back out.
 		foreach ($models as $model)
 		{
 			if (isset($dictionary[$key = $model->getKey()]))
@@ -425,9 +425,9 @@ class BelongsToMany extends Relation {
 	{
 		$foreign = $this->foreignKey;
 
-		// First we will build a dictionary of child Entities keyed by the foreign key
+		// First we will build a dictionary of child models keyed by the foreign key
 		// of the relation so that we will easily and quickly match them to their
-		// parents without having a possibly slow inner loops for every Entities.
+		// parents without having a possibly slow inner loops for every models.
 		$dictionary = array();
 
 		foreach ($results as $result)
@@ -439,7 +439,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Touch all of the related Entities for the relationship.
+	 * Touch all of the related models for the relationship.
 	 *
 	 * E.g.: Touch all roles associated with this user.
 	 *
@@ -453,7 +453,7 @@ class BelongsToMany extends Relation {
 
 		// If we actually have IDs for the relation, we will run the query to update all
 		// the related model's timestamps, to make sure these all reflect the changes
-		// to the parent Entities. This will help us keep any caching synced up here.
+		// to the parent models. This will help us keep any caching synced up here.
 		$ids = $this->getRelatedIds();
 
 		if (count($ids) > 0)
@@ -463,7 +463,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Get all of the IDs for the related Entities.
+	 * Get all of the IDs for the related models.
 	 *
 	 * @return array
 	 */
@@ -494,7 +494,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Save an array of new Entities and attach them to the parent model.
+	 * Save an array of new models and attach them to the parent model.
 	 *
 	 * @param  array  $models
 	 * @param  array  $joinings
@@ -535,7 +535,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Create an array of new instances of the related Entities.
+	 * Create an array of new instances of the related models.
 	 *
 	 * @param  array  $records
 	 * @param  array  $joinings
@@ -556,7 +556,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Sync the intermediate tables with a list of IDs or collection of Entities.
+	 * Sync the intermediate tables with a list of IDs or collection of models.
 	 *
 	 * @param  $ids
 	 * @param  bool   $detaching
@@ -570,7 +570,7 @@ class BelongsToMany extends Relation {
 
 		if ($ids instanceof Collection) $ids = $ids->modelKeys();
 
-		// First we need to attach any of the associated Entities that are not currently
+		// First we need to attach any of the associated models that are not currently
 		// in this joining table. We'll spin through the given IDs, checking to see
 		// if they exist in the array of current ones, and if not we will insert.
 		$current = $this->newPivotQuery()->lists($this->otherKey);
@@ -812,7 +812,7 @@ class BelongsToMany extends Relation {
 	}
 
 	/**
-	 * Detach Entities from the relationship.
+	 * Detach models from the relationship.
 	 *
 	 * @param  int|array  $ids
 	 * @param  bool  $touch
@@ -838,7 +838,7 @@ class BelongsToMany extends Relation {
 
 		// Once we have all of the conditions set on the statement, we are ready
 		// to run the delete on the pivot table. Then, if the touch parameter
-		// is true, we will go ahead and touch all related Entities to sync.
+		// is true, we will go ahead and touch all related models to sync.
 		$results = $query->delete();
 
 		return $results;
@@ -942,7 +942,7 @@ class BelongsToMany extends Relation {
 	 * Set the columns on the pivot table to retrieve.
 	 *
 	 * @param  array  $columns
-	 * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+	 * @return $this
 	 */
 	public function withPivot($columns)
 	{

@@ -10,7 +10,7 @@
 		{"message": "Added ability to register global Eloquent scopes using traits and addGlobalScope.", "backport": null},
 		{"message": "Soft deleting converted to use new global scope facilities.", "backport": null},
 		{"message": "Added ability to extend Eloquent Builder using 'macro' method.", "backport": null},
-		{"message": "Soft deleting Entities now use SoftDeletingTrait instead of softDelete property.", "backport": null},
+		{"message": "Soft deleting models now use SoftDeletingTrait instead of softDelete property.", "backport": null},
 		{"message": "The queue:listen command will now write the names of the jobs it processes to the console.", "backport": null},
 		{"message": "Added Mailgun API transport for Mail::send. Depends on new 'services' configuration file.", "backport": null},
 		{"message": "Added Mandrill API transport for Mail::send. Depends on new 'services' configuration file.", "backport": null},
@@ -30,7 +30,8 @@
 		{"message": "Added 'contains' method to base Collection.", "backport": null},
 		{"message": "Allow 'where' route constraints to be passed in array definition of Route.", "backport": null},
 		{"message": "Properly support Route 'where' constraints on a Route group.", "backport": null},
-		{"message": "When 'increment' or 'decrement' is called on a single Model instance, the local attribute value is updated as well.", "backport": null}
+		{"message": "When 'increment' or 'decrement' is called on a single Model instance, the local attribute value is updated as well.", "backport": null},
+		{"message": "Automatically retry queries on database connections that have 'gone away'.", "backport": null}
 	],
 	"4.1.*": [
 		{"message": "Added new SSH task runner tools.", "backport": null},
@@ -164,7 +165,7 @@
 		{"message": "Added Request::format function to get human-readable expected Response format.", "backport": null},
 		{"message": "Allow array sizes to be checked by validator.", "backport": null},
 		{"message": "Added support for where conditions on unique validation rule.", "backport": null},
-		{"message": "Restore method on Eloquent Entities now fires restoring and restored events.", "backport": null},
+		{"message": "Restore method on Eloquent models now fires restoring and restored events.", "backport": null},
 		{"message": "Fixed re-population of radio buttons and checkboxes in FormBuilder.", "backport": null},
 		{"message": "Postgres ENUMs are now more truly implemented using 'check' constraints.", "backport": null},
 		{"message": "Added selectMonth and selectYear to FormBuilder.", "backport": null},

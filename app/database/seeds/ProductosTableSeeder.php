@@ -15,7 +15,8 @@ class ProductosTableSeeder extends Seeder {
 			Productos::create([
                 'id'            => $index,
                 'negocio_id'    => $index,
-                'url_image'     => $faker->imageUrl($width = 350, $height = 350),
+                'url_image_350x350'     => $faker->imageUrl($width = 350, $height = 350),
+                'url_image_800x600'     => $faker->imageUrl($width = 800, $height = 600),
                 'descripcion'   => $faker->text(100)
 			]);
 		}

@@ -112,7 +112,7 @@ class HasManyThrough extends Relation {
 	}
 
 	/**
-	 * Initialize the relation on a set of Entities.
+	 * Initialize the relation on a set of models.
 	 *
 	 * @param  array   $models
 	 * @param  string  $relation
@@ -140,7 +140,7 @@ class HasManyThrough extends Relation {
 	{
 		$dictionary = $this->buildDictionary($results);
 
-		// Once we have the dictionary we can simply spin through the parent Entities to
+		// Once we have the dictionary we can simply spin through the parent models to
 		// link them up with their children using the keyed dictionary to make the
 		// matching very convenient and easy work. Then we'll just return them.
 		foreach ($models as $model)
@@ -170,9 +170,9 @@ class HasManyThrough extends Relation {
 
 		$foreign = $this->firstKey;
 
-		// First we will create a dictionary of Entities keyed by the foreign key of the
+		// First we will create a dictionary of models keyed by the foreign key of the
 		// relationship as this will allow us to quickly access all of the related
-		// Entities without having to do nested looping which will be quite slow.
+		// models without having to do nested looping which will be quite slow.
 		foreach ($results as $result)
 		{
 			$dictionary[$result->{$foreign}][] = $result;
@@ -201,12 +201,12 @@ class HasManyThrough extends Relation {
 	{
 		// First we'll add the proper select columns onto the query so it is run with
 		// the proper columns. Then, we will get the results and hydrate out pivot
-		// Entities with the result of those columns as a separate model relation.
+		// models with the result of those columns as a separate model relation.
 		$select = $this->getSelectColumns($columns);
 
 		$models = $this->query->addSelect($select)->getModels();
 
-		// If we actually found Entities we will also eager load any relationships that
+		// If we actually found models we will also eager load any relationships that
 		// have been specified as needing to be eager loaded. This will solve the
 		// n + 1 query problem for the developer and also increase performance.
 		if (count($models) > 0)
