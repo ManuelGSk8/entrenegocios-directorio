@@ -20,6 +20,9 @@
     <link href="{{ asset('style.css') }}" rel="stylesheet">
 
 
+    <!-- Fancy Box-->
+    <link href="{{ asset('fancybox/source/jquery.fancybox.css?v=2.1.5') }}" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -70,6 +73,16 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('fancybox/lib/jquery.mousewheel-3.0.6.pack.js') }}"></script>
+<script src="{{ asset('fancybox/source/jquery.fancybox.js?v=2.1.5') }}"></script>
 <script src="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
+<script >
+    $(document).ready(function() {
+
+        $('.fancybox').fancybox();
+
+    });
+
+</script>
 </body>
 </html>
