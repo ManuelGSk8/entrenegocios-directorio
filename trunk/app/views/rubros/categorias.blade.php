@@ -26,7 +26,7 @@
                                 <a href="{{ route('negocio', [$negocio->slug, $negocio->id]) }}" title="{{ $negocio->nombre_negocio }}" target="_blank">{{ $negocio->nombre_negocio }}</a>
                             </span>
                             <span class="pull-left" style="font-size: 12px;font-family: cursive; clear: left; padding-left:8px;">
-                                {{ $negocio->descripcion }}
+                               {{ Str::limit($negocio->descripcion,80) }}
                             </span>
                         </div>
 
