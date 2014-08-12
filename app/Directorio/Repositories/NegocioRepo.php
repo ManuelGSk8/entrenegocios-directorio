@@ -3,10 +3,10 @@ namespace Directorio\Repositories;
 
 use Directorio\Entities\Negocio;
 
-class NegocioRepo {
+class NegocioRepo extends BaseRepo{
 
-    public function find($id)
+    public function getModel()
     {
-        return Negocio::find($id);
+        return new Negocio;
     }
 } 

@@ -19,3 +19,6 @@ Route::get('categorias/{slug}/{id}', ['as' => 'rubros', 'uses' => 'NegocioContro
 //yammis-peru/1
 Route::get('/{slug}/{id}', ['as' => 'negocio', 'uses' => 'NegocioController@show']);
 
+//Registro
+Route::get('/registro', ['as' => 'registro', 'uses' => 'RegistroController@show']);
+

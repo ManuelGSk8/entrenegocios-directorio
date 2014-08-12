@@ -26,7 +26,7 @@
                 </div>
 
             </div>
-            <div class="col-md-12" style="background-color:#ffffff;  padding-right:0px; box-shadow: 0 5px 6px 1px #888; margin-top:20px;">
+            <div class="col-md-12" style="background-color:#ffffff; box-shadow: 0 5px 6px 1px #888; margin-top:20px;">
                 <h3>Descripción:</h3>
                 <p>
                     {{ $negocio->descripcion }}
