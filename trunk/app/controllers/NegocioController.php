@@ -31,7 +31,7 @@ class NegocioController extends BaseController{
 
         $config = array();
         $config['center'] = $negocio->latitud .', '. $negocio->longitud;
-        $config['zoom'] = '17';
+        $config['zoom'] = '16';
 
         Gmaps::initialize($config);
 

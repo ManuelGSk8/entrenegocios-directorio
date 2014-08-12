@@ -3,11 +3,11 @@ namespace Directorio\Repositories;
 
 use Directorio\Entities\Rubros;
 
-class RubroRepo {
+class RubroRepo extends BaseRepo{
 
-    public function find($id)
+    public function getModel()
     {
-         return Rubros::find($id);
+        return new Rubros;
     }
 
 } 

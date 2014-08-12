@@ -43,16 +43,11 @@
             </button>
             <a class="navbar-brand" href="#">Project name</a>
         </div>
-        <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                    <input type="text" placeholder="Email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
-            </form>
+        <div class="navbar-collapse collapse pull-right">
+
+                <a href="{{ route('registro') }}" class="btn btn-success"> Registrase</a>
+
+
         </div><!--/.navbar-collapse -->
     </div>
 </div>
