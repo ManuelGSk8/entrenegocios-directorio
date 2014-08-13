@@ -22,3 +22,7 @@ Route::get('/{slug}/{id}', ['as' => 'negocio', 'uses' => 'NegocioController@show
 //Registro
 Route::get('/registro', ['as' => 'registro', 'uses' => 'RegistroController@show']);
 
+
+Route::get('sign-up',['as' => 'sign_up', 'uses' => 'UsersController@signUp']);
+
+Route::post('sign-up',['as' => 'register', 'uses' => 'UsersController@register']);

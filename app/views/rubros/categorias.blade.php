@@ -6,7 +6,7 @@
     <h1>{{ $rubro->descripcion }}</h1>
     <section class="row">
         @foreach ($rubro->negocios as $negocio)
-        <article class="col-xs-12 col-sm-6 col-md-3" style="margin-top:15px; margin-bottom: 15px;">
+        <article class="col-xs-12 col-sm-6 col-md-3 appear-animation"  data-animation="fadeInUp" style="margin-top:15px; margin-bottom: 15px;">
 
             <div class="panel panel-default" style="box-shadow: 0 5px 6px 1px #888; border:0px solid transparent;">
                 <div class="panel-heading" style="background-color:transparent; border-color:transparent; padding:0px;">
@@ -23,7 +23,7 @@
                         </div>
                         <div class="pull-left" style="clear: left">
                             <span class="pull-left" style="font-size: 13px;font-family: cursive; font-weight:bold; clear: left; padding-left:5px;">
-                                <a href="{{ route('negocio', [$negocio->slug, $negocio->id]) }}" title="{{ $negocio->nombre_negocio }}" target="_blank">{{ $negocio->nombre_negocio }}</a>
+                                <a href="{{ route('negocio', [$negocio->slug, $negocio->id]) }}" title="{{ $negocio->user->full_name }}" target="_blank">{{ $negocio->user->full_name }}</a>
                             </span>
                             <span class="pull-left" style="font-size: 12px;font-family: cursive; clear: left; padding-left:8px;">
                                {{ Str::limit($negocio->descripcion,80) }}
