@@ -23,6 +23,9 @@
     <!-- Fancy Box-->
     <link href="{{ asset('fancybox/source/jquery.fancybox.css?v=2.1.5') }}" rel="stylesheet">
 
+    <!-- Animate -->
+    <link href="{{ asset('animate/css/animate.css') }}" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -45,7 +48,7 @@
         </div>
         <div class="navbar-collapse collapse pull-right">
 
-                <a href="{{ route('registro') }}" class="btn btn-success"> Registrase</a>
+                <a href="{{ route('sign_up') }}" class="btn btn-success"> Registrase</a>
 
 
         </div><!--/.navbar-collapse -->
@@ -70,12 +73,15 @@
 <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('fancybox/lib/jquery.mousewheel-3.0.6.pack.js') }}"></script>
 <script src="{{ asset('fancybox/source/jquery.fancybox.js?v=2.1.5') }}"></script>
+<script src="{{ asset('animate/js/jquery.appear.js') }}"></script>
+<script src="{{ asset('animate/js/animate.js') }}"></script>
 <script src="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
 <script >
     $(document).ready(function() {
 
         $('.fancybox').fancybox();
 
+        animate();
     });
 
 </script>

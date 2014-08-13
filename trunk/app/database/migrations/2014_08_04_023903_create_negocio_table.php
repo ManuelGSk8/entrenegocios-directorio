@@ -16,7 +16,6 @@ class CreateNegocioTable extends Migration {
 		{
 			$table->increments('id');
 
-            $table->string('nombre_negocio');
             $table->string('slogan_negocio')->nullable();
             $table->text('descripcion')->nullable();
             $table->string('website')->nullable();
@@ -26,7 +25,6 @@ class CreateNegocioTable extends Migration {
             $table->foreign('rubros_id')->references('id')->on('rubros')->onDelete('cascade');
             $table->string('movil')->nullable();
             $table->string('fijo')->nullable();
-            $table->string('mail')->nullable();
             $table->boolean('flag_direccion');
             $table->string('direccion')->nulllable();
             $table->boolean('flag_mapa');

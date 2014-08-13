@@ -13,9 +13,9 @@
 
     <section class="row" style="margin-bottom: 20px;">
         <div class="col-md-offset-1 col-md-6" style="margin-bottom: 30px;">
-            <div class="col-md-12" style="background-color:#ffffff; padding-left:0px; padding-right:0px; box-shadow: 0 5px 6px 1px #888;">
+            <div class="col-md-12 appear-animation" data-animation="fadeIn" style="background-color:#ffffff; padding-left:0px; padding-right:0px; box-shadow: 0 5px 6px 1px #888;">
                 <div class="col-md-12">
-                    <h1>{{ $negocio->nombre_negocio }}</h1>
+                    <h1>{{ $negocio->user->full_name }}</h1>
                     <h4>{{ $negocio->slogan_negocio }}</h4>
                 </div>
                 <div style="clear: left; position: relative;">
@@ -26,14 +26,14 @@
                 </div>
 
             </div>
-            <div class="col-md-12" style="background-color:#ffffff; box-shadow: 0 5px 6px 1px #888; margin-top:20px;">
+            <div class="col-md-12 animated fadeInUp" style="background-color:#ffffff; box-shadow: 0 5px 6px 1px #888; margin-top:20px;">
                 <h3>Descripción:</h3>
                 <p>
                     {{ $negocio->descripcion }}
                 </p>
             </div>
         </div>
-        <div class=" col-md-4" >
+        <div class=" col-md-4 appear-animation" data-animation="fadeInRight" >
             <div class="col-md-12" style="background-color:#ffffff; box-shadow: 0 5px 6px 1px #888;">
               <h4>Links de redes sociales / web:</h4>
               <div class="col-md-12" >
@@ -69,7 +69,7 @@
                       </li>
                       <li>
                           <strong>E-Mail:</strong>
-                          <span> <a href="mailto:{{ $negocio->mail }}" > {{ $negocio->mail }}</a></span>
+                          <span> <a href="mailto:{{ $negocio->user->email }}" > {{ $negocio->user->email }}</a></span>
                       </li>
                       <li>
                           <strong>Web:</strong>
@@ -130,7 +130,7 @@
             <div class="col-md-12" >
 
                 @foreach($negocio->productos as $producto)
-                <div class="col-md-3 col-sm-6" >
+                <div class="col-md-3 col-sm-6 appear-animation" data-animation="fadeInUp">
                     <a class="fancybox thumbnail" href="{{ $producto->url_image_800x600 }}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet" style="box-shadow: 0 5px 6px 1px #888;">
                         <img src="{{ $producto->url_image_350x350 }}" alt="" width="100%" />
                     </a>
