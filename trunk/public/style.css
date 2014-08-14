@@ -53,3 +53,8 @@ body {
     background: url('images/white_triangle_pointer.png') no-repeat center top;
     z-index: 100;
 }
+
+.error_message
+{
+    color: red;
+}

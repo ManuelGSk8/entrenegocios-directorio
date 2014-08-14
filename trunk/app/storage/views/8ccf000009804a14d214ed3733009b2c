@@ -5,7 +5,7 @@
         <div class="col-md-6">
             <h1>Registro</h1>
 
-            <?php echo Form::open(['route' => 'register', 'method' => 'POST', 'role'=>'form']); ?>
+            <?php echo Form::open(['route' => 'register', 'method' => 'POST', 'role'=>'form', 'novalidate']); ?>
 
 
             <div class="form-group">
@@ -13,12 +13,16 @@
 
                 <?php echo Form::text('full_name',null,['class' => 'form-control']); ?>
 
+                <?php echo $errors->first('full_name', '<p class="error_message">:message</p>'); ?>
+
             </div>
 
             <div class="form-group">
                 <?php echo Form::label('email', 'Correo electrónico'); ?>
 
-                <?php echo Form::text('email',null,['class' => 'form-control']); ?>
+                <?php echo Form::email('email',null,['class' => 'form-control']); ?>
+
+                <?php echo $errors->first('email', '<p class="error_message">:message</p>'); ?>
 
             </div>
 
@@ -27,6 +31,8 @@
 
                 <?php echo Form::password('password',['class' => 'form-control']); ?>
 
+                <?php echo $errors->first('password', '<p class="error_message">:message</p>'); ?>
+
             </div>
 
             <div class="form-group">
@@ -34,7 +40,12 @@
 
                 <?php echo Form::password('password_confirmation',['class' => 'form-control']); ?>
 
+                <?php echo $errors->first('password_confirmation', '<p class="error_message">:message</p>'); ?>
+
             </div>
+            <p>
+                <input type="submit" value="Register" class="btn btn-success">
+            </p>
             <?php echo Form::close(); ?>
 
         </div>
