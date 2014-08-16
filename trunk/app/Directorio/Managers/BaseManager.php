@@ -39,11 +39,17 @@ abstract class BaseManager {
         }
         else
         {
-            $this->entity->fill($this->data);
+            $data = [
+                'full_name'     => $this->data['full_name'],
+                'email'         => $this->data['email'],
+                'password'      => \Hash::make($this->data['password'])
+            ];
+            $this->entity->fill($data);
             $this->entity->save();
         }
         return true;
     }
+
 
     public function getErrors()
     {

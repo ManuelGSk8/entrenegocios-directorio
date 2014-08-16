@@ -22,7 +22,17 @@ Route::get('/{slug}/{id}', ['as' => 'negocio', 'uses' => 'NegocioController@show
 //Registro
 Route::get('/registro', ['as' => 'registro', 'uses' => 'RegistroController@show']);
 
-
+// Formulario de Registro
 Route::get('sign-up',['as' => 'sign_up', 'uses' => 'UsersController@signUp']);
 
+//Graba Registro
 Route::post('sign-up',['as' => 'register', 'uses' => 'UsersController@register']);
+
+//Formulario de Login
+Route::get('login',['as' => 'login', 'uses' => 'UsersController@showLogin']);
+
+//Valida el Incio de Sesion
+Route::post('login',['as'=>'log_in', 'uses' => 'UsersController@login']);
+
+
+
