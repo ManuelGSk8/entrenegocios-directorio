@@ -10,7 +10,8 @@ class RegisterManager  extends BaseManager{
     {
         $rules = [
             'full_name'             => 'required',
-            'email'                 => 'required|email|unique:user,email',
+            'email'                 => 'required|email|confirmed|unique:user,email',
+            'email_confirmation'    => 'required|email',
             'password'              => 'required|confirmed',
             'password_confirmation' => 'required'
         ];

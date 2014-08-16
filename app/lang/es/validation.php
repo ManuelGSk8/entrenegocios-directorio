@@ -117,9 +117,11 @@ return array(
 'attributes' => array(
     'username'                  => 'usuario',
     'password'                  => 'contraseña',
-    'full_name'                 => 'Nombre de tu Empresa/Negocio',
-    'email'                     => 'Correo electrónnico',
+    'full_name'                 => 'Nombre de tu Empresa / Negocio',
+    'email'                     => 'Correo electrónico',
+    'email_confirmation'        => 'Confirma tu correo electrónico',
     'password'                  => 'Contraseña',
-    'password_confirmation'     => 'Repite Contraseña'
+    'password_confirmation'     => 'Repite Contraseña',
+    'slogan_negocio'            => 'Slogan de tu Empresa / Negocio'
 ),
 );

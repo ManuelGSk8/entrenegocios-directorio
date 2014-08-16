@@ -49,7 +49,7 @@
         <div class="navbar-collapse collapse pull-right">
 
                 <a href="{{ route('sign_up') }}" class="btn btn-success"> Registrase</a>
-
+                <a href="{{ route('login') }}" class="btn btn-success"> Login</a>
 
         </div><!--/.navbar-collapse -->
     </div>

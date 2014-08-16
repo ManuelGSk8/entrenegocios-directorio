@@ -2,53 +2,59 @@
 
 <div class="container">
     <div class="row">
+        <?php echo Form::open(['route' => 'register', 'method' => 'POST', 'role'=>'form', 'novalidate']); ?>
+
+        <h1>Registro</h1>
         <div class="col-md-6">
-            <h1>Registro</h1>
-
-            <?php echo Form::open(['route' => 'register', 'method' => 'POST', 'role'=>'form', 'novalidate']); ?>
-
-
             <div class="form-group">
-                <?php echo Form::label('full_name', 'Nombre completo'); ?>
+                <?php echo Form::label('full_name', 'Nombre de tu Empresa / Negocio'); ?>
 
-                <?php echo Form::text('full_name',null,['class' => 'form-control']); ?>
+                <?php echo Form::text('full_name',null,['class' => 'form-control input-sm']); ?>
 
                 <?php echo $errors->first('full_name', '<p class="error_message">:message</p>'); ?>
 
             </div>
-
             <div class="form-group">
                 <?php echo Form::label('email', 'Correo electrónico'); ?>
 
-                <?php echo Form::email('email',null,['class' => 'form-control']); ?>
+                <?php echo Form::email('email',null,['class' => 'form-control input-sm']); ?>
 
                 <?php echo $errors->first('email', '<p class="error_message">:message</p>'); ?>
 
             </div>
 
             <div class="form-group">
+                <?php echo Form::label('email_confirmation', 'Confirma tu correo electrónico'); ?>
+
+                <?php echo Form::email('email_confirmation',null,['class' => 'form-control input-sm']); ?>
+
+                <?php echo $errors->first('email_confirmation', '<p class="error_message">:message</p>'); ?>
+
+            </div>
+
+            <div class="form-group">
                 <?php echo Form::label('password', 'Clave'); ?>
 
-                <?php echo Form::password('password',['class' => 'form-control']); ?>
+                <?php echo Form::password('password',['class' => 'form-control input-sm']); ?>
 
                 <?php echo $errors->first('password', '<p class="error_message">:message</p>'); ?>
 
             </div>
 
             <div class="form-group">
-                <?php echo Form::label('password_confirmation', 'Repite tu clave'); ?>
+                <?php echo Form::label('password_confirmation', 'Confirma tu clave'); ?>
 
-                <?php echo Form::password('password_confirmation',['class' => 'form-control']); ?>
+                <?php echo Form::password('password_confirmation',['class' => 'form-control input-sm']); ?>
 
                 <?php echo $errors->first('password_confirmation', '<p class="error_message">:message</p>'); ?>
 
             </div>
-            <p>
-                <input type="submit" value="Register" class="btn btn-success">
-            </p>
-            <?php echo Form::close(); ?>
-
         </div>
+        <div class="col-md-12">
+            <input type="submit" value="Registrarme" class="btn btn-success">
+        </div>
+        <?php echo Form::close(); ?>
+
     </div>
 </div>
 
