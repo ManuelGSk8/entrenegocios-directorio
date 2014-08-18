@@ -40,9 +40,6 @@ class UsersController extends BaseController{
 
     public function  login()
     {
-
-
-
         $rules = [
             'email'                 => 'required|email',
             'password'              => 'required'
@@ -63,7 +60,10 @@ class UsersController extends BaseController{
 
             if (Auth::attempt($credentials))
             {
-                dd('ingreso');
+               /* $id = Auth::id();
+                $email = Auth::user()->email;
+                dd('ingreso '.$id.'  '. $email);*/
+                return Redirect::to('/dashboard');
             }
             else{
                 return Redirect::back()->withInput()->withErrors($validator);

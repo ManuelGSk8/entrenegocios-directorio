@@ -35,4 +35,22 @@ Route::get('login',['as' => 'login', 'uses' => 'UsersController@showLogin']);
 Route::post('login',['as'=>'log_in', 'uses' => 'UsersController@login']);
 
 
+// Routes validando session
+Route::group(array('before' => 'auth'), function()
+{
+    // Esta será nuestra ruta de bienvenida.
+    Route::get('/dashboard',['as' => 'dashboard', 'uses' => 'DashboardController@showDashboard']);
+
+
+    // Graba datos basicos - save_general
+    Route::post('/dashboard-general',['as' => 'save_general', 'uses' => 'DashboardController@saveGeneral']);
+
+    //Graba los datos de contacto - save_contact
+    Route::post('/dashboard-contact', ['as' => 'save_contact', 'uses' => 'DashboardController@saveContact']);
+
+    // Esta ruta nos servirá para cerrar sesión.
+    Route::get('logout', ['as' => 'logout', 'uses' => 'DashboardController@logOut']);
+});
+
+
 
