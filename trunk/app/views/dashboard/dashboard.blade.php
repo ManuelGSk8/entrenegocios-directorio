@@ -42,24 +42,28 @@
                    <div class="widget-content padded">
                        {{ Form::open(['route' => 'save_general', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
                        <div class="form-group">
-                           {{ Form::label('full_name', 'Nombre de tu Empresa / Negocio') }}
-                           {{ Form::text('full_name',null,['class' => 'form-control input-sm']) }}
+                           {{ Form::label('nombre_negocio', 'Nombre de tu Empresa / Negocio') }}
+                           {{ Form::text('nombre_negocio', $negocio->nombre_negocio,['class' => 'form-control input-sm']) }}
+                           {{ $errors->first('nombre_negocio', '<p class="error_message">:message</p>') }}
                        </div>
                        <div class="form-group">
                            {{ Form::label('slogan_negocio', 'Slogan de tu Empresa / Negocio') }}
-                           {{ Form::text('slogan_negocio',null,['class' => 'form-control input-sm']) }}
+                           {{ Form::text('slogan_negocio',$negocio->slogan_negocio,['class' => 'form-control input-sm']) }}
+                           {{ $errors->first('slogan_negocio', '<p class="error_message">:message</p>') }}
                        </div>
                        <div class="form-group">
                            {{ Form::label('descripcion', 'Descripción') }}
-                           {{ Form::text('descripcion',null,['class' => 'form-control input-sm']) }}
+                           {{ Form::text('descripcion',$negocio->descripcion,['class' => 'form-control input-sm']) }}
+                           {{ $errors->first('descripcion', '<p class="error_message">:message</p>') }}
                        </div>
                        <div class="form-group">
                            {{ Form::label('rubro', 'Categoría')}}
-                           {{ Form::select('rubro', ['L' => 'Large', 'S' => 'Small'], null, array('class' => 'form-control')) }}
+                           {{ Form::select('rubro',$rubros, $negocio->rubros_id, array('class' => 'form-control')) }}
                        </div>
                        <div class="form-group">
                            {{ Form::label('website', 'Página web') }}
-                           {{ Form::text('website',null,['class' => 'form-control input-sm']) }}
+                           {{ Form::text('website',$negocio->website,['class' => 'form-control input-sm']) }}
+                           {{ $errors->first('website', '<p class="error_message">:message</p>') }}
                        </div>
                        <input type="submit" value="Grabar" class="btn btn-success">
                        {{ Form::close() }}
@@ -75,23 +79,23 @@
                         {{ Form::open(['route' => 'save_contact', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
                         <div class="form-group">
                             {{ Form::label('fijo', 'Teléfono') }}
-                            {{ Form::text('fijo',null,['class' => 'form-control input-sm']) }}
+                            {{ Form::text('fijo',$negocio->fijo,['class' => 'form-control input-sm']) }}
                         </div>
                         <div class="form-group">
                             {{ Form::label('movil', 'Teléfono Movil') }}
-                            {{ Form::text('movil',null,['class' => 'form-control input-sm']) }}
+                            {{ Form::text('movil',$negocio->movil,['class' => 'form-control input-sm']) }}
                         </div>
                         <div class="form-group">
                             {{ Form::label('email', 'Correo electrónico') }}
-                            {{ Form::email('email',null,['class' => 'form-control input-sm']) }}
+                            {{ Form::email('email', $negocio->email ,['class' => 'form-control input-sm']) }}
                         </div>
                         <div class="form-group">
                             {{ Form::label('web_fb', 'Página de Facebook') }}
-                            {{ Form::text('web_fb',null,['class' => 'form-control input-sm']) }}
+                            {{ Form::text('web_fb',$negocio->web_fb,['class' => 'form-control input-sm']) }}
                         </div>
                         <div class="form-group">
                             {{ Form::label('web_tw', 'Página de Twitter') }}
-                            {{ Form::text('web_tw',null,['class' => 'form-control input-sm']) }}
+                            {{ Form::text('web_tw',$negocio->web_tw,['class' => 'form-control input-sm']) }}
                         </div>
                         <input type="submit" value="Grabar" class="btn btn-success">
                         {{ Form::close() }}

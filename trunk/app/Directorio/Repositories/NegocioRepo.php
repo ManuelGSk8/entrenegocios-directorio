@@ -2,7 +2,6 @@
 namespace Directorio\Repositories;
 
 use Directorio\Entities\Negocio;
-use Directorio\Entities\User;
 
 class NegocioRepo extends BaseRepo{
 
@@ -11,10 +10,20 @@ class NegocioRepo extends BaseRepo{
         return new Negocio;
     }
 
-    public function newNegocio()
+    public function newNegocio($id)
     {
-        $user = new User();
+        $negocio = Negocio::find($id);
 
-        return $user;
+        if($negocio != null)
+        {
+           return $negocio;
+        }
+        else
+        {
+            $negocio = new Negocio();
+            return $negocio;
+        }
     }
+
+
 } 

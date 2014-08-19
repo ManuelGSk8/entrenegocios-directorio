@@ -23,7 +23,7 @@ class UsersController extends BaseController{
         $user = $this->userRepo->newUser();
         $manager = new RegisterManager($user, Input::all());
 
-        if($manager->save())
+        if($manager->save_user())
         {
             return Redirect::route('home');
         }

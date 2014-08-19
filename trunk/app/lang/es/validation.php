@@ -117,7 +117,8 @@ return array(
 'attributes' => array(
     'username'                  => 'usuario',
     'password'                  => 'contraseña',
-    'full_name'                 => 'Nombre de tu Empresa / Negocio',
+    'full_name'                 => 'Nombre Completo',
+    'nombre_negocio'            => 'Nombre de tu Empresa / Negocio',
     'email'                     => 'Correo electrónico',
     'email_confirmation'        => 'Confirma tu correo electrónico',
     'password'                  => 'Contraseña',
