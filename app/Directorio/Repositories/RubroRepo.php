@@ -10,4 +10,13 @@ class RubroRepo extends BaseRepo{
         return new Rubros;
     }
 
+    public function getAllRubros()
+    {
+        /*$rubros = Rubros::all()->get('id','descripcion');*/
+        $rubros = \DB::table('rubros')->orderBy('id', 'asc')->lists('descripcion','id');
+
+        return $rubros;
+
+    }
+
 } 

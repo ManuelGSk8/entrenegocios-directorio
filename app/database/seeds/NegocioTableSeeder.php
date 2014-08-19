@@ -15,13 +15,14 @@ class NegocioTableSeeder extends Seeder {
 		{
 
             $user = User::create([
-               'full_name'  => $faker->company,
+               'full_name'  => $faker->name,
                'email'      => $faker->email,
                'password'   => \Hash::make(123456)
             ]);
 
 			Negocio::create([
                 'id'                => $user->id,
+                'nombre_negocio'    => $faker->company,
                 'slogan_negocio'    => $faker->text(100),
                 'descripcion'       => $faker->text(200),
                 'website'           => $faker->url,
@@ -30,6 +31,7 @@ class NegocioTableSeeder extends Seeder {
                 'rubros_id'         => $faker->randomElement([1,2,3]),
                 'movil'             => $faker->phoneNumber,
                 'fijo'              => $faker->phoneNumber,
+                'email'             => $faker->companyEmail,
                 'flag_direccion'    => $faker->randomElement([0,1]),
                 'direccion'         => $faker->address(),
                 'flag_mapa'         => $faker->randomElement([0,1]),

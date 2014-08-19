@@ -31,7 +31,7 @@ abstract class BaseManager {
     }
 
 
-    public function save()
+    public function save_user()
     {
         if(! $this->isValid())
         {
@@ -45,6 +45,19 @@ abstract class BaseManager {
                 'password'      => \Hash::make($this->data['password'])
             ];
             $this->entity->fill($data);
+            $this->entity->save();
+        }
+        return true;
+    }
+
+    public function save()
+    {
+        if(! $this->isValid())
+        {
+            return false;
+        }
+        else{
+            $this->entity->fill($this->data);
             $this->entity->save();
         }
         return true;
