@@ -48,6 +48,13 @@ Route::group(array('before' => 'auth'), function()
     //Graba los datos de contacto - save_contact
     Route::post('/dashboard-contact', ['as' => 'save_contact', 'uses' => 'DashboardController@saveContact']);
 
+
+    // Muestra la Gallery de fotos
+    Route::get('/dashboard-gallery', ['as' => 'gallery', 'uses' => 'DashboardController@showGallery']);
+
+    //Carga la Imagen
+    Route::post('/dashboard-up', ['as' => 'upload_image', 'uses' => 'DashboardController@uploadImage']);
+
     // Esta ruta nos servirá para cerrar sesión.
     Route::get('logout', ['as' => 'logout', 'uses' => 'DashboardController@logOut']);
 });

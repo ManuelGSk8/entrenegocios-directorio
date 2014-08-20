@@ -3,6 +3,7 @@
 use Directorio\Repositories\RubroRepo;
 use Directorio\Repositories\NegocioRepo;
 use Directorio\Managers\DatosGeneralesManager;
+use Directorio\Managers\ContactManager;
 
 
 class DashboardController extends BaseController {
@@ -74,6 +75,37 @@ class DashboardController extends BaseController {
             'Web_tw'    => Input::get('web_tw')
         ];
 
+        $manager = new ContactManager($negocio, $inputs);
+
+        if($manager->save())
+        {
+            return Redirect::route('dashboard');
+        }
+        else
+        {
+            return Redirect::back()->withInput()->withErrors($manager->getErrors());
+        }
+    }
+
+
+    public function showGallery()
+    {
+        return View::make('dashboard/gallery');
+    }
+
+    public function uploadImage()
+    {
+        $image = Input::file('image');
+
+        // Intervention image package required ...
+
+        var_dump($image->getRealPath());
+        $filename = $image->getClientOriginalName();
+        var_dump(str_random(20).'thumbnail.jpg');
+        $path = public_path('upload/img/thumbnail/' . str_random(20).'thumbnail.jpg');
+        $path_normal = public_path('upload/img/img/' . str_random(20).'800x600.jpg');
+        \Image::make($image->getRealPath())->resize('350','350')->save($path);
+        \Image::make($image->getRealPath())->resize('800','600')->save($path_normal);
 
     }
 }

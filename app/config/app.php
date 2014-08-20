@@ -123,7 +123,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
-        'Appitventures\Phpgmaps\PhpgmapsServiceProvider'
+        'Appitventures\Phpgmaps\PhpgmapsServiceProvider',
+        'Intervention\Image\ImageServiceProvider'
 
 	),
 
@@ -191,7 +192,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-        'Gmaps' => 'Appitventures\Phpgmaps\Facades\Phpgmaps'
+        'Gmaps' => 'Appitventures\Phpgmaps\Facades\Phpgmaps',
+        'Image' => 'Intervention\Image\Facades\Image'
 
 	),
 

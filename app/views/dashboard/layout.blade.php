@@ -51,7 +51,7 @@
         <div class="nav-collapse">
             <ul class="nav">
                 <li>
-                    <a class="current" href="#">
+                    <a class="current" href="{{ route('dashboard') }}">
                         <span aria-hidden="true" class="fa fa-dashboard"></span>Panel de Control
                     </a>
                 </li>
@@ -62,7 +62,7 @@
                     </a>
                 </li>-->
                 <li>
-                    <a  href="#">
+                    <a  href="{{ route('gallery') }}">
                         <span aria-hidden="true" class="fa fa-camera"></span>Galeria
                     </a>
                 </li>

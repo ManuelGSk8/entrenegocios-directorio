@@ -1,0 +1,28 @@
+<?php $__env->startSection('content'); ?>
+
+<div class="container-fluid main-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="widget-container fluid-height clearfix">
+                <div class="heading">
+                    <i class="fa fa-edit"></i>
+                </div>
+                <div class="widget-content padded">
+                    <?php echo Form::open(['route' => 'upload_image', 'method' => 'POST', 'files' => true ,'role'=>'form-inline', 'novalidate']); ?>
+
+                    <div class="form-group">
+                        <?php echo Form::label('image','Foto de tus Productos'); ?>
+
+                        <?php echo Form::file('image', ['accept' => 'image/*']); ?>
+
+                    </div>
+                    <input type="submit" value="Grabar" class="btn btn-success">
+                    <?php echo Form::close(); ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('dashboard.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
