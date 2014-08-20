@@ -10,7 +10,8 @@
     },
 	"require": {
 		"laravel/framework": "4.2.*",
-        "appitventures/phpgmaps": "dev-master"
+        "appitventures/phpgmaps": "dev-master",
+        "intervention/image": "2.*"
 	},
 	"autoload": {
         "psr-4":{

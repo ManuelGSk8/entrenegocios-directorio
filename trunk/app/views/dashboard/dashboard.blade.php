@@ -58,7 +58,7 @@
                        </div>
                        <div class="form-group">
                            {{ Form::label('rubro', 'Categoría')}}
-                           {{ Form::select('rubro',$rubros, $negocio->rubros_id, array('class' => 'form-control')) }}
+                           {{ Form::select('rubro',$rubros, $negocio->rubros_id, array('class' => 'form-control input-sm')) }}
                        </div>
                        <div class="form-group">
                            {{ Form::label('website', 'Página web') }}

@@ -10,11 +10,13 @@ class ContactManager extends BaseManager{
         $rules = [
             'id'             => '',
             'fijo'           => 'required',
-            'movil'          => 'movil',
-            'email'          => 'email',
-            'web_fb'         => 'web_fb',
-            'web_tw'         => 'web_tw'
+            'movil'          => 'required',
+            'email'          => 'required|email',
+            'web_fb'         => '',
+            'web_tw'         => ''
         ];
+
+        return $rules;
     }
 
 } 

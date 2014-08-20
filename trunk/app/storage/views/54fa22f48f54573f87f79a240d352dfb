@@ -67,7 +67,7 @@
                        <div class="form-group">
                            <?php echo Form::label('rubro', 'Categoría'); ?>
 
-                           <?php echo Form::select('rubro',$rubros, $negocio->rubros_id, array('class' => 'form-control')); ?>
+                           <?php echo Form::select('rubro',$rubros, $negocio->rubros_id, array('class' => 'form-control input-sm')); ?>
 
                        </div>
                        <div class="form-group">
