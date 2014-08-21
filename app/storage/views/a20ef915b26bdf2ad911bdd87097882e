@@ -13,7 +13,7 @@
                     <div class="form-group">
                         <?php echo Form::label('image','Foto de tus Productos'); ?>
 
-                        <?php echo Form::file('image', ['accept' => 'image/*']); ?>
+                        <?php echo Form::file('image[]', ['accept' => 'image/*', 'multiple' => 'true']); ?>
 
                     </div>
                     <input type="submit" value="Grabar" class="btn btn-success">
