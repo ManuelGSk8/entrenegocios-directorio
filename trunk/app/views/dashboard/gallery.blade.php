@@ -13,7 +13,7 @@
                     {{ Form::open(['route' => 'upload_image', 'method' => 'POST', 'files' => true ,'role'=>'form-inline', 'novalidate']) }}
                     <div class="form-group">
                         {{ Form::label('image','Foto de tus Productos') }}
-                        {{ Form::file('image', ['accept' => 'image/*']) }}
+                        {{ Form::file('image[]', ['accept' => 'image/*', 'multiple' => 'true']) }}
                     </div>
                     <input type="submit" value="Grabar" class="btn btn-success">
                     {{ Form::close()}}
