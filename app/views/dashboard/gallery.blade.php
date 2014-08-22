@@ -10,14 +10,53 @@
                     <i class="fa fa-edit"></i>
                 </div>
                 <div class="widget-content padded">
-                    {{ Form::open(['route' => 'upload_image', 'method' => 'POST', 'files' => true ,'role'=>'form-inline', 'novalidate']) }}
-                    <div class="form-group">
-                        {{ Form::label('image','Foto de tus Productos') }}
-                        {{ Form::file('image[]', ['accept' => 'image/*', 'multiple' => 'true']) }}
-                    </div>
-                    <input type="submit" value="Grabar" class="btn btn-success">
-                    {{ Form::close()}}
+                    <a href="#myModal" class="btn btn-primary btn" data-toggle=modal>Open Modal</a>
+
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="widget-container fluid-height clearfix">
+                <div class="heading">
+                    <i class="fa fa-edit"></i>
+                </div>
+                <div class="widget-content padded">
+
+                    @foreach ($productos as $producto)
+
+                    <div class="col-lg-2 col-md-3 col-xs-12 thumb">
+                         <a class="fancybox thumbnail" href="{{ asset($producto->url_image_800x600) }}">
+                             <img src="{{ asset($producto->url_image_350x350) }}" alt="" >
+                         </a>
+                    </div>
+
+
+
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id=myModal>
+    <div class=modal-dialog>
+        <div class=modal-content>
+            <div class=modal-header>
+                <button aria-hidden=true class=close data-dismiss=modal type=button>&times;</button>
+                <h4 class=modal-title> Se7en </h4>
+            </div>
+            <div class=modal-body>
+                <h1> Welcome </h1>
+                {{ Form::open(['route' => 'upload_image', 'class' => 'dropzone', 'id' => 'dropzone_id', 'files' => 'true']) }}
+                <div class="fallback">
+                    {{ Form::file('file', ['accept' => 'image/*']) }}
+                </div>
+                {{ Form::close()}}
+            </div>
+            <div class=modal-footer>
+                <button class="btn btn-primary" type=button>Save Changes</button><button class="btn btn-default-outline" data-dismiss=modal type=button>Close</button>
             </div>
         </div>
     </div>
