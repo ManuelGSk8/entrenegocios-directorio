@@ -27,7 +27,8 @@ class DashboardController extends BaseController {
         $rubros = $this->rubroRepo->getAllRubros();
         $negocio = $this->negocioRepo->find(Auth::user()->id);
 
-        return View::make('dashboard/dashboard',compact('rubros', 'negocio'));
+            return View::make('dashboard/dashboard',compact('rubros', 'negocio'));
+
     }
 
 
@@ -94,53 +95,49 @@ class DashboardController extends BaseController {
 
     public function showGallery()
     {
-        return View::make('dashboard/gallery');
+        $productos = $this->productoRepo->findProductbyNegocio(Auth::user()->id);
+
+        return View::make('dashboard/gallery', compact('productos'));
     }
 
     public function uploadImage()
     {
-        foreach(Input::file('image') as $image)
+        $input = [
+            'file' => Input::file('file')
+        ];
+        $rules = [
+            'file' => 'required|image|mimes:jpg,jpeg,png,bmp|max:2000'
+        ];
+        $validation = Validator::make($input, $rules);
+        if($validation->fails())
         {
+            return Response::make($validation->messages()->first(), 400);
+        }else
+        {
+            $image = Input::file('file');
+
             $producto = $this->productoRepo->newProducto();
-            $path = public_path('upload/img/thumbnail/' . str_random(20).'thumbnail.jpg');
-            $path_normal = public_path('upload/img/img/' . str_random(20).'800x600.jpg');
+            $new_name = time().time().str_random(15);
+            $path = public_path('upload/img/thumbnail/' . $new_name.'small.jpg');
+            $path_normal = public_path('upload/img/img/' . $new_name.'large.jpg');
 
             $inputs = [
-            'negocio_id'        => Auth::user()->id,
-            'url_image_350x350' => $path,
-            'url_image_800x600' => $path_normal,
-            'titulo'            => null
+                'negocio_id'        => Auth::user()->id,
+                'url_image_350x350' => 'upload/img/thumbnail/' . $new_name.'small.jpg',
+                'url_image_800x600' => 'upload/img/img/' . $new_name.'large.jpg',
+                'titulo'            => null
             ];
 
             $manager = new GalleryManager($producto, $inputs);
 
             if($manager->save())
             {
-
-                var_dump($image);
-                var_dump('----------');
-                \Image::make($image->getRealPath())->resize('350','350')->save($path,80);
-                \Image::make($image->getRealPath())->resize('800','600')->save($path_normal,80);
+                \Image::make($image->getRealPath())->resize('350','350')->save($path,70);
+                \Image::make($image->getRealPath())->save($path_normal,70);
             }
             else{
                 return Redirect::back()->withInput()->withErrors($manager->getErrors());
             }
-
-
         }
-
-/*
-        $image = Input::file('image');
-
-        // Intervention image package required ...
-
-        var_dump($image->getRealPath());
-        $filename = $image->getClientOriginalName();
-        var_dump(str_random(20).'thumbnail.jpg');
-        $path = public_path('upload/img/thumbnail/' . str_random(20).'thumbnail.jpg');
-        $path_normal = public_path('upload/img/img/' . str_random(20).'800x600.jpg');
-        \Image::make($image->getRealPath())->resize('350','350')->save($path);
-        \Image::make($image->getRealPath())->resize('800','600')->save($path_normal);
-*/
     }
 }

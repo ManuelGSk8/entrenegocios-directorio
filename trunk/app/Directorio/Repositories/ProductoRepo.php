@@ -28,4 +28,14 @@ class ProductoRepo  extends BaseRepo{
 
         return $producto;
     }
+
+    public function findProductbyNegocio($id_negocio)
+    {
+        $productos = \DB::table('productos')
+                     ->where('negocio_id','=',$id_negocio)
+                     ->orderBy('id', 'asc')->get();
+
+        return $productos;
+
+    }
 } 

@@ -1,6 +1,7 @@
 <?php
 use Directorio\Managers\RegisterManager;
 use Directorio\Repositories\UserRepo;
+use Directorio\Entities\Negocio;
 
 class UsersController extends BaseController{
 
@@ -25,6 +26,12 @@ class UsersController extends BaseController{
 
         if($manager->save_user())
         {
+            $negocio = new Negocio;
+            $negocio->id = $user->id;
+            $negocio->nombre_negocio = $user->full_name;
+            $negocio->rubros_id = 1;
+            $negocio->save();
+
             return Redirect::route('home');
         }
         else{

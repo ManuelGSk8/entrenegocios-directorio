@@ -27,8 +27,6 @@ class NegocioController extends BaseController{
     {
         $negocio = $this->negocioRepo->find($id);
 
-
-
         $config = array();
         $config['center'] = $negocio->latitud .', '. $negocio->longitud;
         $config['zoom'] = '16';
