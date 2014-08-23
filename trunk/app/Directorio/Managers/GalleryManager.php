@@ -8,8 +8,8 @@ class GalleryManager extends BaseManager {
     {
         $rules = [
             'negocio_id'            => '',
-            'url_image_350x350'     => 'required',
-            'url_image_800x600'     => 'required',
+            'url_image_small'       => 'required',
+            'url_image_large'       => 'required',
             'titulo'                => ''
         ];
 

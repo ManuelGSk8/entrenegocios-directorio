@@ -1,43 +1,64 @@
 <?php
 use Directorio\Managers\RegisterManager;
 use Directorio\Repositories\UserRepo;
+use Directorio\Repositories\RubroRepo;
 use Directorio\Entities\Negocio;
 
 class UsersController extends BaseController{
 
     protected $userRepo;
+    protected $rubroRepo;
 
-    public function __construct(UserRepo $userRepo)
+    public function __construct(UserRepo $userRepo, RubroRepo $rubroRepo)
     {
-
         $this->userRepo = $userRepo;
+        $this->rubroRepo = $rubroRepo;
     }
 
     public function signUp()
     {
-        return View::make('users/sign-up');
+        $rubros = $this->rubroRepo->getAllRubros();
+
+        return View::make('users/sign-up', compact('rubros'));
     }
 
 
     public function register()
     {
-        $user = $this->userRepo->newUser();
-        $manager = new RegisterManager($user, Input::all());
 
-        if($manager->save_user())
+        $rules = [
+            'full_name'             => 'required',
+            'email'                 => 'required|email|unique:user,email',
+            'nombre_negocio'        => 'required',
+            'password'              => 'required|confirmed',
+            'password_confirmation' => 'required'
+        ];
+
+        $validation = Validator::make(Input::all(), $rules);
+
+        if($validation->fails())
         {
-            $negocio = new Negocio;
-            $negocio->id = $user->id;
-            $negocio->nombre_negocio = $user->full_name;
-            $negocio->rubros_id = 1;
-            $negocio->save();
-
-            return Redirect::route('home');
+            return Redirect::back()->withInput()->withErrors($validation);
         }
         else{
-            return Redirect::back()->withInput()->withErrors($manager->getErrors());
-        }
+            $user = $this->userRepo->newUser();
+            $manager = new RegisterManager($user, Input::all());
 
+            if($manager->save_user())
+            {
+                $negocio = new Negocio;
+                $negocio->user_id = $user->id;
+                $negocio->nombre_negocio = Input::get('nombre_negocio');
+                $negocio->rubros_id = Input::get('rubro');
+                $negocio->slug =\Str::slug(Input::get('nombre_negocio'));
+                $negocio->save();
+
+                return Redirect::route('home');
+            }
+            else{
+                return Redirect::back()->withInput()->withErrors($manager->getErrors());
+            }
+        }
     }
 
     public function showLogin()

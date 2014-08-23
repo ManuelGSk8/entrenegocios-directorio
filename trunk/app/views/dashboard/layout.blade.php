@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bootstrap/css/bootstrap-switch.css') }}" rel="stylesheet">
     <link href="{{ asset('font-icon/icon_style.css') }}" rel="stylesheet">
     <link href="{{ asset('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
 
@@ -70,7 +71,7 @@
                     </a>
                 </li>
                 <li>
-                    <a  href="#">
+                    <a  href="{{ route('map') }}">
                         <span aria-hidden="true" class="fa fa-map-marker"></span>Ubicación
                     </a>
                 </li>
@@ -100,6 +101,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ asset('libs/1.11.1/jquery.min.js') }}"></script>
 <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('bootstrap/js/bootstrap-switch.min.js') }}"></script>
 <script src="{{ asset('fancybox/lib/jquery.mousewheel-3.0.6.pack.js') }}"></script>
 <script src="{{ asset('fancybox/source/jquery.fancybox.js?v=2.1.5') }}"></script>
 <script src="{{ asset('animate/js/jquery.appear.js') }}"></script>
@@ -108,6 +110,9 @@
 <script src="{{ asset('dropzone/dropzone.min.js') }}"></script>
 <script >
     $(document).ready(function() {
+
+        $('input[type="checkbox"],[type="radio"]').bootstrapSwitch();
+        $('.switch').bootstrapSwitch('setOffClass', 'danger');
 
         $('.fancybox').fancybox();
 
@@ -121,6 +126,8 @@
         $('.navbar-toggle').click(function() {
             return $('body, html').toggleClass("nav-open");
         });
+
+
 
     });
 

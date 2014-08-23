@@ -27,13 +27,10 @@
                     @foreach ($productos as $producto)
 
                     <div class="col-lg-2 col-md-3 col-xs-12 thumb">
-                         <a class="fancybox thumbnail" href="{{ asset($producto->url_image_800x600) }}">
-                             <img src="{{ asset($producto->url_image_350x350) }}" alt="" >
+                         <a class="fancybox thumbnail" href="{{ asset($producto->url_image_large) }}">
+                             <img src="{{ asset($producto->url_image_small) }}" alt="" >
                          </a>
                     </div>
-
-
-
                     @endforeach
                 </div>
             </div>

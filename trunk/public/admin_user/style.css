@@ -3682,3 +3682,8 @@ body.fourofour.bg-danger a.btn:hover {
         left: 20px; }
     ul.timeline.animated li.active:nth-child(odd) .timeline-content {
         left: 0; } }
+
+
+.has-switch label{
+    margin-bottom: 0px!important;
+}

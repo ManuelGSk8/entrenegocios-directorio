@@ -29,9 +29,6 @@
                              <img src="<?php echo asset($producto->url_image_350x350); ?>" alt="" >
                          </a>
                     </div>
-
-
-
                     <?php endforeach; ?>
                 </div>
             </div>

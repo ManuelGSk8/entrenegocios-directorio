@@ -8,7 +8,7 @@
         <h1>Registro</h1>
         <div class="col-md-6">
             <div class="form-group">
-                {{ Form::label('full_name', 'Nombre de tu Empresa / Negocio') }}
+                {{ Form::label('full_name', 'Nombres Completos') }}
                 {{ Form::text('full_name',null,['class' => 'form-control input-sm']) }}
                 {{ $errors->first('full_name', '<p class="error_message">:message</p>') }}
             </div>
@@ -19,9 +19,14 @@
             </div>
 
             <div class="form-group">
-                {{ Form::label('email_confirmation', 'Confirma tu correo electrónico') }}
-                {{ Form::email('email_confirmation',null,['class' => 'form-control input-sm']) }}
-                {{ $errors->first('email_confirmation', '<p class="error_message">:message</p>') }}
+                {{ Form::label('nombre_negocio', 'Nombre de tu Empresa / Negocio') }}
+                {{ Form::text('nombre_negocio',null,['class' => 'form-control input-sm']) }}
+                {{ $errors->first('nombre_negocio', '<p class="error_message">:message</p>') }}
+            </div>
+
+            <div class="form-group">
+                {{ Form::label('rubro', 'Categoría')}}
+                {{ Form::select('rubro',$rubros, null, array('class' => 'form-control input-sm')) }}
             </div>
 
             <div class="form-group">

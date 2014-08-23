@@ -12,7 +12,8 @@ class NegocioRepo extends BaseRepo{
 
     public function newNegocio($id)
     {
-        $negocio = Negocio::find($id);
+        //$negocio = Negocio::find($id);
+        $negocio = \DB::table('negocio')->where('user_id', '=' , $id)->get();
 
         if($negocio != null)
         {
