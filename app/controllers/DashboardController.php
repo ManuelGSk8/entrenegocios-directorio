@@ -46,7 +46,7 @@ class DashboardController extends BaseController {
         $negocio = $this->negocioRepo->newNegocio(Auth::user()->id);
 
         $inputs = [
-            'id'                => Auth::user()->id,
+            'user_id'                => Auth::user()->id,
             'nombre_negocio'    => Input::get('nombre_negocio'),
             'slogan_negocio'    => Input::get('slogan_negocio'),
             'descripcion'       => Input::get('descripcion'),
@@ -72,7 +72,7 @@ class DashboardController extends BaseController {
         $negocio = $this->negocioRepo->newNegocio(Auth::user()->id);
 
         $inputs = [
-            'id'        => Auth::user()->id,
+            'user_id'        => Auth::user()->id,
             'fijo'      => Input::get('fijo'),
             'movil'     => Input::get('movil'),
             'email'     => Input::get('email'),
@@ -123,8 +123,8 @@ class DashboardController extends BaseController {
 
             $inputs = [
                 'negocio_id'        => Auth::user()->id,
-                'url_image_350x350' => 'upload/img/thumbnail/' . $new_name.'small.jpg',
-                'url_image_800x600' => 'upload/img/img/' . $new_name.'large.jpg',
+                'url_image_small' => 'upload/img/thumbnail/' . $new_name.'small.jpg',
+                'url_image_large' => 'upload/img/img/' . $new_name.'large.jpg',
                 'titulo'            => null
             ];
 
@@ -139,5 +139,50 @@ class DashboardController extends BaseController {
                 return Redirect::back()->withInput()->withErrors($manager->getErrors());
             }
         }
+    }
+
+
+
+    public function setUbication()
+    {
+
+        $negocio = $this->negocioRepo->find(Auth::user()->id);
+
+        $config = array();
+        if($negocio->latitud != null && $negocio->longitud != null)
+        {
+            $config['center'] = $negocio->latitud .', '. $negocio->longitud;
+        }
+        $config['map_height'] = '350px';
+        $config['zoom'] = '13';
+      /*  $config['places'] = TRUE;
+        $config['placesAutocompleteInputID'] = 'direccion';
+        $config['placesAutocompleteBoundsMap'] = TRUE; // set results biased towards the maps viewport
+        $config['placesAutocompleteOnChange'] = 'alert(\'You selected a place\');';*/
+
+
+        Gmaps::initialize($config);
+
+        // set up the marker ready for positioning
+        // once we know the users location
+        $marker = array();
+        if($negocio->latitud != null && $negocio->longitud != null)
+        {
+            $marker['position'] = $negocio->latitud .', '. $negocio->longitud;
+        }
+
+        $marker['draggable'] = true;
+        $marker['animation'] = 'DROP';
+        Gmaps::add_marker($marker);
+
+        $map = Gmaps::create_map();
+
+        return View::make('dashboard/ubication', compact('negocio', 'map'));
+    }
+
+
+    public function saveUbication(){
+
+        dd('graba');
     }
 }

@@ -7,7 +7,7 @@
         <h1>Registro</h1>
         <div class="col-md-6">
             <div class="form-group">
-                <?php echo Form::label('full_name', 'Nombre de tu Empresa / Negocio'); ?>
+                <?php echo Form::label('full_name', 'Nombres Completos'); ?>
 
                 <?php echo Form::text('full_name',null,['class' => 'form-control input-sm']); ?>
 
@@ -24,11 +24,18 @@
             </div>
 
             <div class="form-group">
-                <?php echo Form::label('email_confirmation', 'Confirma tu correo electrónico'); ?>
+                <?php echo Form::label('nombre_negocio', 'Nombre de tu Empresa / Negocio'); ?>
 
-                <?php echo Form::email('email_confirmation',null,['class' => 'form-control input-sm']); ?>
+                <?php echo Form::text('nombre_negocio',null,['class' => 'form-control input-sm']); ?>
 
-                <?php echo $errors->first('email_confirmation', '<p class="error_message">:message</p>'); ?>
+                <?php echo $errors->first('nombre_negocio', '<p class="error_message">:message</p>'); ?>
+
+            </div>
+
+            <div class="form-group">
+                <?php echo Form::label('rubro', 'Categoría'); ?>
+
+                <?php echo Form::select('rubro',$rubros, null, array('class' => 'form-control input-sm')); ?>
 
             </div>
 

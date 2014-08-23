@@ -15,7 +15,7 @@ class CreateNegocioTable extends Migration {
 		Schema::create('negocio', function(Blueprint $table)
 		{
 			$table->increments('id');
-
+            $table->integer('user_id')->unsigned();
             $table->string('nombre_negocio')->nullable();
             $table->string('slogan_negocio')->nullable();
             $table->text('descripcion')->nullable();

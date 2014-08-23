@@ -8,7 +8,7 @@ class DatosGeneralesManager  extends BaseManager{
     public function getRules()
     {
         $rules = [
-            'id'                    =>'',
+            'negocio_id'            =>'',
             'nombre_negocio'        => 'required',
             'slogan_negocio'        => 'required',
             'rubros_id'             => '',

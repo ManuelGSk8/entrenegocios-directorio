@@ -9,7 +9,7 @@ class Negocio extends \Eloquent {
 
     public function user()
     {
-        return $this->hasOne('Directorio\Entities\User','id','id');
+        return $this->hasOne('Directorio\Entities\User','id','user_id');
     }
 
     public function productos()
