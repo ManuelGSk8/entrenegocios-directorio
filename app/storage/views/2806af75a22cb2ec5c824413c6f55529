@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo asset('bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo asset('bootstrap/css/bootstrap-switch.css'); ?>" rel="stylesheet">
     <link href="<?php echo asset('font-icon/icon_style.css'); ?>" rel="stylesheet">
     <link href="<?php echo asset('font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet">
 
@@ -22,6 +23,12 @@
 
     <!-- Fancy Box-->
     <link href="<?php echo asset('fancybox/source/jquery.fancybox.css?v=2.1.5'); ?>" rel="stylesheet">
+
+    <!-- Dropzone -->
+    <link href="<?php echo asset('dropzone/css/dropzone.css'); ?>" rel="stylesheet">
+
+    <!-- map Style -->
+    <link href="<?php echo asset('libs/maps/map.style.css'); ?>" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -51,7 +58,7 @@
         <div class="nav-collapse">
             <ul class="nav">
                 <li>
-                    <a class="current" href="#">
+                    <a class="current" href="<?php echo route('dashboard'); ?>">
                         <span aria-hidden="true" class="fa fa-dashboard"></span>Panel de Control
                     </a>
                 </li>
@@ -62,12 +69,12 @@
                     </a>
                 </li>-->
                 <li>
-                    <a  href="#">
+                    <a  href="<?php echo route('gallery'); ?>">
                         <span aria-hidden="true" class="fa fa-camera"></span>Galeria
                     </a>
                 </li>
                 <li>
-                    <a  href="#">
+                    <a  href="<?php echo route('map'); ?>">
                         <span aria-hidden="true" class="fa fa-map-marker"></span>Ubicación
                     </a>
                 </li>
@@ -95,15 +102,22 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php echo asset('libs/1.11.1/jquery.min.js'); ?>"></script>
+<script src="<?php echo asset('libs/maps/map.script.js'); ?>"></script>
 <script src="<?php echo asset('bootstrap/js/bootstrap.min.js'); ?>"></script>
+<script src="<?php echo asset('bootstrap/js/bootstrap-switch.min.js'); ?>"></script>
 <script src="<?php echo asset('fancybox/lib/jquery.mousewheel-3.0.6.pack.js'); ?>"></script>
 <script src="<?php echo asset('fancybox/source/jquery.fancybox.js?v=2.1.5'); ?>"></script>
 <script src="<?php echo asset('animate/js/jquery.appear.js'); ?>"></script>
 <script src="<?php echo asset('animate/js/animate.js'); ?>"></script>
-<script src="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
+<script src="<?php echo asset('fancybox/master/ekko-lightbox.js'); ?>"></script>
+<script src="<?php echo asset('dropzone/dropzone.min.js'); ?>"></script>
+
 <script >
     $(document).ready(function() {
+
+        $('input[type="checkbox"],[type="radio"]').bootstrapSwitch();
+        $('.switch').bootstrapSwitch('setOffClass', 'danger');
 
         $('.fancybox').fancybox();
 
@@ -117,6 +131,8 @@
         $('.navbar-toggle').click(function() {
             return $('body, html').toggleClass("nav-open");
         });
+
+
 
     });
 

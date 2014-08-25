@@ -32,27 +32,13 @@ function showRegionsList() {
 
 
             document.querySelector('#departamento').appendChild(option);
-/*
-            var input = document.createElement('input');
-            input.id = 'dpto-' + ubigeo.coddpto;
-            input.name = 'coddpto';
-            input.type = 'radio';
-            input.value = ubigeo.coddpto;
-            input.addEventListener('change', onChange_Region, false);
-
-            var label = document.createElement('label');
-            label.htmlFor = 'dpto-' + ubigeo.coddpto;
-            label.textContent = ubigeo.coddpto + ' ' + ubigeo.codprov + ' ' + ubigeo.coddist + ' - ' + ubigeo.nombre;
-
-            li.appendChild(input);
-            li.appendChild(label);
-
-            document.querySelector('#regions-list').appendChild(li);*/
         }
     });
 
     var select = document.getElementById('departamento');
     select.addEventListener('change', onChange_Region, false);
+
+    $('#departamento').val('02')
 }
 
 

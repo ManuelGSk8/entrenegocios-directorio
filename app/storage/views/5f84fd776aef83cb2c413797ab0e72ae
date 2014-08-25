@@ -41,33 +41,41 @@
                        <?php echo Form::open(['route' => 'save_general', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']); ?>
 
                        <div class="form-group">
-                           <?php echo Form::label('full_name', 'Nombre de tu Empresa / Negocio'); ?>
+                           <?php echo Form::label('nombre_negocio', 'Nombre de tu Empresa / Negocio'); ?>
 
-                           <?php echo Form::text('full_name',null,['class' => 'form-control input-sm']); ?>
+                           <?php echo Form::text('nombre_negocio', $negocio->nombre_negocio,['class' => 'form-control input-sm']); ?>
+
+                           <?php echo $errors->first('nombre_negocio', '<p class="error_message">:message</p>'); ?>
 
                        </div>
                        <div class="form-group">
                            <?php echo Form::label('slogan_negocio', 'Slogan de tu Empresa / Negocio'); ?>
 
-                           <?php echo Form::text('slogan_negocio',null,['class' => 'form-control input-sm']); ?>
+                           <?php echo Form::text('slogan_negocio',$negocio->slogan_negocio,['class' => 'form-control input-sm']); ?>
+
+                           <?php echo $errors->first('slogan_negocio', '<p class="error_message">:message</p>'); ?>
 
                        </div>
                        <div class="form-group">
                            <?php echo Form::label('descripcion', 'Descripción'); ?>
 
-                           <?php echo Form::text('descripcion',null,['class' => 'form-control input-sm']); ?>
+                           <?php echo Form::text('descripcion',$negocio->descripcion,['class' => 'form-control input-sm']); ?>
+
+                           <?php echo $errors->first('descripcion', '<p class="error_message">:message</p>'); ?>
 
                        </div>
                        <div class="form-group">
                            <?php echo Form::label('rubro', 'Categoría'); ?>
 
-                           <?php echo Form::select('rubro', ['L' => 'Large', 'S' => 'Small'], null, array('class' => 'form-control')); ?>
+                           <?php echo Form::select('rubro',$rubros, $negocio->rubros_id, array('class' => 'form-control input-sm')); ?>
 
                        </div>
                        <div class="form-group">
                            <?php echo Form::label('website', 'Página web'); ?>
 
-                           <?php echo Form::text('website',null,['class' => 'form-control input-sm']); ?>
+                           <?php echo Form::text('website',$negocio->website,['class' => 'form-control input-sm']); ?>
+
+                           <?php echo $errors->first('website', '<p class="error_message">:message</p>'); ?>
 
                        </div>
                        <input type="submit" value="Grabar" class="btn btn-success">
@@ -87,31 +95,31 @@
                         <div class="form-group">
                             <?php echo Form::label('fijo', 'Teléfono'); ?>
 
-                            <?php echo Form::text('fijo',null,['class' => 'form-control input-sm']); ?>
+                            <?php echo Form::text('fijo',$negocio->fijo,['class' => 'form-control input-sm']); ?>
 
                         </div>
                         <div class="form-group">
                             <?php echo Form::label('movil', 'Teléfono Movil'); ?>
 
-                            <?php echo Form::text('movil',null,['class' => 'form-control input-sm']); ?>
+                            <?php echo Form::text('movil',$negocio->movil,['class' => 'form-control input-sm']); ?>
 
                         </div>
                         <div class="form-group">
                             <?php echo Form::label('email', 'Correo electrónico'); ?>
 
-                            <?php echo Form::email('email',null,['class' => 'form-control input-sm']); ?>
+                            <?php echo Form::email('email', $negocio->email ,['class' => 'form-control input-sm']); ?>
 
                         </div>
                         <div class="form-group">
                             <?php echo Form::label('web_fb', 'Página de Facebook'); ?>
 
-                            <?php echo Form::text('web_fb',null,['class' => 'form-control input-sm']); ?>
+                            <?php echo Form::text('web_fb',$negocio->web_fb,['class' => 'form-control input-sm']); ?>
 
                         </div>
                         <div class="form-group">
                             <?php echo Form::label('web_tw', 'Página de Twitter'); ?>
 
-                            <?php echo Form::text('web_tw',null,['class' => 'form-control input-sm']); ?>
+                            <?php echo Form::text('web_tw',$negocio->web_tw,['class' => 'form-control input-sm']); ?>
 
                         </div>
                         <input type="submit" value="Grabar" class="btn btn-success">

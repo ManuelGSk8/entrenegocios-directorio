@@ -10,22 +10,23 @@
                     <i class="fa fa-edit"></i>Ubicacion Geografica
                 </div>
                 <div class="widget-content padded">
+                    {{ Form::open(['route' => 'save_ubication', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
                     <div class="col-lg-12">
-                        {{ Form::open(['route' => 'save_ubication', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
                         <div class="form-group col-lg-12">
                             {{ Form::label('flag_direccion','¿Desea mostrar la dirección de su empresa / negocio en su perfil?') }}
-                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_direccion" name="flag_direccion">
+                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_direccion" name="flag_direccion" @if ($negocio->flag_direccion == true) checked @endif>
                         </div>
 
                         <div class="form-group col-lg-12">
                             {{ Form::label('direccion','Dirección') }}
-                            {{ Form::text('direccion',null,['class' => 'form-control input-small']) }}
+                            {{ Form::text('direccion',$negocio->direccion,['class' => 'form-control input-small']) }}
                             {{ $errors->first('direccion', '<p class="error_message">:message</p>') }}
                         </div>
 
                         <div class="form-group col-lg-4">
                             {{ Form::label('departamento', 'Departamento') }}
                             {{ Form::select('departamento',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')) }}
+                            {{ $errors->first('departamento', '<p class="error_message">:message</p>') }}
                         </div>
 
                         <div class="form-group col-lg-4">
@@ -40,22 +41,27 @@
 
 
                         <div class="form-group col-lg-12">
-                            {{ Form::label('flag_map','¿Desea mostrar la ubicacion geográfica en su perfil?') }}
-                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_direccion" name="flag_direccion">
+                            {{ Form::label('flag_mapa','¿Desea mostrar la ubicacion geográfica en su perfil?') }}
+                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_mapa" name="flag_mapa" @if ($negocio->flag_mapa == true) checked @endif>
                         </div>
 
-
-                        {{ Form::close() }}
+                        <input type="hidden" id="latitud" name="latitud" value="{{ $negocio->latitud }}">
+                        <input type="hidden" id="longitud" name="longitud"  value="{{ $negocio->longitud }}">
                     </div>
                     <hr>
                     <div class="col-lg-12">
-                        {{ $map['js'] }}
-                        {{ $map['html'] }}
+                        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+                        <div id="map-canvas" style="height: 300px; width: 1005;"></div>
                     </div>
+                    <div class="form-group col-lg-12">
+                        <input type="submit" value="Grabar" class="btn btn-success">
+                    </div>
+                    {{ Form::close() }}
                 </div>
             </div>
         </div>
     </div>
 </div>
 <script src="{{ asset('admin_user/search.js') }}"></script>
+
 @endsection

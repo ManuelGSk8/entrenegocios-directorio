@@ -56,10 +56,10 @@ Route::group(array('before' => 'auth'), function()
     Route::post('/dashboard-up', ['as' => 'upload_image', 'uses' => 'DashboardController@uploadImage']);
 
     //Ubicacion
-    Route::get('/dashboard-map', ['as' => 'map', 'uses' => 'DashboardController@setUbication']);
+    Route::get('/dashboard-map', ['as' => 'map', 'uses' => 'DashboardController@showUbication']);
 
     // Save Ubication
-    Route::post('/dasboard-map', ['as' => 'save_ubication', 'DashboardController@saveUbication']);
+    Route::post('/dasboard-map', ['as' => 'save_ubication','uses' => 'DashboardController@saveUbication']);
 
     // Esta ruta nos servirá para cerrar sesión.
     Route::get('logout', ['as' => 'logout', 'uses' => 'DashboardController@logOut']);
