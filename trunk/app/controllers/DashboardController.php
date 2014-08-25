@@ -6,6 +6,7 @@ use Directorio\Repositories\ProductoRepo;
 use Directorio\Managers\DatosGeneralesManager;
 use Directorio\Managers\ContactManager;
 use Directorio\Managers\GalleryManager;
+use Directorio\Managers\UbicationManager;
 
 
 class DashboardController extends BaseController {
@@ -143,46 +144,56 @@ class DashboardController extends BaseController {
 
 
 
-    public function setUbication()
+    public function showUbication()
     {
 
         $negocio = $this->negocioRepo->find(Auth::user()->id);
 
-        $config = array();
-        if($negocio->latitud != null && $negocio->longitud != null)
-        {
-            $config['center'] = $negocio->latitud .', '. $negocio->longitud;
-        }
-        $config['map_height'] = '350px';
-        $config['zoom'] = '13';
-      /*  $config['places'] = TRUE;
-        $config['placesAutocompleteInputID'] = 'direccion';
-        $config['placesAutocompleteBoundsMap'] = TRUE; // set results biased towards the maps viewport
-        $config['placesAutocompleteOnChange'] = 'alert(\'You selected a place\');';*/
 
 
-        Gmaps::initialize($config);
-
-        // set up the marker ready for positioning
-        // once we know the users location
-        $marker = array();
-        if($negocio->latitud != null && $negocio->longitud != null)
-        {
-            $marker['position'] = $negocio->latitud .', '. $negocio->longitud;
-        }
-
-        $marker['draggable'] = true;
-        $marker['animation'] = 'DROP';
-        Gmaps::add_marker($marker);
-
-        $map = Gmaps::create_map();
-
-        return View::make('dashboard/ubication', compact('negocio', 'map'));
+        return View::make('dashboard/ubication', compact('negocio'));
     }
 
 
     public function saveUbication(){
+        $direccion = false;
+        $mapa = false;
+       if(Input::get('flag_direccion') != null)
+       {
+           $direccion = true;
+       }
 
-        dd('graba');
+        if(Input::get('flag_mapa') != null)
+        {
+            $mapa = true;
+        }
+
+        $inputs = [
+            'flag_direccion'    => $direccion,
+            'direccion'         => Input::get('direccion'),
+            'departamento'      => Input::get('departamento'),
+            'provincia'         => Input::get('provincia'),
+            'distrito'          => Input::get('distrito'),
+            'flag_mapa'          => $mapa,
+            'latitud'           => Input::get('latitud'),
+            'longitud'          => Input::get('longitud')
+        ];
+
+
+       $negocio = $this->negocioRepo->find(Auth::user()->id);
+
+       $manager = new UbicationManager($negocio, $inputs);
+
+
+        if($manager->save())
+        {
+            return Redirect::route('map');
+        }
+        else
+        {
+            return Redirect::back()->withInput()->withErrors($manager->getErrors());
+        }
+
+
     }
 }

@@ -27,6 +27,9 @@
     <!-- Dropzone -->
     <link href="{{ asset('dropzone/css/dropzone.css') }}" rel="stylesheet">
 
+    <!-- map Style -->
+    <link href="{{ asset('libs/maps/map.style.css') }}" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -100,6 +103,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ asset('libs/1.11.1/jquery.min.js') }}"></script>
+<script src="{{ asset('libs/maps/map.script.js') }}"></script>
 <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('bootstrap/js/bootstrap-switch.min.js') }}"></script>
 <script src="{{ asset('fancybox/lib/jquery.mousewheel-3.0.6.pack.js') }}"></script>
@@ -108,6 +112,7 @@
 <script src="{{ asset('animate/js/animate.js') }}"></script>
 <script src="{{ asset('fancybox/master/ekko-lightbox.js') }}"></script>
 <script src="{{ asset('dropzone/dropzone.min.js') }}"></script>
+
 <script >
     $(document).ready(function() {
 

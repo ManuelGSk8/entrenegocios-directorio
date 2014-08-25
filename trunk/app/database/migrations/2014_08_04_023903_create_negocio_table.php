@@ -29,6 +29,9 @@ class CreateNegocioTable extends Migration {
             $table->string('email')->nullable();
             $table->boolean('flag_direccion')->nullable();
             $table->string('direccion')->nullable();
+            $table->string('departamento',2)->nullable();
+            $table->string('provincia',2)->nullable();
+            $table->string('distrito',2)->nullable();
             $table->boolean('flag_mapa')->nullable();
             $table->string('latitud')->nullable();
             $table->string('longitud')->nullable();
