@@ -24,14 +24,12 @@ class DashboardController extends BaseController {
 
     public function showDashboard()
     {
-
+        View::share('page_title', 'Dashboard');
         $rubros = $this->rubroRepo->getAllRubros();
         $negocio = $this->negocioRepo->find(Auth::user()->id);
 
             return View::make('dashboard/dashboard',compact('rubros', 'negocio'));
-
     }
-
 
     public function logOut()
     {
@@ -40,19 +38,21 @@ class DashboardController extends BaseController {
             ->with('mensaje_error', 'Tu sesión ha sido cerrada.');
     }
 
-
     public function saveGeneral()
     {
-
-        $negocio = $this->negocioRepo->newNegocio(Auth::user()->id);
+        $negocio = $this->negocioRepo->find(Auth::user()->id);
 
         $inputs = [
-            'user_id'                => Auth::user()->id,
             'nombre_negocio'    => Input::get('nombre_negocio'),
             'slogan_negocio'    => Input::get('slogan_negocio'),
             'descripcion'       => Input::get('descripcion'),
-            'rubros_id'         => Input::get('rubro'),
             'website'           => Input::get('website'),
+            'web_fb'            => Input::get('web_fb'),
+            'web_tw'            => Input::get('web_tw'),
+            'rubros_id'         => Input::get('rubro'),
+            'movil'             => Input::get('movil'),
+            'fijo'              => Input::get('fijo'),
+            'email'             => Input::get('email'),
             'slug'              => \Str::slug(Input::get('nombre_negocio'))
         ];
 
@@ -68,34 +68,10 @@ class DashboardController extends BaseController {
 
     }
 
-    public function  saveContact()
-    {
-        $negocio = $this->negocioRepo->newNegocio(Auth::user()->id);
-
-        $inputs = [
-            'user_id'        => Auth::user()->id,
-            'fijo'      => Input::get('fijo'),
-            'movil'     => Input::get('movil'),
-            'email'     => Input::get('email'),
-            'web_fb'    => Input::get('web_fb'),
-            'Web_tw'    => Input::get('web_tw')
-        ];
-
-        $manager = new ContactManager($negocio, $inputs);
-
-        if($manager->save())
-        {
-            return Redirect::route('dashboard');
-        }
-        else
-        {
-            return Redirect::back()->withInput()->withErrors($manager->getErrors());
-        }
-    }
-
-
     public function showGallery()
     {
+        View::share('page_title', 'Dashboard - Gallery');
+
         $productos = $this->productoRepo->findProductbyNegocio(Auth::user()->id);
 
         return View::make('dashboard/gallery', compact('productos'));
@@ -142,16 +118,31 @@ class DashboardController extends BaseController {
         }
     }
 
-
-
     public function showUbication()
     {
+        View::share('page_title', 'Dashboard - Ubication');
 
         $negocio = $this->negocioRepo->find(Auth::user()->id);
+        $departamentos = ['0' => '-- Seleccione --'] + $this->negocioRepo->listRegions();
+        if($negocio->departamento != null)
+        {
+            $provincias = ['0' => '-- Seleccione --'] + $this->negocioRepo->listProvinces($negocio->departamento);
+        }
+        else
+        {
+            $provincias = ['0' => '-- Seleccione --'];
+        }
 
+        if($negocio->provincia != null)
+        {
+            $distritos = ['0' => '-- Seleccione --'] + $this->negocioRepo->listDistrict($negocio->departamento,$negocio->provincia);
+        }
+        else
+        {
+            $distritos = ['0' => '-- Seleccione --'];
+        }
 
-
-        return View::make('dashboard/ubication', compact('negocio'));
+        return View::make('dashboard/ubication', compact('negocio', 'departamentos', 'provincias','distritos'));
     }
 
 
@@ -195,5 +186,23 @@ class DashboardController extends BaseController {
         }
 
 
+    }
+
+
+    //obtiene lista de pronvicias
+    public function listProvincias($departamento)
+    {
+       $provincias = ['0' => '-- Seleccione --'] + $this->negocioRepo->listProvinces($departamento);
+
+       return $provincias;
+
+    }
+
+
+    public function listDistrito($departamento, $provincia)
+    {
+        $distrito = ['0' => '-- Seleccione --'] + $this->negocioRepo->listDistrict($departamento, $provincia);
+
+        return $distrito;
     }
 }

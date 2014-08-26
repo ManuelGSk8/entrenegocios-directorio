@@ -38,7 +38,7 @@ function showRegionsList() {
     var select = document.getElementById('departamento');
     select.addEventListener('change', onChange_Region, false);
 
-    $('#departamento').val('02')
+   // $('#departamento').val('02')
 }
 
 

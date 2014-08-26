@@ -8,19 +8,19 @@
                     <i class="fa fa-edit"></i>Ubicacion Geografica
                 </div>
                 <div class="widget-content padded">
-                    <div class="col-lg-12">
-                        <?php echo Form::open(['route' => 'save_ubication', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']); ?>
+                    <?php echo Form::open(['route' => 'save_ubication', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']); ?>
 
+                    <div class="col-lg-12">
                         <div class="form-group col-lg-12">
                             <?php echo Form::label('flag_direccion','¿Desea mostrar la dirección de su empresa / negocio en su perfil?'); ?>
 
-                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_direccion" name="flag_direccion">
+                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_direccion" name="flag_direccion" <?php if($negocio->flag_direccion == true): ?> checked <?php endif; ?>>
                         </div>
 
                         <div class="form-group col-lg-12">
                             <?php echo Form::label('direccion','Dirección'); ?>
 
-                            <?php echo Form::text('direccion',null,['class' => 'form-control input-small']); ?>
+                            <?php echo Form::text('direccion',$negocio->direccion,['class' => 'form-control input-small']); ?>
 
                             <?php echo $errors->first('direccion', '<p class="error_message">:message</p>'); ?>
 
@@ -29,47 +29,54 @@
                         <div class="form-group col-lg-4">
                             <?php echo Form::label('departamento', 'Departamento'); ?>
 
-                            <?php echo Form::select('departamento',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')); ?>
+                            <?php echo Form::select('departamento',$departamentos,$negocio->departamento, array('class' => 'form-control input-sm')); ?>
+
+                            <?php echo $errors->first('departamento', '<p class="error_message">:message</p>'); ?>
 
                         </div>
 
                         <div class="form-group col-lg-4">
                             <?php echo Form::label('provincia', 'Provincia'); ?>
 
-                            <?php echo Form::select('provincia',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')); ?>
+                            <?php echo Form::select('provincia',$provincias,$negocio->provincia, array('class' => 'form-control input-sm')); ?>
 
                         </div>
 
                         <div class="form-group col-lg-4">
                             <?php echo Form::label('distrito', 'Distrito'); ?>
 
-                            <?php echo Form::select('distrito',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')); ?>
+                            <?php echo Form::select('distrito',$distritos,$negocio->distrito, array('class' => 'form-control input-sm')); ?>
 
                         </div>
-
 
                         <div class="form-group col-lg-12">
-                            <?php echo Form::label('flag_map','¿Desea mostrar la ubicacion geográfica en su perfil?'); ?>
+                            <?php echo Form::label('flag_mapa','¿Desea mostrar la ubicacion geográfica en su perfil?'); ?>
 
-                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_direccion" name="flag_direccion">
+                            <input type="checkbox" data-on="primary" data-off="info" class="switch switch-small" id="flag_mapa" name="flag_mapa" <?php if($negocio->flag_mapa == true): ?> checked <?php endif; ?>>
                         </div>
 
-
-                        <?php echo Form::close(); ?>
-
+                        <input type="hidden" id="latitud" name="latitud" value="<?php echo $negocio->latitud; ?>">
+                        <input type="hidden" id="longitud" name="longitud"  value="<?php echo $negocio->longitud; ?>">
                     </div>
                     <hr>
                     <div class="col-lg-12">
-                        <?php echo $map['js']; ?>
-
-                        <?php echo $map['html']; ?>
-
+                        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+                        <div id="map-canvas" style="height: 300px; width: 1005;"></div>
                     </div>
+                    <div class="form-group col-lg-12" style="margin-top: 10px;">
+                        <input type="submit" value="Grabar" class="btn btn-success">
+                    </div>
+                    <?php echo Form::close(); ?>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<!--
 <script src="<?php echo asset('admin_user/search.js'); ?>"></script>
+-->
+
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('dashboard.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -34,6 +34,12 @@ Route::get('login',['as' => 'login', 'uses' => 'UsersController@showLogin']);
 //Valida el Incio de Sesion
 Route::post('login',['as'=>'log_in', 'uses' => 'UsersController@login']);
 
+//obtiene lista de Pronvicias by Id Departamento
+Route::get('get/provincia/{departamento}',['as' => 'provincia', 'uses' => 'DashboardController@listProvincias']);
+
+//obtiene lista de Distritos by Id Departamento, Provincia
+Route::get('get/distrito/{departamento}/{provincia}',['as' => 'distrito', 'uses' => 'DashboardController@listDistrito']);
+
 
 // Routes validando session
 Route::group(array('before' => 'auth'), function()
