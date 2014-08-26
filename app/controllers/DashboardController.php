@@ -28,7 +28,9 @@ class DashboardController extends BaseController {
         $rubros = $this->rubroRepo->getAllRubros();
         $negocio = $this->negocioRepo->find(Auth::user()->id);
 
-            return View::make('dashboard/dashboard',compact('rubros', 'negocio'));
+        $tags = ['prueba','tag','test'];
+        $tag = implode(',',$tags);
+            return View::make('dashboard/dashboard',compact('rubros', 'negocio','tag'));
     }
 
     public function logOut()
@@ -186,6 +188,12 @@ class DashboardController extends BaseController {
         }
 
 
+    }
+
+
+    public function saveTag()
+    {
+        dd(Input::get('tag'));
     }
 
 

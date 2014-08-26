@@ -67,6 +67,9 @@ Route::group(array('before' => 'auth'), function()
     // Save Ubication
     Route::post('/dasboard-map', ['as' => 'save_ubication','uses' => 'DashboardController@saveUbication']);
 
+    //Save Tags
+    Route::post('/dashboard-tag', ['as' => 'save_tags', 'uses' => 'DashboardController@saveTag']);
+
     // Esta ruta nos servirá para cerrar sesión.
     Route::get('logout', ['as' => 'logout', 'uses' => 'DashboardController@logOut']);
 });
