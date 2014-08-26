@@ -8,12 +8,16 @@ class DatosGeneralesManager  extends BaseManager{
     public function getRules()
     {
         $rules = [
-            'negocio_id'            =>'',
             'nombre_negocio'        => 'required',
             'slogan_negocio'        => 'required',
-            'rubros_id'             => '',
             'descripcion'           => 'required',
+            'rubros_id'             => '',
             'website'               => 'required',
+            'fijo'                  => 'required',
+            'movil'                 => 'required',
+            'email'                 => 'required|email',
+            'web_fb'                => '',
+            'web_tw'                => '',
             'slug'                  => ''
         ];
 

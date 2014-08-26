@@ -26,5 +26,29 @@ class NegocioRepo extends BaseRepo{
         }
     }
 
+    public function listRegions()
+    {
+        $deparamentos = \DB::table('ubigeo')->where('id_provincia', '=' , 0)->where('id_distrito', '=',0)
+                        ->orderBy('id_departamento', 'asc')->lists('descripcion','id_departamento');
+
+        return $deparamentos;
+    }
+
+    public function listProvinces($id_departamento)
+    {
+        $provincias = \DB::table('ubigeo')->where('id_departamento', '=', $id_departamento)/*->where('id_pronvicia', '!=', 0)*/
+                       ->where('id_distrito', '=' ,0)->orderBy('id_provincia', 'asc')->lists('descripcion','id_provincia');
+
+        return $provincias;
+    }
+
+    public function listDistrict($id_departamento, $id_pronvicia)
+    {
+        $distritos = \DB::table('ubigeo')->where('id_departamento', '=', $id_departamento)->where('id_provincia', '=', $id_pronvicia)
+                     ->orderBy('id_distrito','asc')->lists('descripcion','id_distrito');
+
+        return $distritos;
+    }
+
 
 } 

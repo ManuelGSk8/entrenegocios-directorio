@@ -25,20 +25,19 @@
 
                         <div class="form-group col-lg-4">
                             {{ Form::label('departamento', 'Departamento') }}
-                            {{ Form::select('departamento',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')) }}
+                            {{ Form::select('departamento',$departamentos,$negocio->departamento, array('class' => 'form-control input-sm')) }}
                             {{ $errors->first('departamento', '<p class="error_message">:message</p>') }}
                         </div>
 
                         <div class="form-group col-lg-4">
                             {{ Form::label('provincia', 'Provincia') }}
-                            {{ Form::select('provincia',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')) }}
+                            {{ Form::select('provincia',$provincias,$negocio->provincia, array('class' => 'form-control input-sm')) }}
                         </div>
 
                         <div class="form-group col-lg-4">
                             {{ Form::label('distrito', 'Distrito') }}
-                            {{ Form::select('distrito',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')) }}
+                            {{ Form::select('distrito',$distritos,$negocio->distrito, array('class' => 'form-control input-sm')) }}
                         </div>
-
 
                         <div class="form-group col-lg-12">
                             {{ Form::label('flag_mapa','¿Desea mostrar la ubicacion geográfica en su perfil?') }}
@@ -53,7 +52,7 @@
                         <input id="pac-input" class="controls" type="text" placeholder="Search Box">
                         <div id="map-canvas" style="height: 300px; width: 1005;"></div>
                     </div>
-                    <div class="form-group col-lg-12">
+                    <div class="form-group col-lg-12" style="margin-top: 10px;">
                         <input type="submit" value="Grabar" class="btn btn-success">
                     </div>
                     {{ Form::close() }}
@@ -62,6 +61,9 @@
         </div>
     </div>
 </div>
+
+<!--
 <script src="{{ asset('admin_user/search.js') }}"></script>
+-->
 
 @endsection
