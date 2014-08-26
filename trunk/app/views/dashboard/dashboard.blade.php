@@ -107,13 +107,15 @@
                         <i class="fa fa-edit"></i>Tags
                     </div>
                     <div class="widget-content padded">
-                        {{ Form::open(['route' => 'save_general', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
+                        {{ Form::open(['route' => 'save_tags', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
                         <div class="form-group">
-                            <label class="col-sm-3 control-label" for="form-field-tags">Tag input</label>
-
+                            {{ Form::label('tag', 'Tag input', ['class' => 'col-sm-3 control-label']) }}
                             <div class="col-sm-9">
-                                <input type="text" id="form-field-tags" value="Amsterdam,Washington,Sydney,Beijing,Cairo" data-role="tagsinput" class="form-control col-lg-12" />
+                                {{ Form::text('tag',$tag,['class' => 'form-control col-lg-12', 'data-role' => 'tagsinput']) }}
                             </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="submit" value="Grabar" class="btn btn-success"/>
                         </div>
                         {{ Form::close()}}
                     </div>

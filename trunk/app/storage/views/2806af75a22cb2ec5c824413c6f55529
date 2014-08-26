@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title><?php echo $page_title; ?></title>
 
 
     <!-- Bootstrap core CSS -->
@@ -29,6 +29,9 @@
 
     <!-- map Style -->
     <link href="<?php echo asset('libs/maps/map.style.css'); ?>" rel="stylesheet">
+
+    <!-- tag Style -->
+    <link href="<?php echo asset('admin_user/bootstrap-tagsinput.css'); ?>" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -103,6 +106,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo asset('libs/1.11.1/jquery.min.js'); ?>"></script>
+<script src="<?php echo asset('admin_user/query.js'); ?>"></script>
 <script src="<?php echo asset('libs/maps/map.script.js'); ?>"></script>
 <script src="<?php echo asset('bootstrap/js/bootstrap.min.js'); ?>"></script>
 <script src="<?php echo asset('bootstrap/js/bootstrap-switch.min.js'); ?>"></script>
@@ -112,6 +116,8 @@
 <script src="<?php echo asset('animate/js/animate.js'); ?>"></script>
 <script src="<?php echo asset('fancybox/master/ekko-lightbox.js'); ?>"></script>
 <script src="<?php echo asset('dropzone/dropzone.min.js'); ?>"></script>
+
+<script src="<?php echo asset('admin_user/bootstrap-tagsinput.js'); ?>"></script>
 
 <script >
     $(document).ready(function() {

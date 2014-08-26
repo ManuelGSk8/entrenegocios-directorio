@@ -29,7 +29,7 @@
                         <div class="form-group col-lg-4">
                             <?php echo Form::label('departamento', 'Departamento'); ?>
 
-                            <?php echo Form::select('departamento',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')); ?>
+                            <?php echo Form::select('departamento',$departamentos,$negocio->departamento, array('class' => 'form-control input-sm')); ?>
 
                             <?php echo $errors->first('departamento', '<p class="error_message">:message</p>'); ?>
 
@@ -38,17 +38,16 @@
                         <div class="form-group col-lg-4">
                             <?php echo Form::label('provincia', 'Provincia'); ?>
 
-                            <?php echo Form::select('provincia',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')); ?>
+                            <?php echo Form::select('provincia',$provincias,$negocio->provincia, array('class' => 'form-control input-sm')); ?>
 
                         </div>
 
                         <div class="form-group col-lg-4">
                             <?php echo Form::label('distrito', 'Distrito'); ?>
 
-                            <?php echo Form::select('distrito',['0' => '-- Seleccione --'],null, array('class' => 'form-control input-sm')); ?>
+                            <?php echo Form::select('distrito',$distritos,$negocio->distrito, array('class' => 'form-control input-sm')); ?>
 
                         </div>
-
 
                         <div class="form-group col-lg-12">
                             <?php echo Form::label('flag_mapa','¿Desea mostrar la ubicacion geográfica en su perfil?'); ?>
@@ -64,7 +63,7 @@
                         <input id="pac-input" class="controls" type="text" placeholder="Search Box">
                         <div id="map-canvas" style="height: 300px; width: 1005;"></div>
                     </div>
-                    <div class="form-group col-lg-12">
+                    <div class="form-group col-lg-12" style="margin-top: 10px;">
                         <input type="submit" value="Grabar" class="btn btn-success">
                     </div>
                     <?php echo Form::close(); ?>
@@ -74,7 +73,10 @@
         </div>
     </div>
 </div>
+
+<!--
 <script src="<?php echo asset('admin_user/search.js'); ?>"></script>
+-->
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('dashboard.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
