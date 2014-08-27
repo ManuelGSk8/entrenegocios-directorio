@@ -20,12 +20,16 @@ class NegocioController extends BaseController{
 
        $rubro = $this->rubroRepo->find($id);
 
+        View::share('page_title', $rubro->descripcion);
+
         return View::make('rubros/categorias', compact('rubro'));
     }
 
     public function show($slug, $id)
     {
         $negocio = $this->negocioRepo->find($id);
+
+        View::share('page_title', $negocio->nombre_negocio);
 
         $config = array();
         $config['center'] = $negocio->latitud .', '. $negocio->longitud;

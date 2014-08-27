@@ -109,10 +109,7 @@
                     <div class="widget-content padded">
                         {{ Form::open(['route' => 'save_tags', 'method' => 'POST', 'role'=>'form-horizontal', 'novalidate']) }}
                         <div class="form-group">
-                            {{ Form::label('tag', 'Tag input', ['class' => 'col-sm-3 control-label']) }}
-                            <div class="col-sm-9">
-                                {{ Form::text('tag',$tag,['class' => 'form-control col-lg-12', 'data-role' => 'tagsinput']) }}
-                            </div>
+                                {{ Form::text('tag',$tag,['class' => 'form-control col-lg-12', 'data-role' => 'tagsinput', 'placeholder' => 'Ingresa una etiqueta']) }}
                         </div>
                         <div class="col-lg-12">
                             <input type="submit" value="Grabar" class="btn btn-success"/>

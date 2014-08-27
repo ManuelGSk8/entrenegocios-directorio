@@ -3,10 +3,11 @@
 use Directorio\Repositories\RubroRepo;
 use Directorio\Repositories\NegocioRepo;
 use Directorio\Repositories\ProductoRepo;
+use Directorio\Repositories\TagRepo;
 use Directorio\Managers\DatosGeneralesManager;
-use Directorio\Managers\ContactManager;
 use Directorio\Managers\GalleryManager;
 use Directorio\Managers\UbicationManager;
+use Directorio\Managers\TagManager;
 
 
 class DashboardController extends BaseController {
@@ -14,12 +15,15 @@ class DashboardController extends BaseController {
     protected $rubroRepo;
     protected $negocioRepo;
     protected $productoRepo;
+    protected $tagRepo;
 
-    public function __construct(RubroRepo $rubroRepo, NegocioRepo $negocioRepo, ProductoRepo $productoRepo)
+    public function __construct(RubroRepo $rubroRepo, NegocioRepo $negocioRepo, ProductoRepo $productoRepo,
+                                TagRepo $tagRepo)
     {
         $this->rubroRepo = $rubroRepo;
         $this->negocioRepo = $negocioRepo;
         $this->productoRepo = $productoRepo;
+        $this->tagRepo = $tagRepo;
     }
 
     public function showDashboard()
@@ -28,8 +32,9 @@ class DashboardController extends BaseController {
         $rubros = $this->rubroRepo->getAllRubros();
         $negocio = $this->negocioRepo->find(Auth::user()->id);
 
-        $tags = ['prueba','tag','test'];
+        $tags = $this->tagRepo->listTagsbyNegocio(Auth::user()->id);
         $tag = implode(',',$tags);
+
             return View::make('dashboard/dashboard',compact('rubros', 'negocio','tag'));
     }
 
@@ -102,8 +107,8 @@ class DashboardController extends BaseController {
 
             $inputs = [
                 'negocio_id'        => Auth::user()->id,
-                'url_image_small' => 'upload/img/thumbnail/' . $new_name.'small.jpg',
-                'url_image_large' => 'upload/img/img/' . $new_name.'large.jpg',
+                'url_image_small'   => 'upload/img/thumbnail/' . $new_name.'small.jpg',
+                'url_image_large'   => 'upload/img/img/' . $new_name.'large.jpg',
                 'titulo'            => null
             ];
 
@@ -193,7 +198,35 @@ class DashboardController extends BaseController {
 
     public function saveTag()
     {
-        dd(Input::get('tag'));
+        $inputs = explode(',',Input::get('tag'));
+        $this->tagRepo->deleteNegocio_Tag(\Auth::user()->id);
+        if($inputs[0] != "")
+        {
+            foreach($inputs as $input){
+
+                $tag = $this->tagRepo->findTagbyName($input);
+
+                if($tag != null)
+                {
+                    $this->tagRepo->newNegocio_Tag(\Auth::user()->id,$tag->id);
+                }else
+                {
+                    $tag = $this->tagRepo->newTag();
+                    $variables = [
+                        'tags' => $input
+                    ];
+                    $manager = new TagManager($tag,$variables);
+
+                    if($manager->save())
+                    {
+                        $this->tagRepo->newNegocio_Tag(\Auth::user()->id,$tag->id);
+                    }
+                }
+
+            }
+        }
+
+        return Redirect::route('dashboard');
     }
 
 

@@ -13,7 +13,14 @@ $(document).ready(function(){
         getDistrict($("#departamento").val(), $("#provincia").val())
     });
 
-    $("input").val();
+
+    Dropzone.options.myAwesomeDropzone = {
+        init: function() {
+            this.on("success", function(file, messageOrDataFromServer, myEvent) {
+                window.setTimeout(function() { window.location.href = "dashboard-gallery"; }, 1000);
+            });
+        }
+    };
 
 });
 

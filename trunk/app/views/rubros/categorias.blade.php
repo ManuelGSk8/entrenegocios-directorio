@@ -23,7 +23,7 @@
                         </div>
                         <div class="pull-left" style="clear: left">
                             <span class="pull-left" style="font-size: 13px;font-family: cursive; font-weight:bold; clear: left; padding-left:5px;">
-                                <a href="{{ route('negocio', [$negocio->slug, $negocio->id]) }}" title="{{ $negocio->user->full_name }}" target="_blank">{{ $negocio->user->full_name }}</a>
+                                <a href="{{ route('negocio', [$negocio->slug, $negocio->id]) }}" title="{{ $negocio->nombre_negocio }}" target="_blank">{{ $negocio->nombre_negocio }}</a>
                             </span>
                             <span class="pull-left" style="font-size: 12px;font-family: cursive; clear: left; padding-left:8px;">
                                {{ Str::limit($negocio->descripcion,80) }}
@@ -37,12 +37,15 @@
                     <div class="white-triangle-pointer-item"></div>
                     @foreach($negocio->productos as $producto)
                     <a href="{{ route('negocio', [$negocio->slug, $negocio->id]) }}" title="" class="zoom" data-title="Delicious Food" data-footer="Whatever your desire" data-type="image" data-toggle="lightbox" target="_blank">
-                        <img src="{{ $producto->url_image_350x350 }}" alt="" />
+                        @if($producto->perfil != null)
+                        <img src="{{ asset($producto->url_image_small) }}" alt="" />
+                        @endif
                         <span class="overlay"><i class="glyphicon glyphicon-plus-sign"></i></span>
                     </a>
 
                     @endforeach
                 </div>
+                <!--
                 <div class="panel-footer" style="padding-top:5px !important;">
                     <p>
                         <span class="pull-right">
@@ -50,6 +53,7 @@
                         </span>
                     </p>
                 </div>
+                -->
             </div>
         </article>
         @endforeach

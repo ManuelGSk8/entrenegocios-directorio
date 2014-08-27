@@ -15,13 +15,15 @@
         <div class="col-md-offset-1 col-md-6" style="margin-bottom: 30px;">
             <div class="col-md-12 appear-animation" data-animation="fadeIn" style="background-color:#ffffff; padding-left:0px; padding-right:0px; box-shadow: 0 5px 6px 1px #888;">
                 <div class="col-md-12">
-                    <h1>{{ $negocio->user->full_name }}</h1>
+                    <h1>{{ $negocio->nombre_negocio }}</h1>
                     <h4>{{ $negocio->slogan_negocio }}</h4>
                 </div>
                 <div style="clear: left; position: relative;">
                     <div class="white-triangle-pointer-item"></div>
                     @foreach($negocio->productos as $producto)
-                    <img src="{{ $producto->url_image_800x600 }}" alt="" width="100%" />
+                        @if($producto->perfil != null)
+                            <img src="{{ asset($producto->url_image_large) }}" alt="" width="100%" />
+                        @endif
                     @endforeach
                 </div>
 
@@ -39,17 +41,17 @@
               <div class="col-md-12" >
                   <div class='row_icon' style="font-size: 25px; margin: 10px;">
                       @if ($negocio->web_fb != '')
-                      <a href="{{ $negocio->web_fb }}" target="_blank" >
+                      <a href="{{ 'http://'.$negocio->web_fb }}" target="_blank" >
                         <i title='Facebook' class="fb icon-facebook"></i>
                       </a>
                       @endif
                       @if ($negocio->web_tw != '')
-                      <a href="{{ $negocio->web_tw }}" target="_blank" >
+                      <a href="{{ 'http://'.$negocio->web_tw }}" target="_blank" >
                         <i title='Twitter' class="tw icon-twitter"></i>
                       </a>
                       @endif
                       @if ($negocio->website != '')
-                      <a href="{{ $negocio->website }}" target="_blank">
+                      <a href="{{ 'http://'.$negocio->website }}" target="_blank">
                         <i title='Web Site' class="gp icon-earth"></i>
                       </a>
                       @endif
@@ -69,7 +71,7 @@
                       </li>
                       <li>
                           <strong>E-Mail:</strong>
-                          <span> <a href="mailto:{{ $negocio->user->email }}" > {{ $negocio->user->email }}</a></span>
+                          <span> <a href="mailto:{{ $negocio->email }}" > {{ $negocio->email }}</a></span>
                       </li>
                       <li>
                           <strong>Web:</strong>
@@ -79,6 +81,18 @@
                       <li>
                           <strong>Dirección:</strong>
                           <span>{{ $negocio->direccion }}</span>
+                      </li>
+                      <li>
+                          <strong>Departamento</strong>
+                          <span>{{ $negocio->departamento }}</span>
+                      </li>
+                      <li>
+                          <strong>Provincia</strong>
+                          <span>{{ $negocio->provincia }}</span>
+                      </li>
+                      <li>
+                          <strong>Distrito</strong>
+                          <span>{{ $negocio->distrito }}</span>
                       </li>
                       @endif
                   </ul>
@@ -131,8 +145,8 @@
 
                 @foreach($negocio->productos as $producto)
                 <div class="col-md-3 col-sm-6 appear-animation" data-animation="fadeInUp">
-                    <a class="fancybox thumbnail" href="{{ $producto->url_image_800x600 }}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet" style="box-shadow: 0 5px 6px 1px #888;">
-                        <img src="{{ $producto->url_image_350x350 }}" alt="" width="100%" />
+                    <a class="fancybox thumbnail" href="{{ asset($producto->url_image_large) }}" data-fancybox-group="gallery" title="{{$producto->titulo}}" style="box-shadow: 0 5px 6px 1px #888;">
+                        <img src="{{ asset($producto->url_image_small) }}" alt="" />
                     </a>
                 </div>
                 @endforeach
