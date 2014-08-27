@@ -17,6 +17,8 @@ class UsersController extends BaseController{
 
     public function signUp()
     {
+        View::share('page_title', 'Registrare');
+
         $rubros = $this->rubroRepo->getAllRubros();
 
         return View::make('users/sign-up', compact('rubros'));
@@ -63,6 +65,8 @@ class UsersController extends BaseController{
 
     public function showLogin()
     {
+        View::share('page_title', 'Iniciar Sesión');
+
         return View::make('users/login');
     }
 

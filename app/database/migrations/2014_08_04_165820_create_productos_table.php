@@ -21,6 +21,7 @@ class CreateProductosTable extends Migration {
             $table->string('url_image_small');
             $table->string('url_image_large');
             $table->string('titulo')->nullable();
+            $table->boolean('perfil')->nullable();
 
 			$table->timestamps();
 		});

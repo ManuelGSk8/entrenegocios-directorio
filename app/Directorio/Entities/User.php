@@ -31,6 +31,9 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
     }
 */
 
-
+    public function negocio()
+    {
+        return $this->hasOne('Directorio\Entities\Negocio','user_id','id');
+    }
 
 }
