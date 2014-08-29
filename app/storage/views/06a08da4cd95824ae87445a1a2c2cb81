@@ -1,6 +1,9 @@
 <?php $__env->startSection('content'); ?>
 
 <div class="container mt40">
+    <?php echo $rubro->negocios; ?>
+
+
     <h1><?php echo $rubro->descripcion; ?></h1>
     <section class="row">
         <?php foreach($rubro->negocios as $negocio): ?>
@@ -57,6 +60,7 @@
             </div>
         </article>
         <?php endforeach; ?>
+
 
     </section>
 

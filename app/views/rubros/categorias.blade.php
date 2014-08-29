@@ -3,6 +3,8 @@
 @section('content')
 
 <div class="container mt40">
+    {{$rubro->negocios}}
+
     <h1>{{ $rubro->descripcion }}</h1>
     <section class="row">
         @foreach ($rubro->negocios as $negocio)
@@ -57,6 +59,7 @@
             </div>
         </article>
         @endforeach
+
 
     </section>
 

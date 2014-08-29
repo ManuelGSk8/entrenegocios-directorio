@@ -1,32 +1,56 @@
 <?php $__env->startSection('content'); ?>
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-    </div>
-</div>
+<div class="container mt40">
+    <section class="row">
+    <?php foreach($listaNegocios as $rubros): ?>
+        <?php foreach($rubros->negocios as $negocio): ?>
+        <article class="col-xs-12 col-sm-6 col-md-3 appear-animation"  data-animation="fadeInUp" style="margin-top:15px; margin-bottom: 15px;">
+            <div class="panel panel-default" style="box-shadow: 0 5px 6px 1px #888; border:0px solid transparent;">
+                <div class="panel-heading" style="background-color:transparent; border-color:transparent; padding:0px;">
+                    <div class="col-md-12" style="padding-left: 2px; padding-right: 0px; max-height: 80px; clear: left;">
+                        <div class="col-md-12" style="padding-right: 0px;">
+                            <span class="pull-left" style="font-size: 11px;font-family: cursive;color: rgb(180, 177, 162); padding-top: 5px;">
 
-<div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-    </div>
+                                <?php echo $negocio->id; ?>
+
+                                *<?php echo $rubros->descripcion; ?>
+
+                           </span>
+                           <span class="pull-right" >
+                               <div class='row_icon'>
+                                   <i title='Facebook' class="fb icon-facebook <?php if($negocio->web_fb != ''): ?>  transition <?php else: ?> disable <?php endif; ?>"></i><i title='Twitter' class="tw icon-twitter <?php if($negocio->web_tw != ''): ?> transition <?php else: ?> disable <?php endif; ?>"></i><i title='Web Site' class="gp icon-earth <?php if($negocio->website != ''): ?> transition <?php else: ?> disable <?php endif; ?>"></i>
+                               </div>
+                           </span>
+                        </div>
+                        <div class="pull-left" style="clear: left">
+                            <span class="pull-left" style="font-size: 13px;font-family: cursive; font-weight:bold; clear: left; padding-left:5px;">
+                                <a href="<?php echo route('negocio', [$negocio->slug, $negocio->id]); ?>" title="<?php echo $negocio->nombre_negocio; ?>" target="_blank"><?php echo $negocio->nombre_negocio; ?></a>
+                            </span>
+                            <span class="pull-left" style="font-size: 12px;font-family: cursive; clear: left; padding-left:8px;">
+                               <?php echo Str::limit($negocio->descripcion,80); ?>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body" style="clear: left;">
+                    <div class="white-triangle-pointer-item"></div>
+                    <?php foreach($negocio->productos as $producto): ?>
+                    <a href="<?php echo route('negocio', [$negocio->slug, $negocio->id]); ?>" title="" class="zoom" data-title="Delicious Food" data-footer="Whatever your desire" data-type="image" data-toggle="lightbox" target="_blank">
+                        <?php if($producto->perfil != null): ?>
+                        <img src="<?php echo asset($producto->url_image_small); ?>" alt="" />
+                        <?php endif; ?>
+                        <span class="overlay"><i class="glyphicon glyphicon-plus-sign"></i></span>
+                    </a>
+
+                    <?php endforeach; ?>
+                </div>
+
+            </div>
+        </article>
+        <?php endforeach; ?>
+    <?php endforeach; ?>
+
+    </section>
 </div>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

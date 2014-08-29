@@ -2,6 +2,7 @@
 namespace Directorio\Repositories;
 
 use Directorio\Entities\Negocio;
+use Directorio\Entities\Rubros;
 
 class NegocioRepo extends BaseRepo{
 
@@ -9,6 +10,17 @@ class NegocioRepo extends BaseRepo{
     {
         return new Negocio;
     }
+
+
+    public function listNegocios()
+    {
+        return Rubros::with([
+                'negocios' => function($q){
+                        $q->orderBy(\DB::raw('RAND()'))->paginate(2);
+                    }
+                ,'negocios.productos'])->get();
+    }
+
 
     public function newNegocio($id)
     {
