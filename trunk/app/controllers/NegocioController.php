@@ -15,6 +15,7 @@ class NegocioController extends BaseController{
         $this->negocioRepo = $negocioRepo;
     }
 
+
     public function rubros($slug, $id )
     {
 
