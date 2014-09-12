@@ -14,11 +14,46 @@ class NegocioRepo extends BaseRepo{
 
     public function listNegocios()
     {
-        return Rubros::with([
+        /*
+        $listaNegocio = Rubros::with([
                 'negocios' => function($q){
-                        $q->orderBy(\DB::raw('RAND()'))->paginate(2);
+                        $q->orderBy(\DB::raw('RAND()'));
                     }
-                ,'negocios.productos'])->get();
+                ,'negocios.productos' => function($p){
+                    $p->where('productos.perfil','=',true);
+                }])->orderBy(\DB::raw('RAND()'))->paginate(5);
+        */
+        /*
+ ->select('negocio.id', 'negocio.nombre_negocio','negocio.web_fb','negocio.web_tw','negocio.website',
+                                 'negocio.descripcion','negocio.slug','categoria.descripcion AS rubDescripcion','productos.url_image_small')
+
+        ->paginate(4,['negocio.id', 'negocio.nombre_negocio','negocio.web_fb','negocio.web_tw','negocio.website',
+                        'negocio.descripcion','negocio.slug','categoria.descripcion AS rubDescripcion','productos.url_image_small'])
+        */
+
+        $ip=$_SERVER['REMOTE_ADDR'];
+        $hour=date("H");
+        $day=date("j");
+        $month=date("n");
+        $ip=str_replace(".","",$ip);
+        $seed=($ip+$hour+$day+$month);
+
+         $listaNegocio = \DB::table('negocio')
+                        ->join('rubros',function($joinR)
+                         {
+                           $joinR->on('negocio.rubros_id', '=' , 'rubros.id');
+                         })
+                        ->join('productos', function($joinP)
+                         {
+                             $joinP->on('productos.negocio_id', '=', 'negocio.id');
+                         })
+                        ->orderBy(\DB::raw('RAND('.$seed.')'))
+                        ->where('productos.perfil', '=', true)->paginate(52,['negocio.id', 'negocio.nombre_negocio','negocio.web_fb',
+                        'negocio.web_tw','negocio.website','negocio.descripcion','negocio.slug','rubros.descripcion AS rubDescripcion',
+                        'productos.url_image_small','rubros.slug AS rubSlug', 'rubros.id AS rubId']);
+
+        return  $listaNegocio;
+
     }
 
 

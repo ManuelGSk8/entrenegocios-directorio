@@ -75,15 +75,33 @@
 <script src="{{ asset('fancybox/source/jquery.fancybox.js?v=2.1.5') }}"></script>
 <script src="{{ asset('animate/js/jquery.appear.js') }}"></script>
 <script src="{{ asset('animate/js/animate.js') }}"></script>
-<script src="//rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
+<script src="{{ asset('fancybox/lib/ekko-lightbox.js') }}"></script>
+<script src="{{ asset('animate/js/animate.js') }}"></script>
 <script >
     $(document).ready(function() {
 
         $('.fancybox').fancybox();
 
         animate();
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1500);
+            return false;
+        });
+
     });
 
 </script>
+
 </body>
 </html>

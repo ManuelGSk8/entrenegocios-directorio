@@ -23,7 +23,7 @@ class CreateNegocioTable extends Migration {
             $table->string('web_fb')->nullable();
             $table->string('web_tw')->nullable();
             $table->integer('rubros_id')->unsigned();
-            $table->foreign('rubros_id')->references('id')->on('rubros')->onDelete('cascade');
+            $table->foreign('rubros_id')->references('id')->on('categoria')->onDelete('cascade');
             $table->string('movil')->nullable();
             $table->string('fijo')->nullable();
             $table->string('email')->nullable();

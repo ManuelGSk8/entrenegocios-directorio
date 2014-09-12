@@ -11,9 +11,9 @@ class NegocioTableSeeder extends Seeder {
 	{
 		$faker = Faker::create();
 
-		foreach(range(1, 30) as $index)
+		foreach(range(1, 200) as $index)
 		{
-
+            $name_negocio = $faker->company;
             $user = User::create([
                'full_name'  => $faker->name,
                'email'      => $faker->email,
@@ -22,7 +22,7 @@ class NegocioTableSeeder extends Seeder {
 
 			Negocio::create([
                 'id'                => $user->id,
-                'nombre_negocio'    => $faker->company,
+                'nombre_negocio'    => $name_negocio,
                 'slogan_negocio'    => $faker->text(100),
                 'descripcion'       => $faker->text(200),
                 'website'           => $faker->url,
@@ -37,7 +37,7 @@ class NegocioTableSeeder extends Seeder {
                 'flag_mapa'         => $faker->randomElement([0,1]),
                 'latitud'           => $faker->latitude(),
                 'longitud'          => $faker->longitude(),
-                'slug'              => \Str::slug($faker->company)
+                'slug'              => \Str::slug($name_negocio)
 
 			]);
 		}
