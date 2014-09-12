@@ -51,7 +51,8 @@
     border-right: none;
 }
 .disable{
-     background: #8C8C8C !important;
+     /*background: #8C8C8C !important;*/
+    display: none;
  }
 .padding-x2{
     padding: 20px;

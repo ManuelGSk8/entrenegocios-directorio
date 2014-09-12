@@ -14,7 +14,7 @@
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
 //categorias/pasteleria-dulces/1
-Route::get('categorias/{slug}/{id}', ['as' => 'rubros', 'uses' => 'NegocioController@rubros']);
+Route::get('categoria/{slug}/{id}', ['as' => 'categoria', 'uses' => 'NegocioController@categoria']);
 
 //yammis-peru/1
 Route::get('/{slug}/{id}', ['as' => 'negocio', 'uses' => 'NegocioController@show']);

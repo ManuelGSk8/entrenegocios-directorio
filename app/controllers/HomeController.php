@@ -15,6 +15,8 @@ class HomeController extends BaseController {
 	{
         $listaNegocios = $this->negocioRepo->listNegocios();
 
+       //dd(array_rand($listaNegocios));
+
         View::share('page_title', 'Inicio');
 		return View::make('home', compact('listaNegocios'));
 	}

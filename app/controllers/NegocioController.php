@@ -16,14 +16,15 @@ class NegocioController extends BaseController{
     }
 
 
-    public function rubros($slug, $id )
+    public function categoria($slug, $id )
     {
 
-       $rubro = $this->rubroRepo->find($id);
+       //$rubro = $this->rubroRepo->find($id);
+        $listaNegocios = $this->rubroRepo->getNegociobyRubro($id);
+        $rubro = $this->rubroRepo->getRubrobyId($id);
+        View::share('page_title',$rubro->descripcion);
 
-        View::share('page_title', $rubro->descripcion);
-
-        return View::make('rubros/categorias', compact('rubro'));
+        return View::make('categoria/categorias', compact('listaNegocios','rubro'));
     }
 
     public function show($slug, $id)

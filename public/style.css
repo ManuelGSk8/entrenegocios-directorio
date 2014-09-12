@@ -7,7 +7,7 @@ body {
 
 
 /*Paneles Directorio*/
-@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+@import url("http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Roboto");
 .mt40 { margin-top: 40px; }
 
 .panel { position: relative; overflow: hidden; display: block; border-radius: 0 !important;  }
@@ -57,4 +57,21 @@ body {
 .error_message
 {
     color: red;
+}
+
+.scrollup {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    border: none;
+    text-indent: 100%;
+    background: url(images/ui.totop.png) no-repeat left top;
+    opacity: 50;
+    filter: alpha(opacity=5000);
+    z-index: 2;
 }

@@ -11,7 +11,7 @@
                         </div>
                         <div class="text"> Visitas de mi página </div>
                     </div>
-                    <div class="col-md-3" style="background-color: #3b5998;">
+                    <div class="col-md-3" style="background-color: #517fa4;">
                         <div class="number" style="color: #ffffff">
                             <i class="fa fa-facebook" style="font-size: 60px;"></i> 86
                         </div>
