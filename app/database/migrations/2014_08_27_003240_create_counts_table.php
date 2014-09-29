@@ -15,8 +15,8 @@ class CreateCountsTable extends Migration {
 		Schema::create('counts', function(Blueprint $table)
 		{
 			$table->increments('id');
-
-            $table->enum('count_type',['perfil','web','fb','tw','gplus']);
+            $table->enum('count_type',['perfil']);
+            $table->integer('cantidad');
 
 			$table->timestamps();
 		});

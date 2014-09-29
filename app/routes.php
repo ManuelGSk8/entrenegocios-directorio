@@ -14,7 +14,7 @@
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
 //categorias/pasteleria-dulces/1
-Route::get('categoria/{slug}/{id}', ['as' => 'categoria', 'uses' => 'NegocioController@categoria']);
+Route::get('categoria/{slug}/{id}', ['as' => 'categoria', 'uses' => 'HomeController@categoria']);
 
 //yammis-peru/1
 Route::get('/{slug}/{id}', ['as' => 'negocio', 'uses' => 'NegocioController@show']);
@@ -40,6 +40,11 @@ Route::get('get/provincia/{departamento}',['as' => 'provincia', 'uses' => 'Dashb
 //obtiene lista de Distritos by Id Departamento, Provincia
 Route::get('get/distrito/{departamento}/{provincia}',['as' => 'distrito', 'uses' => 'DashboardController@listDistrito']);
 
+/*
+Route::post('busqueda', ['as' => 'busqueda', 'uses' => 'HomeController@busqueda']);
+*/
+// Ruta de busqueda
+Route::get('search/r/{id_depart}/c/{id_category}/t/{texto?}', ['as' => 'search','uses' => 'HomeController@busqueda']);
 
 // Routes validando session
 Route::group(array('before' => 'auth'), function()

@@ -1,34 +1,20 @@
 <?php
 
-use Directorio\Repositories\RubroRepo;
 use Directorio\Repositories\NegocioRepo;
 
 class NegocioController extends BaseController{
 
 
-    protected  $rubroRepo;
     protected  $negocioRepo;
 
-    public function  __construct(RubroRepo $rubroRepo, NegocioRepo $negocioRepo)
+    public function  __construct(NegocioRepo $negocioRepo)
     {
-        $this->rubroRepo = $rubroRepo;
         $this->negocioRepo = $negocioRepo;
-    }
-
-
-    public function categoria($slug, $id )
-    {
-
-       //$rubro = $this->rubroRepo->find($id);
-        $listaNegocios = $this->rubroRepo->getNegociobyRubro($id);
-        $rubro = $this->rubroRepo->getRubrobyId($id);
-        View::share('page_title',$rubro->descripcion);
-
-        return View::make('categoria/categorias', compact('listaNegocios','rubro'));
     }
 
     public function show($slug, $id)
     {
+        $this->negocioRepo->counteProfile($id);
         $negocio = $this->negocioRepo->find($id);
 
         View::share('page_title', $negocio->nombre_negocio);

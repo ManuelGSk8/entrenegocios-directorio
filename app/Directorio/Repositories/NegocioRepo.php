@@ -1,6 +1,7 @@
 <?php
 namespace Directorio\Repositories;
 
+use Directorio\Entities\Counts;
 use Directorio\Entities\Negocio;
 use Directorio\Entities\Rubros;
 
@@ -76,7 +77,7 @@ class NegocioRepo extends BaseRepo{
     public function listRegions()
     {
         $deparamentos = \DB::table('ubigeo')->where('id_provincia', '=' , 0)->where('id_distrito', '=',0)
-                        ->orderBy('id_departamento', 'asc')->lists('descripcion','id_departamento');
+        ->orderBy('id_departamento', 'asc')->lists('descripcion','id_departamento');
 
         return $deparamentos;
     }
@@ -98,4 +99,65 @@ class NegocioRepo extends BaseRepo{
     }
 
 
+
+    public function getResultBusqueda($idDepart,$idCategoria,$texto){
+
+        $ip=$_SERVER['REMOTE_ADDR'];
+        $hour=date("H");
+        $day=date("j");
+        $month=date("n");
+        $ip=str_replace(".","",$ip);
+        $seed=($ip+$hour+$day+$month);
+
+        $listaNegocio = \DB::table('negocio')
+            ->join('rubros',function($joinR)
+            {
+                $joinR->on('negocio.rubros_id', '=' , 'rubros.id');
+            })
+            ->join('productos', function($joinP)
+            {
+                $joinP->on('productos.negocio_id', '=', 'negocio.id');
+            })
+            ->orderBy(\DB::raw('RAND('.$seed.')'))
+            ->where('productos.perfil', '=', true)
+            ->where(function($query) use ($idDepart,$idCategoria,$texto){
+                if($idDepart){
+                    $query->where('negocio.departamento', '=', $idDepart);
+                }
+
+                if($idCategoria){
+                    $query->where('negocio.rubros_id', '=', $idCategoria);
+                }
+            })
+            ->paginate(52,['negocio.id', 'negocio.nombre_negocio','negocio.web_fb',
+                'negocio.web_tw','negocio.website','negocio.descripcion','negocio.slug','rubros.descripcion AS rubDescripcion',
+                'productos.url_image_small','rubros.slug AS rubSlug', 'rubros.id AS rubId']);
+
+
+        return $listaNegocio;
+
+    }
+
+
+    public function counteProfile($id){
+
+       // $profile = \DB::table('counts')->where('id','=', $id)->get(['id','count_type','cantidad']);
+        $profile = Counts::find($id);
+
+        if(count($profile) == 0){
+            $profile = new Counts;
+
+            $profile->id = $id;
+            $profile->count_type = 'perfil';
+            $profile->cantidad = 1;
+
+            $profile->save();
+        }else{
+            $cantidad = $profile->cantidad;
+            $profile->cantidad = $cantidad +1;
+            $profile->save();
+        }
+
+
+    }
 } 

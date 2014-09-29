@@ -10,7 +10,7 @@ class ProductosTableSeeder extends Seeder {
 	{
 		$faker = Faker::create();
 
-		foreach(range(1, 200) as $index)
+		foreach(range(1, 100) as $index)
 		{
             $imageSmall = file_get_contents($faker->imageUrl($width = 350, $height = 350));
             $imageLarge = file_get_contents($faker->imageUrl($width = 800, $height = 600));
