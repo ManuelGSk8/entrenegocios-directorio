@@ -99,6 +99,23 @@
             return false;
         });
 
+        $('#btnSearch').click(function(){
+
+            var r = $('#cboDepar').val();
+            var c = $('#cboCat').val();
+            var t = $('#txtBuscar').val();
+
+            if( $.trim(t) != ''){
+                t = '/' + $.trim(t);
+            }
+
+            $(location).attr('href','search/r/'+r+'/c/'+c+'/t'+t);
+
+            return false;
+
+        });
+
+
     });
 
 </script>

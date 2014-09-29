@@ -12,7 +12,7 @@ class CreateRubrosTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('categoria', function(Blueprint $table)
+		Schema::create('rubros', function(Blueprint $table)
 		{
 			$table->increments('id');
 
@@ -31,7 +31,7 @@ class CreateRubrosTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('categoria');
+		Schema::drop('rubros');
 	}
 
 }

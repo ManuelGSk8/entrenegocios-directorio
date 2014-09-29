@@ -1,0 +1,12 @@
+<?php echo $__env->make('busqueda.busqueda',['Departamentos' => $listaDepartamento, 'Categorias' => $listaCategorias], array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php $__env->startSection('content'); ?>
+<div class="container mt40">
+    <h1><?php echo $rubro->descripcion; ?></h1>
+    <section class="row">
+        <?php echo $__env->make('includes.negocio-list',['listaNegocios' => $listaNegocios], array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    </section>
+</div>
+<a href="#" class="scrollup">Scroll</a>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

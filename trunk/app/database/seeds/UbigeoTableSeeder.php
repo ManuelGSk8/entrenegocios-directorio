@@ -4,12350 +4,12350 @@ use Directorio\Entities\Ubigeo;
 
 class UbigeoTableSeeder extends Seeder {
 
-	public function run(){
+    public function run(){
 
         Ubigeo::create([
             "id_departamento"   => "01",
             "id_provincia"      => "00",
             "id_distrito"       => "00",
-            "descripcion"       => "AMAZONAS"
+            "descripcion"       => \Str::title("AMAZONAS")
         ]);
-        
+
         Ubigeo::create([
             "id_departamento"=> "01",
             "id_provincia"=> "01",
             "id_distrito"=> "00",
-            "descripcion"=> "CHACHAPOYAS"
+            "descripcion"=> \Str::title("CHACHAPOYAS")
         ]);
         Ubigeo::create([
             "id_departamento"=> "01",
             "id_provincia"=> "01",
             "id_distrito"=> "01",
-            "descripcion"=> "CHACHAPOYAS"
+            "descripcion"=> \Str::title("CHACHAPOYAS")
         ]);
         Ubigeo::create([
             "id_departamento"=> "01",
             "id_provincia"=> "01",
             "id_distrito"=> "02",
-            "descripcion"=> "ASUNCION"
+            "descripcion"=> \Str::title("ASUNCION")
         ]);
         Ubigeo::create([
             "id_departamento"=> "01",
             "id_provincia"=> "01",
             "id_distrito"=> "03",
-            "descripcion"=> "BALSAS"
+            "descripcion"=> \Str::title("BALSAS")
         ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHETO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHETO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHILIQUIN"
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHILIQUIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHUQUIBAMBA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CHUQUIBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "GRANADA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("GRANADA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUANCAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUANCAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "LA JALCA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("LA JALCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "LEIMEBAMBA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("LEIMEBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "LEVANTO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("LEVANTO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "MAGDALENA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("MAGDALENA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "MARISCAL CASTILLA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("MARISCAL CASTILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "MOLINOPAMPA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("MOLINOPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "MONTEVIDEO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("MONTEVIDEO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "16",
-        "descripcion"=> "OLLEROS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("OLLEROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "17",
-        "descripcion"=> "QUINJALCA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("QUINJALCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "18",
-        "descripcion"=> "SAN FRANCISCO DE DAGUAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("SAN FRANCISCO DE DAGUAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "19",
-        "descripcion"=> "SAN ISIDRO DE MAINO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("SAN ISIDRO DE MAINO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "20",
-        "descripcion"=> "SOLOCO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("SOLOCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "01",
-        "id_distrito"=> "21",
-        "descripcion"=> "SONCHE"
+            "id_provincia"=> "01",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("SONCHE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "BAGUA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("BAGUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "BAGUA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("BAGUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ARAMANGO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ARAMANGO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "COPALLIN"
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COPALLIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "EL PARCO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("EL PARCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "IMAZA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("IMAZA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "LA PECA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LA PECA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "BONGARA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("BONGARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "JUMBILLA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JUMBILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHISQUILLA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHISQUILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHURUJA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHURUJA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "COROSHA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("COROSHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "CUISPES"
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CUISPES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "FLORIDA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("FLORIDA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "JAZAN"
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("JAZAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "RECTA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("RECTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN CARLOS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN CARLOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "10",
-        "descripcion"=> "SHIPASBAMBA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SHIPASBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "11",
-        "descripcion"=> "VALERA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("VALERA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "03",
-        "id_distrito"=> "12",
-        "descripcion"=> "YAMBRASBAMBA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("YAMBRASBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CONDORCANQUI"
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CONDORCANQUI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "NIEVA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("NIEVA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "EL CENEPA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("EL CENEPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "RIO SANTIAGO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("RIO SANTIAGO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "LUYA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LUYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "LAMUD"
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LAMUD")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAMPORREDONDO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAMPORREDONDO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "COCABAMBA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COCABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "COLCAMAR"
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("COLCAMAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CONILA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CONILA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "INGUILPATA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("INGUILPATA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "LONGUITA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LONGUITA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "LONYA CHICO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("LONYA CHICO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "LUYA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("LUYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "LUYA VIEJO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("LUYA VIEJO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "MARIA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("MARIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "12",
-        "descripcion"=> "OCALLI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("OCALLI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "13",
-        "descripcion"=> "OCUMAL"
+            "id_provincia"=> "05",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("OCUMAL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "14",
-        "descripcion"=> "PISUQUIA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("PISUQUIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "15",
-        "descripcion"=> "PROVIDENCIA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("PROVIDENCIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "16",
-        "descripcion"=> "SAN CRISTOBAL"
+            "id_provincia"=> "05",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("SAN CRISTOBAL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "17",
-        "descripcion"=> "SAN FRANCISCO DEL YESO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("SAN FRANCISCO DEL YESO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "18",
-        "descripcion"=> "SAN JERONIMO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("SAN JERONIMO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "19",
-        "descripcion"=> "SAN JUAN DE LOPECANCHA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("SAN JUAN DE LOPECANCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "20",
-        "descripcion"=> "SANTA CATALINA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("SANTA CATALINA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "21",
-        "descripcion"=> "SANTO TOMAS"
+            "id_provincia"=> "05",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("SANTO TOMAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "22",
-        "descripcion"=> "TINGO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("TINGO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "05",
-        "id_distrito"=> "23",
-        "descripcion"=> "TRITA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("TRITA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "RODRIGUEZ DE MENDOZA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("RODRIGUEZ DE MENDOZA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN NICOLAS"
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAN NICOLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHIRIMOTO"
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHIRIMOTO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "COCHAMAL"
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COCHAMAL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAMBO"
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAMBO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "LIMABAMBA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LIMABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "LONGAR"
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LONGAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "MARISCAL BENAVIDES"
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("MARISCAL BENAVIDES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "MILPUC"
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MILPUC")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "09",
-        "descripcion"=> "OMIA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("OMIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTA ROSA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTA ROSA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "TOTORA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TOTORA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "06",
-        "id_distrito"=> "12",
-        "descripcion"=> "VISTA ALEGRE"
+            "id_provincia"=> "06",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("VISTA ALEGRE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "UTCUBAMBA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("UTCUBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "BAGUA GRANDE"
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("BAGUA GRANDE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAJARURO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAJARURO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "CUMBA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CUMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "EL MILAGRO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("EL MILAGRO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "JAMALCA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("JAMALCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "LONYA GRANDE"
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LONYA GRANDE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "01",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "YAMON"
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("YAMON")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "ANCASH"
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ANCASH")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUARAZ"
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUARAZ")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUARAZ"
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUARAZ")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "COCHABAMBA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COCHABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "COLCABAMBA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COLCABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUANCHAY"
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUANCHAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "INDEPENDENCIA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("INDEPENDENCIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "JANGAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("JANGAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "LA LIBERTAD"
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LA LIBERTAD")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "OLLEROS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("OLLEROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "PAMPAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PAMPAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "PARIACOTO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PARIACOTO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "PIRA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PIRA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "TARICA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("TARICA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "AIJA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AIJA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "AIJA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AIJA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CORIS"
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CORIS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUACLLAN"
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUACLLAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "LA MERCED"
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LA MERCED")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "SUCCHA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SUCCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "ANTONIO RAYMONDI"
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ANTONIO RAYMONDI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "LLAMELLIN"
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LLAMELLIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACZO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACZO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHACCHO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHACCHO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHINGAS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHINGAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "MIRGAS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MIRGAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN JUAN DE RONTOY"
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN JUAN DE RONTOY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "ASUNCION"
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ASUNCION")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHACAS"
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHACAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOCHACA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOCHACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "BOLOGNESI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("BOLOGNESI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHIQUIAN"
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHIQUIAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ABELARDO PARDO LEZAMETA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ABELARDO PARDO LEZAMETA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "ANTONIO RAYMONDI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ANTONIO RAYMONDI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "AQUIA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("AQUIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CAJACAY"
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CAJACAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "CANIS"
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CANIS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "COLQUIOC"
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("COLQUIOC")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUALLANCA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUALLANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUASTA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("HUASTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "HUAYLLACAYAN"
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("HUAYLLACAYAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "LA PRIMAVERA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("LA PRIMAVERA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "12",
-        "descripcion"=> "MANGAS"
+            "id_provincia"=> "05",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("MANGAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "13",
-        "descripcion"=> "PACLLON"
+            "id_provincia"=> "05",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("PACLLON")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAN MIGUEL DE CORPANQUI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SAN MIGUEL DE CORPANQUI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "05",
-        "id_distrito"=> "15",
-        "descripcion"=> "TICLLOS"
+            "id_provincia"=> "05",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("TICLLOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "CARHUAZ"
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CARHUAZ")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "CARHUAZ"
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CARHUAZ")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOPAMPA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "AMASHCA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("AMASHCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "ANTA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ANTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "ATAQUERO"
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("ATAQUERO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "MARCARA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MARCARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "PARIAHUANCA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PARIAHUANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN MIGUEL DE ACO"
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN MIGUEL DE ACO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "09",
-        "descripcion"=> "SHILLA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SHILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "TINCO"
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("TINCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "YUNGAR"
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("YUNGAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "CARLOS FERMIN FITZCARRALD"
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CARLOS FERMIN FITZCARRALD")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN LUIS"
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAN LUIS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "SAN NICOLAS"
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("SAN NICOLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "YAUYA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("YAUYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "CASMA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CASMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "CASMA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CASMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "BUENA VISTA ALTA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BUENA VISTA ALTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "COMANDANTE NOEL"
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COMANDANTE NOEL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "YAUTAN"
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("YAUTAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "CORONGO"
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CORONGO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "CORONGO"
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CORONGO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACO"
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "BAMBAS"
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("BAMBAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "CUSCA"
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CUSCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA PAMPA"
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LA PAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "YANAC"
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("YANAC")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "YUPAN"
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("YUPAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUARI"
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUARI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUARI"
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUARI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANRA"
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANRA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAJAY"
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CAJAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHAVIN DE HUANTAR"
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHAVIN DE HUANTAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUACACHI"
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUACACHI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "HUACCHIS"
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("HUACCHIS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUACHIS"
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUACHIS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUANTAR"
+            "id_provincia"=> "10",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUANTAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "09",
-        "descripcion"=> "MASIN"
+            "id_provincia"=> "10",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("MASIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "10",
-        "descripcion"=> "PAUCAS"
+            "id_provincia"=> "10",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PAUCAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "11",
-        "descripcion"=> "PONTO"
+            "id_provincia"=> "10",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PONTO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "12",
-        "descripcion"=> "RAHUAPAMPA"
+            "id_provincia"=> "10",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("RAHUAPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "13",
-        "descripcion"=> "RAPAYAN"
+            "id_provincia"=> "10",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("RAPAYAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAN MARCOS"
+            "id_provincia"=> "10",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SAN MARCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "15",
-        "descripcion"=> "SAN PEDRO DE CHANA"
+            "id_provincia"=> "10",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SAN PEDRO DE CHANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "10",
-        "id_distrito"=> "16",
-        "descripcion"=> "UCO"
+            "id_provincia"=> "10",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("UCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUARMEY"
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUARMEY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUARMEY"
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUARMEY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "COCHAPETI"
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COCHAPETI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "CULEBRAS"
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CULEBRAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYAN"
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "11",
-        "id_distrito"=> "05",
-        "descripcion"=> "MALVAS"
+            "id_provincia"=> "11",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MALVAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUAYLAS"
+            "id_provincia"=> "12",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUAYLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "01",
-        "descripcion"=> "CARAZ"
+            "id_provincia"=> "12",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CARAZ")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "02",
-        "descripcion"=> "HUALLANCA"
+            "id_provincia"=> "12",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("HUALLANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUATA"
+            "id_provincia"=> "12",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUATA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYLAS"
+            "id_provincia"=> "12",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "05",
-        "descripcion"=> "MATO"
+            "id_provincia"=> "12",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MATO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "06",
-        "descripcion"=> "PAMPAROMAS"
+            "id_provincia"=> "12",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PAMPAROMAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "07",
-        "descripcion"=> "PUEBLO LIBRE"
+            "id_provincia"=> "12",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PUEBLO LIBRE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "08",
-        "descripcion"=> "SANTA CRUZ"
+            "id_provincia"=> "12",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SANTA CRUZ")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "09",
-        "descripcion"=> "SANTO TORIBIO"
+            "id_provincia"=> "12",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SANTO TORIBIO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "12",
-        "id_distrito"=> "10",
-        "descripcion"=> "YURACMARCA"
+            "id_provincia"=> "12",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("YURACMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "00",
-        "descripcion"=> "MARISCAL LUZURIAGA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MARISCAL LUZURIAGA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "01",
-        "descripcion"=> "PISCOBAMBA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PISCOBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "02",
-        "descripcion"=> "CASCA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CASCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "03",
-        "descripcion"=> "ELEAZAR GUZMAN BARRON"
+            "id_provincia"=> "13",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ELEAZAR GUZMAN BARRON")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "04",
-        "descripcion"=> "FIDEL OLIVAS ESCUDERO"
+            "id_provincia"=> "13",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("FIDEL OLIVAS ESCUDERO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "05",
-        "descripcion"=> "LLAMA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LLAMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "06",
-        "descripcion"=> "LLUMPA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LLUMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "07",
-        "descripcion"=> "LUCMA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LUCMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "13",
-        "id_distrito"=> "08",
-        "descripcion"=> "MUSGA"
+            "id_provincia"=> "13",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MUSGA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "00",
-        "descripcion"=> "OCROS"
+            "id_provincia"=> "14",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("OCROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "01",
-        "descripcion"=> "OCROS"
+            "id_provincia"=> "14",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("OCROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACAS"
+            "id_provincia"=> "14",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAJAMARQUILLA"
+            "id_provincia"=> "14",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CAJAMARQUILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "04",
-        "descripcion"=> "CARHUAPAMPA"
+            "id_provincia"=> "14",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CARHUAPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "05",
-        "descripcion"=> "COCHAS"
+            "id_provincia"=> "14",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("COCHAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "06",
-        "descripcion"=> "CONGAS"
+            "id_provincia"=> "14",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CONGAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "07",
-        "descripcion"=> "LLIPA"
+            "id_provincia"=> "14",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LLIPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN CRISTOBAL DE RAJAN"
+            "id_provincia"=> "14",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN CRISTOBAL DE RAJAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN PEDRO"
+            "id_provincia"=> "14",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN PEDRO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "14",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTIAGO DE CHILCAS"
+            "id_provincia"=> "14",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTIAGO DE CHILCAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "00",
-        "descripcion"=> "PALLASCA"
+            "id_provincia"=> "15",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PALLASCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "01",
-        "descripcion"=> "CABANA"
+            "id_provincia"=> "15",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CABANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "02",
-        "descripcion"=> "BOLOGNESI"
+            "id_provincia"=> "15",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BOLOGNESI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "03",
-        "descripcion"=> "CONCHUCOS"
+            "id_provincia"=> "15",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CONCHUCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUACASCHUQUE"
+            "id_provincia"=> "15",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUACASCHUQUE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUANDOVAL"
+            "id_provincia"=> "15",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUANDOVAL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "06",
-        "descripcion"=> "LACABAMBA"
+            "id_provincia"=> "15",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LACABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "07",
-        "descripcion"=> "LLAPO"
+            "id_provincia"=> "15",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LLAPO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "08",
-        "descripcion"=> "PALLASCA"
+            "id_provincia"=> "15",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PALLASCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "09",
-        "descripcion"=> "PAMPAS"
+            "id_provincia"=> "15",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PAMPAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTA ROSA"
+            "id_provincia"=> "15",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTA ROSA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "15",
-        "id_distrito"=> "11",
-        "descripcion"=> "TAUCA"
+            "id_provincia"=> "15",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TAUCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "16",
-        "id_distrito"=> "00",
-        "descripcion"=> "POMABAMBA"
+            "id_provincia"=> "16",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("POMABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "16",
-        "id_distrito"=> "01",
-        "descripcion"=> "POMABAMBA"
+            "id_provincia"=> "16",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("POMABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "16",
-        "id_distrito"=> "02",
-        "descripcion"=> "HUAYLLAN"
+            "id_provincia"=> "16",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("HUAYLLAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "16",
-        "id_distrito"=> "03",
-        "descripcion"=> "PAROBAMBA"
+            "id_provincia"=> "16",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PAROBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "16",
-        "id_distrito"=> "04",
-        "descripcion"=> "QUINUABAMBA"
+            "id_provincia"=> "16",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("QUINUABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "00",
-        "descripcion"=> "RECUAY"
+            "id_provincia"=> "17",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("RECUAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "01",
-        "descripcion"=> "RECUAY"
+            "id_provincia"=> "17",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("RECUAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "02",
-        "descripcion"=> "CATAC"
+            "id_provincia"=> "17",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CATAC")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "03",
-        "descripcion"=> "COTAPARACO"
+            "id_provincia"=> "17",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COTAPARACO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYLLAPAMPA"
+            "id_provincia"=> "17",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYLLAPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "05",
-        "descripcion"=> "LLACLLIN"
+            "id_provincia"=> "17",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LLACLLIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "06",
-        "descripcion"=> "MARCA"
+            "id_provincia"=> "17",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "07",
-        "descripcion"=> "PAMPAS CHICO"
+            "id_provincia"=> "17",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PAMPAS CHICO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "08",
-        "descripcion"=> "PARARIN"
+            "id_provincia"=> "17",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PARARIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "09",
-        "descripcion"=> "TAPACOCHA"
+            "id_provincia"=> "17",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("TAPACOCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "17",
-        "id_distrito"=> "10",
-        "descripcion"=> "TICAPAMPA"
+            "id_provincia"=> "17",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("TICAPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "00",
-        "descripcion"=> "SANTA"
+            "id_provincia"=> "18",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SANTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHIMBOTE"
+            "id_provincia"=> "18",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHIMBOTE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "02",
-        "descripcion"=> "CACERES DEL PERU"
+            "id_provincia"=> "18",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CACERES DEL PERU")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "03",
-        "descripcion"=> "COISHCO"
+            "id_provincia"=> "18",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COISHCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "04",
-        "descripcion"=> "MACATE"
+            "id_provincia"=> "18",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MACATE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "05",
-        "descripcion"=> "MORO"
+            "id_provincia"=> "18",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MORO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "06",
-        "descripcion"=> "NEPE\u00d1A"
+            "id_provincia"=> "18",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("NEPEÑA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAMANCO"
+            "id_provincia"=> "18",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAMANCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "08",
-        "descripcion"=> "SANTA"
+            "id_provincia"=> "18",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SANTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "18",
-        "id_distrito"=> "09",
-        "descripcion"=> "NUEVO CHIMBOTE"
+            "id_provincia"=> "18",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("NUEVO CHIMBOTE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "00",
-        "descripcion"=> "SIHUAS"
+            "id_provincia"=> "19",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SIHUAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "01",
-        "descripcion"=> "SIHUAS"
+            "id_provincia"=> "19",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SIHUAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOBAMBA"
+            "id_provincia"=> "19",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "03",
-        "descripcion"=> "ALFONSO UGARTE"
+            "id_provincia"=> "19",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ALFONSO UGARTE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "04",
-        "descripcion"=> "CASHAPAMPA"
+            "id_provincia"=> "19",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CASHAPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHINGALPO"
+            "id_provincia"=> "19",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHINGALPO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "06",
-        "descripcion"=> "HUAYLLABAMBA"
+            "id_provincia"=> "19",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("HUAYLLABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUICHES"
+            "id_provincia"=> "19",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("QUICHES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "08",
-        "descripcion"=> "RAGASH"
+            "id_provincia"=> "19",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("RAGASH")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN JUAN"
+            "id_provincia"=> "19",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN JUAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "19",
-        "id_distrito"=> "10",
-        "descripcion"=> "SICSIBAMBA"
+            "id_provincia"=> "19",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SICSIBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "00",
-        "descripcion"=> "YUNGAY"
+            "id_provincia"=> "20",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("YUNGAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "01",
-        "descripcion"=> "YUNGAY"
+            "id_provincia"=> "20",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("YUNGAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "02",
-        "descripcion"=> "CASCAPARA"
+            "id_provincia"=> "20",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CASCAPARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "03",
-        "descripcion"=> "MANCOS"
+            "id_provincia"=> "20",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MANCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "04",
-        "descripcion"=> "MATACOTO"
+            "id_provincia"=> "20",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MATACOTO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "05",
-        "descripcion"=> "QUILLO"
+            "id_provincia"=> "20",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("QUILLO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "06",
-        "descripcion"=> "RANRAHIRCA"
+            "id_provincia"=> "20",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("RANRAHIRCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "07",
-        "descripcion"=> "SHUPLUY"
+            "id_provincia"=> "20",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SHUPLUY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "02",
-        "id_provincia"=> "20",
-        "id_distrito"=> "08",
-        "descripcion"=> "YANAMA"
+            "id_provincia"=> "20",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("YANAMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "APURIMAC"
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("APURIMAC")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "ABANCAY"
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ABANCAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "ABANCAY"
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ABANCAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHACOCHE"
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHACOCHE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CIRCA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CIRCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CURAHUASI"
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CURAHUASI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUANIPACA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUANIPACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "LAMBRAMA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LAMBRAMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "PICHIRHUA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PICHIRHUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN PEDRO DE CACHORA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN PEDRO DE CACHORA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "TAMBURCO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("TAMBURCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "ANDAHUAYLAS"
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ANDAHUAYLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "ANDAHUAYLAS"
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ANDAHUAYLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDARAPA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANDARAPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHIARA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHIARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUANCARAMA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUANCARAMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUANCARAY"
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUANCARAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "HUAYANA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("HUAYANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "KISHUARA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("KISHUARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "PACOBAMBA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PACOBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "09",
-        "descripcion"=> "PACUCHA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PACUCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "PAMPACHIRI"
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PAMPACHIRI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "11",
-        "descripcion"=> "POMACOCHA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("POMACOCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "12",
-        "descripcion"=> "SAN ANTONIO DE CACHI"
+            "id_provincia"=> "02",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SAN ANTONIO DE CACHI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "13",
-        "descripcion"=> "SAN JERONIMO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SAN JERONIMO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAN MIGUEL DE CHACCRAMPA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SAN MIGUEL DE CHACCRAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "15",
-        "descripcion"=> "SANTA MARIA DE CHICMO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SANTA MARIA DE CHICMO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "16",
-        "descripcion"=> "TALAVERA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("TALAVERA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "17",
-        "descripcion"=> "TUMAY HUARACA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("TUMAY HUARACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "18",
-        "descripcion"=> "TURPO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("TURPO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "02",
-        "id_distrito"=> "19",
-        "descripcion"=> "KAQUIABAMBA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("KAQUIABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "ANTABAMBA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ANTABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "ANTABAMBA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ANTABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "EL ORO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("EL ORO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAQUIRCA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUAQUIRCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "JUAN ESPINOZA MEDRANO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("JUAN ESPINOZA MEDRANO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "OROPESA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("OROPESA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "PACHACONAS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PACHACONAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "SABAINO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SABAINO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "AYMARAES"
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AYMARAES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHALHUANCA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHALHUANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAPAYA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAPAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "CARAYBAMBA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CARAYBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHAPIMARCA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHAPIMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "COLCABAMBA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("COLCABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "COTARUSE"
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("COTARUSE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUAYLLO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUAYLLO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "JUSTO APU SAHUARAURA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("JUSTO APU SAHUARAURA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "09",
-        "descripcion"=> "LUCRE"
+            "id_provincia"=> "04",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("LUCRE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "10",
-        "descripcion"=> "POCOHUANCA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("POCOHUANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAN JUAN DE CHAC\u00d1A"
+            "id_provincia"=> "04",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SAN JUAN DE CHACÑA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "12",
-        "descripcion"=> "SA\u00d1AYCA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SAÑAYCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "13",
-        "descripcion"=> "SORAYA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SORAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "14",
-        "descripcion"=> "TAPAIRIHUA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("TAPAIRIHUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "15",
-        "descripcion"=> "TINTAY"
+            "id_provincia"=> "04",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("TINTAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "16",
-        "descripcion"=> "TORAYA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("TORAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "04",
-        "id_distrito"=> "17",
-        "descripcion"=> "YANACA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("YANACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "COTABAMBAS"
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("COTABAMBAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "TAMBOBAMBA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TAMBOBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "COTABAMBAS"
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COTABAMBAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "COYLLURQUI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COYLLURQUI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "HAQUIRA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HAQUIRA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHALLHUAHUACHO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CHALLHUAHUACHO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHINCHEROS"
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHINCHEROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHINCHEROS"
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHINCHEROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANCO_HUALLO"
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANCO_HUALLO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "COCHARCAS"
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COCHARCAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUACCANA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUACCANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "OCOBAMBA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("OCOBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "ONGOY"
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("ONGOY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "URANMARCA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("URANMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "RANRACANCHA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("RANRACANCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "GRAU"
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("GRAU")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHUQUIBAMBILLA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHUQUIBAMBILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CURPAHUASI"
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CURPAHUASI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "GAMARRA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("GAMARRA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYLLATI"
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYLLATI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "MAMARA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MAMARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "MICAELA BASTIDAS"
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MICAELA BASTIDAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "PATAYPAMPA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PATAYPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "PROGRESO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PROGRESO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN ANTONIO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN ANTONIO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTA ROSA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTA ROSA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "11",
-        "descripcion"=> "TURPAY"
+            "id_provincia"=> "07",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TURPAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "12",
-        "descripcion"=> "VILCABAMBA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("VILCABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "13",
-        "descripcion"=> "VIRUNDO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("VIRUNDO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "03",
-        "id_provincia"=> "07",
-        "id_distrito"=> "14",
-        "descripcion"=> "CURASCO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("CURASCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "AREQUIPA"
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AREQUIPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "AREQUIPA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AREQUIPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "AREQUIPA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AREQUIPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO SELVA ALEGRE"
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO SELVA ALEGRE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAYMA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CAYMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CERRO COLORADO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CERRO COLORADO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHARACATO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHARACATO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHIGUATA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CHIGUATA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "JACOBO HUNTER"
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("JACOBO HUNTER")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "LA JOYA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("LA JOYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "MARIANO MELGAR"
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("MARIANO MELGAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "MIRAFLORES"
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("MIRAFLORES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "MOLLEBAYA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("MOLLEBAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "PAUCARPATA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("PAUCARPATA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "POCSI"
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("POCSI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "POLOBAYA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("POLOBAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "QUEQUE\u00d1A"
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("QUEQUEÑA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "16",
-        "descripcion"=> "SABANDIA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("SABANDIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "17",
-        "descripcion"=> "SACHACA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("SACHACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "18",
-        "descripcion"=> "SAN JUAN DE SIGUAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("SAN JUAN DE SIGUAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "19",
-        "descripcion"=> "SAN JUAN DE TARUCANI"
+            "id_provincia"=> "01",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("SAN JUAN DE TARUCANI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "20",
-        "descripcion"=> "SANTA ISABEL DE SIGUAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("SANTA ISABEL DE SIGUAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "21",
-        "descripcion"=> "SANTA RITA DE SIGUAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("SANTA RITA DE SIGUAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "22",
-        "descripcion"=> "SOCABAYA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("SOCABAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "23",
-        "descripcion"=> "TIABAYA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("TIABAYA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "24",
-        "descripcion"=> "UCHUMAYO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "24",
+            "descripcion"=> \Str::title("UCHUMAYO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "25",
-        "descripcion"=> "VITOR"
+            "id_provincia"=> "01",
+            "id_distrito"=> "25",
+            "descripcion"=> \Str::title("VITOR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "26",
-        "descripcion"=> "YANAHUARA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "26",
+            "descripcion"=> \Str::title("YANAHUARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "27",
-        "descripcion"=> "YARABAMBA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "27",
+            "descripcion"=> \Str::title("YARABAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "28",
-        "descripcion"=> "YURA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "28",
+            "descripcion"=> \Str::title("YURA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "01",
-        "id_distrito"=> "29",
-        "descripcion"=> "JOSE LUIS BUSTAMANTE Y RIVERO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "29",
+            "descripcion"=> \Str::title("JOSE LUIS BUSTAMANTE Y RIVERO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CAMANA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CAMANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "CAMANA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CAMANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "JOSE MARIA QUIMPER"
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("JOSE MARIA QUIMPER")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "MARIANO NICOLAS VALCARCEL"
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MARIANO NICOLAS VALCARCEL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "MARISCAL CACERES"
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MARISCAL CACERES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "NICOLAS DE PIEROLA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("NICOLAS DE PIEROLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "OCO\u00d1A"
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("OCOÑA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUILCA"
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("QUILCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAMUEL PASTOR"
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAMUEL PASTOR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "CARAVELI"
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CARAVELI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "CARAVELI"
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CARAVELI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACARI"
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACARI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "ATICO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ATICO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "ATIQUIPA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ATIQUIPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "BELLA UNION"
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("BELLA UNION")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "CAHUACHO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CAHUACHO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "CHALA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("CHALA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "CHAPARRA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("CHAPARRA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUANUHUANU"
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("HUANUHUANU")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "10",
-        "descripcion"=> "JAQUI"
+            "id_provincia"=> "03",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("JAQUI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "11",
-        "descripcion"=> "LOMAS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("LOMAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "12",
-        "descripcion"=> "QUICACHA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("QUICACHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "03",
-        "id_distrito"=> "13",
-        "descripcion"=> "YAUCA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("YAUCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CASTILLA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CASTILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "APLAO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("APLAO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDAGUA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANDAGUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "AYO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("AYO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHACHAS"
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHACHAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHILCAYMARCA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHILCAYMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHOCO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CHOCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUANCARQUI"
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUANCARQUI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "MACHAGUAY"
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MACHAGUAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "09",
-        "descripcion"=> "ORCOPAMPA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("ORCOPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "10",
-        "descripcion"=> "PAMPACOLCA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PAMPACOLCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "11",
-        "descripcion"=> "TIPAN"
+            "id_provincia"=> "04",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TIPAN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "12",
-        "descripcion"=> "U\u00d1ON"
+            "id_provincia"=> "04",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("UÑON")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "13",
-        "descripcion"=> "URACA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("URACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "04",
-        "id_distrito"=> "14",
-        "descripcion"=> "VIRACO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("VIRACO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "CAYLLOMA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CAYLLOMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHIVAY"
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHIVAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACHOMA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACHOMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CABANACONDE"
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CABANACONDE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "CALLALLI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CALLALLI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CAYLLOMA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CAYLLOMA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "COPORAQUE"
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("COPORAQUE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUAMBO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUAMBO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUANCA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "ICHUPAMPA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("ICHUPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "LARI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("LARI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "LLUTA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("LLUTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "12",
-        "descripcion"=> "MACA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("MACA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "13",
-        "descripcion"=> "MADRIGAL"
+            "id_provincia"=> "05",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("MADRIGAL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAN ANTONIO DE CHUCA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SAN ANTONIO DE CHUCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "15",
-        "descripcion"=> "SIBAYO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SIBAYO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "16",
-        "descripcion"=> "TAPAY"
+            "id_provincia"=> "05",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("TAPAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "17",
-        "descripcion"=> "TISCO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("TISCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "18",
-        "descripcion"=> "TUTI"
+            "id_provincia"=> "05",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("TUTI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "19",
-        "descripcion"=> "YANQUE"
+            "id_provincia"=> "05",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("YANQUE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "05",
-        "id_distrito"=> "20",
-        "descripcion"=> "MAJES"
+            "id_provincia"=> "05",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("MAJES")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "CONDESUYOS"
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CONDESUYOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHUQUIBAMBA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHUQUIBAMBA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDARAY"
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANDARAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAYARANI"
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CAYARANI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHICHAS"
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHICHAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "IRAY"
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("IRAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "RIO GRANDE"
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("RIO GRANDE")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "SALAMANCA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SALAMANCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "YANAQUIHUA"
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("YANAQUIHUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "ISLAY"
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ISLAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "MOLLENDO"
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MOLLENDO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "COCACHACRA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COCACHACRA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "DEAN VALDIVIA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("DEAN VALDIVIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "ISLAY"
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ISLAY")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "MEJIA"
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MEJIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "PUNTA DE BOMBON"
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PUNTA DE BOMBON")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "LA UNION"
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LA UNION")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "COTAHUASI"
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("COTAHUASI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALCA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHARCANA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHARCANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYNACOTAS"
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYNACOTAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "PAMPAMARCA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PAMPAMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "PUYCA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PUYCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUECHUALLA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("QUECHUALLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAYLA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAYLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "TAURIA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("TAURIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "10",
-        "descripcion"=> "TOMEPAMPA"
+            "id_provincia"=> "08",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("TOMEPAMPA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "04",
-        "id_provincia"=> "08",
-        "id_distrito"=> "11",
-        "descripcion"=> "TORO"
+            "id_provincia"=> "08",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TORO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "AYACUCHO"
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AYACUCHO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUAMANGA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUAMANGA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "AYACUCHO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AYACUCHO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOCRO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOCRO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "ACOS VINCHOS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ACOS VINCHOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CARMEN ALTO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CARMEN ALTO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHIARA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHIARA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "OCROS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("OCROS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "PACAYCASA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PACAYCASA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "QUINUA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("QUINUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN JOSE DE TICLLAS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN JOSE DE TICLLAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN JUAN BAUTISTA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAN JUAN BAUTISTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "SANTIAGO DE PISCHA"
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SANTIAGO DE PISCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "SOCOS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SOCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "TAMBILLO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("TAMBILLO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "VINCHOS"
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("VINCHOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "JESUS NAZARENO"
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("JESUS NAZARENO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CANGALLO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CANGALLO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "CANGALLO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CANGALLO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHUSCHI"
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHUSCHI")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "LOS MOROCHUCOS"
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LOS MOROCHUCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "MARIA PARADO DE BELLIDO"
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MARIA PARADO DE BELLIDO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "PARAS"
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PARAS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "TOTOS"
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("TOTOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANCA SANCOS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANCA SANCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "SANCOS"
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SANCOS")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CARAPO"
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CARAPO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "SACSAMARCA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("SACSAMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "SANTIAGO DE LUCANAMARCA"
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SANTIAGO DE LUCANAMARCA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANTA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANTA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUANTA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "AYAHUANCO"
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AYAHUANCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAMANGUILLA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUAMANGUILLA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "IGUAIN"
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("IGUAIN")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "LURICOCHA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LURICOCHA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "SANTILLANA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SANTILLANA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "SIVIA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SIVIA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "LLOCHEGUA"
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("LLOCHEGUA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "LA MAR"
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LA MAR")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN MIGUEL"
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAN MIGUEL")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANCO"
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANCO")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "AYNA"
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("AYNA")
     ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHILCAS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CHILCAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHUNGUI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("CHUNGUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "LUIS CARRANZA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("LUIS CARRANZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "TAMBO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("TAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAMUGARI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SAMUGARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "LUCANAS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("LUCANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "PUQUIO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("PUQUIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "AUCARA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("AUCARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "CABANA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CABANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "CARMEN SALCEDO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CARMEN SALCEDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHAVI\u00d1A"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("CHAVIÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHIPAO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("CHIPAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUAC-HUAS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("HUAC-HUAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "LARAMATE"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title( "LARAMATE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "09",
-        "descripcion"=> "LEONCIO PRADO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("LEONCIO PRADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "LLAUTA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("LLAUTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "LUCANAS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("LUCANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "12",
-        "descripcion"=> "OCA\u00d1A"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("OCAÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "13",
-        "descripcion"=> "OTOCA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "13",
+            "descripcion"=>  \Str::title("OTOCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAISA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "14",
+            "descripcion"=>  \Str::title("SAISA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "15",
-        "descripcion"=> "SAN CRISTOBAL"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "15",
+            "descripcion"=>  \Str::title("SAN CRISTOBAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "16",
-        "descripcion"=> "SAN JUAN"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "16",
+            "descripcion"=>  \Str::title("SAN JUAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "17",
-        "descripcion"=> "SAN PEDRO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "17",
+            "descripcion"=>  \Str::title("SAN PEDRO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "18",
-        "descripcion"=> "SAN PEDRO DE PALCO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "18",
+            "descripcion"=>  \Str::title("SAN PEDRO DE PALCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "19",
-        "descripcion"=> "SANCOS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "19",
+            "descripcion"=>  \Str::title("SANCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "20",
-        "descripcion"=> "SANTA ANA DE HUAYCAHUACHO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "20",
+            "descripcion"=>  \Str::title("SANTA ANA DE HUAYCAHUACHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "06",
-        "id_distrito"=> "21",
-        "descripcion"=> "SANTA LUCIA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "21",
+            "descripcion"=>  \Str::title("SANTA LUCIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "PARINACOCHAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("PARINACOCHAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "CORACORA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CORACORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHUMPI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHUMPI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "CORONEL CASTA\u00d1EDA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CORONEL CASTAÑEDA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "PACAPAUSA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("PACAPAUSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "PULLO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("PULLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "PUYUSCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("PUYUSCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN FRANCISCO DE RAVACAYCO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SAN FRANCISCO DE RAVACAYCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "UPAHUACHO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("UPAHUACHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "PAUCAR DEL SARA SARA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=>  "00",
+            "descripcion"=> \Str::title("PAUCAR DEL SARA SARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "PAUSA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("PAUSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "COLTA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("COLTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "CORCULLA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CORCULLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "LAMPA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("LAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARCABAMBA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("MARCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "OYOLO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("OYOLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "PARARCA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("PARARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN JAVIER DE ALPABAMBA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("SAN JAVIER DE ALPABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN JOSE DE USHUA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SAN JOSE DE USHUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "08",
-        "id_distrito"=> "10",
-        "descripcion"=> "SARA SARA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("SARA SARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "SUCRE"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("SUCRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "QUEROBAMBA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("QUEROBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "BELEN"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("BELEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHALCOS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHALCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHILCAYOC"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CHILCAYOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUACA\u00d1A"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("HUACAÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "MORCOLLA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("MORCOLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "PAICO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("PAICO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN PEDRO DE LARCAY"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("SAN PEDRO DE LARCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN SALVADOR DE QUIJE"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SAN SALVADOR DE QUIJE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTIAGO DE PAUCARAY"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("SANTIAGO DE PAUCARAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "09",
-        "id_distrito"=> "11",
-        "descripcion"=> "SORAS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("SORAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "VICTOR FAJARDO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("VICTOR FAJARDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANCAPI"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("HUANCAPI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALCAMENCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALCAMENCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "APONGO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("APONGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "ASQUIPATA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("ASQUIPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "CANARIA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("CANARIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "CAYARA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("CAYARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "COLCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("COLCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUAMANQUIQUIA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("HUAMANQUIQUIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUANCARAYLLA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("HUANCARAYLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "10",
-        "descripcion"=> "HUAYA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("HUAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "11",
-        "descripcion"=> "SARHUA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("SARHUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "10",
-        "id_distrito"=> "12",
-        "descripcion"=> "VILCANCHOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("VILCANCHOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "VILCAS HUAMAN"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("VILCAS HUAMAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "VILCAS HUAMAN"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("VILCAS HUAMAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACCOMARCA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ACCOMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "CARHUANCA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CARHUANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "CONCEPCION"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CONCEPCION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUAMBALPA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("HUAMBALPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "06",
-        "descripcion"=> "INDEPENDENCIA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("INDEPENDENCIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAURAMA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SAURAMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "05",
-        "id_provincia"=> "11",
-        "id_distrito"=> "08",
-        "descripcion"=> "VISCHONGO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("VISCHONGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "CAJAMARCA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CAJAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "CAJAMARCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CAJAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "CAJAMARCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CAJAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ASUNCION"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ASUNCION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHETILLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHETILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "COSPAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("COSPAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "ENCA\u00d1ADA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("ENCAÑADA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "JESUS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("JESUS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "LLACANORA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("LLACANORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "LOS BA\u00d1OS DEL INCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("LOS BAÑOS DEL INCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "MAGDALENA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("MAGDALENA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "MATARA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("MATARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "NAMORA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("NAMORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "SAN JUAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("SAN JUAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CAJABAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CAJABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "CAJABAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CAJABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CACHACHI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CACHACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "CONDEBAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CONDEBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "SITACOCHA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("SITACOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "CELENDIN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CELENDIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "CELENDIN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CELENDIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHUMUCH"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHUMUCH")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "CORTEGANA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CORTEGANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUASMIN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("HUASMIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "JORGE CHAVEZ"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("JORGE CHAVEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "JOSE GALVEZ"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("JOSE GALVEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "MIGUEL IGLESIAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("MIGUEL IGLESIAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "OXAMARCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("OXAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "SOROCHUCO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SOROCHUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "10",
-        "descripcion"=> "SUCRE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("SUCRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "11",
-        "descripcion"=> "UTCO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("UTCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "03",
-        "id_distrito"=> "12",
-        "descripcion"=> "LA LIBERTAD DE PALLAN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("LA LIBERTAD DE PALLAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHOTA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CHOTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHOTA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CHOTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANGUIA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ANGUIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHADIN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHADIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHIGUIRIP"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CHIGUIRIP")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHIMBAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("CHIMBAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHOROPAMPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("CHOROPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "COCHABAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("COCHABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "CONCHAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("CONCHAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUAMBOS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("HUAMBOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "10",
-        "descripcion"=> "LAJAS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("LAJAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "11",
-        "descripcion"=> "LLAMA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("LLAMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "12",
-        "descripcion"=> "MIRACOSTA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("MIRACOSTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "13",
-        "descripcion"=> "PACCHA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "13",
+            "descripcion"=>  \Str::title("PACCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "14",
-        "descripcion"=> "PION"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "14",
+            "descripcion"=>  \Str::title("PION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "15",
-        "descripcion"=> "QUEROCOTO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "15",
+            "descripcion"=>  \Str::title("QUEROCOTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "16",
-        "descripcion"=> "SAN JUAN DE LICUPIS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "16",
+            "descripcion"=>  \Str::title("SAN JUAN DE LICUPIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "17",
-        "descripcion"=> "TACABAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "17",
+            "descripcion"=>  \Str::title("TACABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "18",
-        "descripcion"=> "TOCMOCHE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "18",
+            "descripcion"=>  \Str::title("TOCMOCHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "04",
-        "id_distrito"=> "19",
-        "descripcion"=> "CHALAMARCA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "19",
+            "descripcion"=>  \Str::title("CHALAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "CONTUMAZA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CONTUMAZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "CONTUMAZA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CONTUMAZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHILETE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHILETE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CUPISNIQUE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CUPISNIQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "GUZMANGO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("GUZMANGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN BENITO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("SAN BENITO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "SANTA CRUZ DE TOLED"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("SANTA CRUZ DE TOLED")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "TANTARICA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("TANTARICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "YONAN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("YONAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "CUTERVO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CUTERVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "CUTERVO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CUTERVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "CALLAYUC"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CALLAYUC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHOROS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHOROS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "CUJILLO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CUJILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA RAMADA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("LA RAMADA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "PIMPINGOS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PIMPINGOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUEROCOTILLO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("QUEROCOTILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN ANDRES DE CUTERVO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("SAN ANDRES DE CUTERVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN JUAN DE CUTERVO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SAN JUAN DE CUTERVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN LUIS DE LUCMA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("SAN LUIS DE LUCMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "SANTA CRUZ"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("SANTA CRUZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "12",
-        "descripcion"=> "SANTO DOMINGO DE LA CAPILLA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("SANTO DOMINGO DE LA CAPILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "13",
-        "descripcion"=> "SANTO TOMAS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "13",
+            "descripcion"=>  \Str::title("SANTO TOMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "14",
-        "descripcion"=> "SOCOTA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "14",
+            "descripcion"=>  \Str::title("SOCOTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "06",
-        "id_distrito"=> "15",
-        "descripcion"=> "TORIBIO CASANOVA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "15",
+            "descripcion"=>  \Str::title("TORIBIO CASANOVA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUALGAYOC"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("HUALGAYOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "BAMBAMARCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("BAMBAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHUGUR"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHUGUR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUALGAYOC"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("HUALGAYOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "JAEN"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("JAEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "JAEN"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("JAEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "BELLAVISTA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("BELLAVISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHONTALI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHONTALI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "COLASAY"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("COLASAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUABAL"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("HUABAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "LAS PIRIAS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("LAS PIRIAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "POMAHUACA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("POMAHUACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "PUCARA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("PUCARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "SALLIQUE"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SALLIQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN FELIPE"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("SAN FELIPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAN JOSE DEL ALTO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("SAN JOSE DEL ALTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "08",
-        "id_distrito"=> "12",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN IGNACIO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("SAN IGNACIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN IGNACIO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SAN IGNACIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHIRINOS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHIRINOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUARANGO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("HUARANGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "LA COIPA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("LA COIPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "NAMBALLE"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("NAMBALLE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN JOSE DE LOURDES"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN JOSE DE LOURDES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "TABACONAS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("TABACONAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN MARCOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("SAN MARCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "PEDRO GALVEZ"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("PEDRO GALVEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHANCAY"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHANCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "EDUARDO VILLANUEVA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("EDUARDO VILLANUEVA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "GREGORIO PITA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("GREGORIO PITA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "ICHOCAN"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("ICHOCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "JOSE MANUEL QUIROZ"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("JOSE MANUEL QUIROZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "JOSE SABOGAL"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("JOSE SABOGAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN MIGUEL"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("SAN MIGUEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN MIGUEL"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SAN MIGUEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "BOLIVAR"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("BOLIVAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALQUIS"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CALQUIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "CATILLUC"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CATILLUC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "05",
-        "descripcion"=> "EL PRADO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("EL PRADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "06",
-        "descripcion"=> "LA FLORIDA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("LA FLORIDA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "07",
-        "descripcion"=> "LLAPA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("LLAPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "08",
-        "descripcion"=> "NANCHOC"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("NANCHOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "09",
-        "descripcion"=> "NIEPOS"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("NIEPOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN GREGORIO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("SAN GREGORIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAN SILVESTRE DE COCHAN"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("SAN SILVESTRE DE COCHAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "12",
-        "descripcion"=> "TONGOD"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("TONGOD")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "11",
-        "id_distrito"=> "13",
-        "descripcion"=> "UNION AGUA BLANCA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "13",
+            "descripcion"=>  \Str::title("UNION AGUA BLANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "12",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN PABLO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("SAN PABLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "12",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN PABLO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SAN PABLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "12",
-        "id_distrito"=> "02",
-        "descripcion"=> "SAN BERNARDINO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("SAN BERNARDINO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "12",
-        "id_distrito"=> "03",
-        "descripcion"=> "SAN LUIS"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("SAN LUIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "12",
-        "id_distrito"=> "04",
-        "descripcion"=> "TUMBADEN"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("TUMBADEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "00",
-        "descripcion"=> "SANTA CRUZ"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("SANTA CRUZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "01",
-        "descripcion"=> "SANTA CRUZ"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SANTA CRUZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDABAMBA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANDABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "03",
-        "descripcion"=> "CATACHE"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CATACHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHANCAYBA\u00d1OS"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CHANCAYBAÑOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA ESPERANZA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("LA ESPERANZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "06",
-        "descripcion"=> "NINABAMBA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title( "NINABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "07",
-        "descripcion"=> "PULAN"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("PULAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAUCEPAMPA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("SAUCEPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "09",
-        "descripcion"=> "SEXI"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("SEXI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "10",
-        "descripcion"=> "UTICYACU"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("UTICYACU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "06",
-        "id_provincia"=> "13",
-        "id_distrito"=> "11",
-        "descripcion"=> "YAUYUCAN"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("YAUYUCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "CALLAO"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CALLAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "CALLAO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CALLAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "CALLAO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CALLAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "BELLAVISTA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("BELLAVISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CARMEN DE LA LEGUA REYNOSO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CARMEN DE LA LEGUA REYNOSO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "LA PERLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("LA PERLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA PUNTA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title( "LA PUNTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "07",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "VENTANILLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("VENTANILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "CUSCO"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title( "CUSCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "CUSCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CUSCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "CUSCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CUSCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CCORCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CCORCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "POROY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("POROY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "SAN JERONIMO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("SAN JERONIMO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN SEBASTIAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("SAN SEBASTIAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "SANTIAGO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("SANTIAGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAYLLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SAYLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "WANCHAQ"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("WANCHAQ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "ACOMAYO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("ACOMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "ACOMAYO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("ACOMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOPIA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ACOPIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "ACOS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("ACOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "MOSOC LLACTA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("MOSOC LLACTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "POMACANCHI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("POMACANCHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "RONDOCAN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("RONDOCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "SANGARARA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SANGARARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "ANTA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "ANTA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("ANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANCAHUASI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ANCAHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "CACHIMAYO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CACHIMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHINCHAYPUJIO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CHINCHAYPUJIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUAROCONDO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("HUAROCONDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "LIMATAMBO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("LIMATAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "MOLLEPATA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("MOLLEPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "PUCYURA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("PUCYURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "ZURITE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("ZURITE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CALCA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CALCA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("CALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "COYA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("COYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "LAMAY"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("LAMAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "LARES"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("LARES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "PISAC"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("PISAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN SALVADOR"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("SAN SALVADOR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "TARAY"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("TARAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "YANATILE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("YANATILE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "CANAS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "YANAOCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("YANAOCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHECCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHECCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "KUNTURKANKI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("KUNTURKANKI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "LANGUI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("LANGUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "LAYO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("LAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "PAMPAMARCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("PAMPAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUEHUE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("QUEHUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "TUPAC AMARU"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("TUPAC AMARU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "CANCHIS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CANCHIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "SICUANI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SICUANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHECACUPE"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHECACUPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "COMBAPATA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("COMBAPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "MARANGANI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("MARANGANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "PITUMARCA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("PITUMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN PABLO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("SAN PABLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN PEDRO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SAN PEDRO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "TINTA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("TINTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHUMBIVILCAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("CHUMBIVILCAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "SANTO TOMAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SANTO TOMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAPACMARCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CAPACMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHAMACA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHAMACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "COLQUEMARCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("COLQUEMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "LIVITACA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("LIVITACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "LLUSCO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("LLUSCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUI\u00d1OTA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("QUIÑOTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "VELILLE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("VELILLE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "ESPINAR"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("ESPINAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "ESPINAR"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("ESPINAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "CONDOROMA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CONDOROMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "COPORAQUE"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("COPORAQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "OCORURO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("OCORURO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "PALLPATA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("PALLPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "PICHIGUA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("PICHIGUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "SUYCKUTAMBO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("SUYCKUTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "ALTO PICHIGUA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("ALTO PICHIGUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "LA CONVENCION"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("LA CONVENCION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "SANTA ANA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("SANTA ANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "ECHARATE"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title( "ECHARATE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAYOPATA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("HUAYOPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "MARANURA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("MARANURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "OCOBAMBA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title( "OCOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "QUELLOUNO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("QUELLOUNO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "KIMBIRI"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("KIMBIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "08",
-        "descripcion"=> "SANTA TERESA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("SANTA TERESA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "09",
-        "descripcion"=> "VILCABAMBA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("VILCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "09",
-        "id_distrito"=> "10",
-        "descripcion"=> "PICHARI"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("PICHARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "PARURO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("PARURO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "PARURO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("PARURO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACCHA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ACCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "CCAPI"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CCAPI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "COLCHA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("COLCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUANOQUITE"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("HUANOQUITE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "OMACHA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("OMACHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "PACCARITAMBO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("PACCARITAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "08",
-        "descripcion"=> "PILLPINTO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("PILLPINTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "10",
-        "id_distrito"=> "09",
-        "descripcion"=> "YAURISQUE"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("YAURISQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "PAUCARTAMBO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("PAUCARTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "PAUCARTAMBO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("PAUCARTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAICAY"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CAICAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHALLABAMBA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CHALLABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "COLQUEPATA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("COLQUEPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUANCARANI"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("HUANCARANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "11",
-        "id_distrito"=> "06",
-        "descripcion"=> "KOS\u00d1IPATA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("KOSÑIPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "00",
-        "descripcion"=> "QUISPICANCHI"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("QUISPICANCHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "01",
-        "descripcion"=> "URCOS"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("URCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDAHUAYLILLAS"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ANDAHUAYLILLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAMANTI"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("CAMANTI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "04",
-        "descripcion"=> "CCARHUAYO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CCARHUAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "05",
-        "descripcion"=> "CCATCA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title( "CCATCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "06",
-        "descripcion"=> "CUSIPATA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title( "CUSIPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUARO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("HUARO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "08",
-        "descripcion"=> "LUCRE"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("LUCRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "09",
-        "descripcion"=> "MARCAPATA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("MARCAPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "10",
-        "descripcion"=> "OCONGATE"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "10",
+            "descripcion"=>  \Str::title("OCONGATE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "11",
-        "descripcion"=> "OROPESA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("OROPESA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "12",
-        "id_distrito"=> "12",
-        "descripcion"=> "QUIQUIJANA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("QUIQUIJANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "00",
-        "descripcion"=> "URUBAMBA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("URUBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "01",
-        "descripcion"=> "URUBAMBA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("URUBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHINCHERO"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("CHINCHERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAYLLABAMBA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("HUAYLLABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "04",
-        "descripcion"=> "MACHUPICCHU"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("MACHUPICCHU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARAS"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("MARAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "06",
-        "descripcion"=> "OLLANTAYTAMBO"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("OLLANTAYTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "08",
-        "id_provincia"=> "13",
-        "id_distrito"=> "07",
-        "descripcion"=> "YUCAY"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("YUCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANCAVELICA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("HUANCAVELICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANCAVELICA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("HUANCAVELICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANCAVELICA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("HUANCAVELICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOBAMBILLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ACOBAMBILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "ACORIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("ACORIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CONAYCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=>  \Str::title("CONAYCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CUENCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=>  \Str::title("CUENCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "HUACHOCOLPA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=>  \Str::title("HUACHOCOLPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUAYLLAHUARA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=>  \Str::title("HUAYLLAHUARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "IZCUCHACA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=>  \Str::title("IZCUCHACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "LARIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=>  \Str::title("LARIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "MANTA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title( "MANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "MARISCAL CACERES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=>  \Str::title("MARISCAL CACERES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "MOYA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=>  \Str::title("MOYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "NUEVO OCCORO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=>  \Str::title("NUEVO OCCORO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "PALCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=>  \Str::title("PALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "PILCHACA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=>  \Str::title("PILCHACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "16",
-        "descripcion"=> "VILCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "16",
+            "descripcion"=>  \Str::title("VILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "17",
-        "descripcion"=> "YAULI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "17",
+            "descripcion"=>  \Str::title("YAULI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "18",
-        "descripcion"=> "ASCENSION"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "18",
+            "descripcion"=>  \Str::title("ASCENSION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "01",
-        "id_distrito"=> "19",
-        "descripcion"=> "HUANDO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "19",
+            "descripcion"=>  \Str::title("HUANDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "ACOBAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=>  \Str::title("ACOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "ACOBAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=>  \Str::title("ACOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDABAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=>  \Str::title("ANDABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "ANTA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=>  \Str::title("ANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "CAJA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CAJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARCAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MARCAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "PAUCARA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PAUCARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "POMACOCHA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("POMACOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "ROSARIO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("ROSARIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "ANGARAES"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ANGARAES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "LIRCAY"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LIRCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANCHONGA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANCHONGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALLANMARCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CALLANMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "CCOCHACCASA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CCOCHACCASA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHINCHO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHINCHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "CONGALLA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CONGALLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUANCA-HUANCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUANCA-HUANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUAYLLAY GRANDE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUAYLLAY GRANDE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "JULCAMARCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("JULCAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN ANTONIO DE ANTAPARCO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAN ANTONIO DE ANTAPARCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "11",
-        "descripcion"=> "SANTO TOMAS DE PATA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SANTO TOMAS DE PATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "03",
-        "id_distrito"=> "12",
-        "descripcion"=> "SECCLLA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SECCLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CASTROVIRREYNA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CASTROVIRREYNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CASTROVIRREYNA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CASTROVIRREYNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ARMA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ARMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "AURAHUA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("AURAHUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "CAPILLAS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CAPILLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHUPAMARCA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHUPAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "COCAS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("COCAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUACHOS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUACHOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUAMATAMBO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUAMATAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "09",
-        "descripcion"=> "MOLLEPAMPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("MOLLEPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN JUAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAN JUAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "11",
-        "descripcion"=> "SANTA ANA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SANTA ANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "12",
-        "descripcion"=> "TANTARA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "12",
+            "descripcion"=>\Str::title( "TANTARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "04",
-        "id_distrito"=> "13",
-        "descripcion"=> "TICRAPO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("TICRAPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHURCAMPA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHURCAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHURCAMPA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHURCAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANCO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHINCHIHUASI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHINCHIHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "EL CARMEN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("EL CARMEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA MERCED"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LA MERCED")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "LOCROJA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LOCROJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "PAUCARBAMBA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PAUCARBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN MIGUEL DE MAYOCC"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN MIGUEL DE MAYOCC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN PEDRO DE CORIS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN PEDRO DE CORIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "PACHAMARCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PACHAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "COSME"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("COSME")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUAYTARA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUAYTARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUAYTARA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUAYTARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "AYAVI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AYAVI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "CORDOVA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CORDOVA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYACUNDO ARMA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYACUNDO ARMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "LARAMARCA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LARAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "OCOYO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("OCOYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "PILPICHACA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PILPICHACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "QUERCO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("QUERCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "09",
-        "descripcion"=> "QUITO-ARMA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("QUITO-ARMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN ANTONIO DE CUSICANCHA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAN ANTONIO DE CUSICANCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAN FRANCISCO DE SANGAYAICO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SAN FRANCISCO DE SANGAYAICO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "12",
-        "descripcion"=> "SAN ISIDRO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SAN ISIDRO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "13",
-        "descripcion"=> "SANTIAGO DE CHOCORVOS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SANTIAGO DE CHOCORVOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "14",
-        "descripcion"=> "SANTIAGO DE QUIRAHUARA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SANTIAGO DE QUIRAHUARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "15",
-        "descripcion"=> "SANTO DOMINGO DE CAPILLAS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SANTO DOMINGO DE CAPILLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "06",
-        "id_distrito"=> "16",
-        "descripcion"=> "TAMBO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("TAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "TAYACAJA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TAYACAJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "PAMPAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PAMPAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOSTAMBO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOSTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "ACRAQUIA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ACRAQUIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "AHUAYCHA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("AHUAYCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "COLCABAMBA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("COLCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "DANIEL HERNANDEZ"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("DANIEL HERNANDEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUACHOCOLPA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUACHOCOLPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUARIBAMBA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("HUARIBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "10",
-        "descripcion"=> "\u00d1AHUIMPUQUIO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("ÑAHUIMPUQUIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "11",
-        "descripcion"=> "PAZOS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PAZOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "13",
-        "descripcion"=> "QUISHUAR"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("QUISHUAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "14",
-        "descripcion"=> "SALCABAMBA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "14",
+            "descripcion"=>\Str::title( "SALCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "15",
-        "descripcion"=> "SALCAHUASI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SALCAHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "16",
-        "descripcion"=> "SAN MARCOS DE ROCCHAC"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("SAN MARCOS DE ROCCHAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "17",
-        "descripcion"=> "SURCUBAMBA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("SURCUBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "09",
-        "id_provincia"=> "07",
-        "id_distrito"=> "18",
-        "descripcion"=> "TINTAY PUNCU"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("TINTAY PUNCU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANUCO"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANUCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANUCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUANUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "AMARILIS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AMARILIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHINCHAO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHINCHAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHURUBAMBA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHURUBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARGOS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MARGOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "QUISQUI (KICHKI)"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("QUISQUI (KICHKI)")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN FRANCISCO DE CAYRAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN FRANCISCO DE CAYRAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN PEDRO DE CHAULAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN PEDRO DE CHAULAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "SANTA MARIA DEL VALLE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SANTA MARIA DEL VALLE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "YARUMAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("YARUMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "PILLCO MARCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PILLCO MARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "YACUS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("YACUS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "AMBO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "AMBO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAYNA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAYNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "COLPAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COLPAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "CONCHAMARCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CONCHAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUACAR"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUACAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN FRANCISCO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN FRANCISCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN RAFAEL"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN RAFAEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "TOMAY KICHWA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("TOMAY KICHWA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "DOS DE MAYO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("DOS DE MAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "LA UNION"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LA UNION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "CHUQUIS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("CHUQUIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "11",
-        "descripcion"=> "MARIAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("MARIAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "13",
-        "descripcion"=> "PACHAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("PACHAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "16",
-        "descripcion"=> "QUIVILLA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("QUIVILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "17",
-        "descripcion"=> "RIPAN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("RIPAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "21",
-        "descripcion"=> "SHUNQUI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("SHUNQUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "22",
-        "descripcion"=> "SILLAPATA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("SILLAPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "03",
-        "id_distrito"=> "23",
-        "descripcion"=> "YANAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("YANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUACAYBAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUACAYBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUACAYBAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUACAYBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "CANCHABAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CANCHABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "COCHABAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COCHABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "PINRA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PINRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUAMALIES"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUAMALIES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "LLATA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title( "LLATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ARANCAY"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ARANCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHAVIN DE PARIARCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHAVIN DE PARIARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "JACAS GRANDE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("JACAS GRANDE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "JIRCAN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("JIRCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "MIRAFLORES"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MIRAFLORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "MONZON"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("MONZON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "PUNCHAO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PUNCHAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "PU\u00d1OS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PUÑOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "SINGA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SINGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "TANTAMAYO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TANTAMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "LEONCIO PRADO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LEONCIO PRADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "RUPA-RUPA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title("RUPA-RUPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "DANIEL ALOMIA ROBLES"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=>\Str::title( "DANIEL ALOMIA ROBLES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "HERMILIO VALDIZAN"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=>\Str::title( "HERMILIO VALDIZAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "JOSE CRESPO Y CASTILLO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("JOSE CRESPO Y CASTILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "LUYANDO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LUYANDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "MARIANO DAMASO BERAUN"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MARIANO DAMASO BERAUN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "MARA\u00d1ON"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MARAÑON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUACRACHUCO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUACRACHUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHOLON"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHOLON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "SAN BUENAVENTURA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("SAN BUENAVENTURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "PACHITEA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PACHITEA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "PANAO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PANAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHAGLLA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHAGLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "MOLINO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MOLINO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "UMARI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("UMARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "PUERTO INCA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PUERTO INCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "PUERTO INCA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PUERTO INCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "CODO DEL POZUZO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CODO DEL POZUZO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "HONORIA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HONORIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "TOURNAVISTA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("TOURNAVISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "YUYAPICHIS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("YUYAPICHIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "LAURICOCHA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LAURICOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "JESUS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JESUS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "BA\u00d1OS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BAÑOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "JIVIA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("JIVIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "QUEROPALCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("QUEROPALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "RONDOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("RONDOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN FRANCISCO DE ASIS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN FRANCISCO DE ASIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN MIGUEL DE CAURI"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN MIGUEL DE CAURI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "YAROWILCA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("YAROWILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHAVINILLO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHAVINILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAHUAC"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAHUAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHACABAMBA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHACABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "APARICIO POMARES"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("APARICIO POMARES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "05",
-        "descripcion"=> "JACAS CHICO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("JACAS CHICO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "06",
-        "descripcion"=> "OBAS"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("OBAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "07",
-        "descripcion"=> "PAMPAMARCA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PAMPAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "10",
-        "id_provincia"=> "11",
-        "id_distrito"=> "08",
-        "descripcion"=> "CHORAS"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("CHORAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "ICA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "ICA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "ICA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "LA TINGUI\u00d1A"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("LA TINGUIÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "LOS AQUIJES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LOS AQUIJES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "OCUCAJE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("OCUCAJE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "PACHACUTEC"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PACHACUTEC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "PARCONA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PARCONA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "PUEBLO NUEVO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PUEBLO NUEVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "SALAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SALAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN JOSE DE LOS MOLINOS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN JOSE DE LOS MOLINOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN JUAN BAUTISTA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAN JUAN BAUTISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "SANTIAGO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SANTIAGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "SUBTANJALLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SUBTANJALLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "TATE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("TATE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "YAUCA DEL ROSARIO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("YAUCA DEL ROSARIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHINCHA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHINCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHINCHA ALTA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHINCHA ALTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO LARAN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO LARAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHAVIN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHAVIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHINCHA BAJA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHINCHA BAJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "EL CARMEN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("EL CARMEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "GROCIO PRADO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("GROCIO PRADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "PUEBLO NUEVO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PUEBLO NUEVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN JUAN DE YANAC"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN JUAN DE YANAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN PEDRO DE HUACARPANA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN PEDRO DE HUACARPANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "SUNAMPE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SUNAMPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "02",
-        "id_distrito"=> "11",
-        "descripcion"=> "TAMBO DE MORA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TAMBO DE MORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "NAZCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("NAZCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "NAZCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("NAZCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHANGUILLO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHANGUILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "EL INGENIO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("EL INGENIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "MARCONA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MARCONA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "VISTA ALEGRE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("VISTA ALEGRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "PALPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PALPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "PALPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PALPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "LLIPATA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("LLIPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "RIO GRANDE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("RIO GRANDE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "SANTA CRUZ"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SANTA CRUZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "TIBILLO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("TIBILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "PISCO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PISCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "PISCO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title( "PISCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "HUANCANO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("HUANCANO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUMAY"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUMAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "INDEPENDENCIA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("INDEPENDENCIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "PARACAS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PARACAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN ANDRES"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN ANDRES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN CLEMENTE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN CLEMENTE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "11",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "TUPAC AMARU INCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("TUPAC AMARU INCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "JUNIN"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("JUNIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANCAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANCAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANCAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUANCAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CARHUACALLANGA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CARHUACALLANGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHACAPAMPA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "CHACAPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHICCHE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CHICCHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "CHILCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("CHILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "CHONGOS ALTO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=>\Str::title( "CHONGOS ALTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "CHUPURO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("CHUPURO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "COLCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("COLCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "CULLHUAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("CULLHUAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "EL TAMBO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("EL TAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "16",
-        "descripcion"=> "HUACRAPUQUIO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("HUACRAPUQUIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "17",
-        "descripcion"=> "HUALHUAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("HUALHUAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "19",
-        "descripcion"=> "HUANCAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("HUANCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "20",
-        "descripcion"=> "HUASICANCHA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("HUASICANCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "21",
-        "descripcion"=> "HUAYUCACHI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("HUAYUCACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "22",
-        "descripcion"=> "INGENIO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("INGENIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "24",
-        "descripcion"=> "PARIAHUANCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "24",
+            "descripcion"=> \Str::title("PARIAHUANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "25",
-        "descripcion"=> "PILCOMAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "25",
+            "descripcion"=> \Str::title("PILCOMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "26",
-        "descripcion"=> "PUCARA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "26",
+            "descripcion"=> \Str::title("PUCARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "27",
-        "descripcion"=> "QUICHUAY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "27",
+            "descripcion"=> \Str::title("QUICHUAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "28",
-        "descripcion"=> "QUILCAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "28",
+            "descripcion"=> \Str::title("QUILCAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "29",
-        "descripcion"=> "SAN AGUSTIN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "29",
+            "descripcion"=> \Str::title("SAN AGUSTIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "30",
-        "descripcion"=> "SAN JERONIMO DE TUNAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "30",
+            "descripcion"=> \Str::title("SAN JERONIMO DE TUNAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "32",
-        "descripcion"=> "SA\u00d1O"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "32",
+            "descripcion"=> \Str::title("SAÑO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "33",
-        "descripcion"=> "SAPALLANGA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "33",
+            "descripcion"=> \Str::title("SAPALLANGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "34",
-        "descripcion"=> "SICAYA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "34",
+            "descripcion"=> \Str::title("SICAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "35",
-        "descripcion"=> "SANTO DOMINGO DE ACOBAMBA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "35",
+            "descripcion"=> \Str::title("SANTO DOMINGO DE ACOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "01",
-        "id_distrito"=> "36",
-        "descripcion"=> "VIQUES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "36",
+            "descripcion"=> \Str::title("VIQUES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CONCEPCION"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CONCEPCION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "CONCEPCION"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CONCEPCION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "ANDAMARCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ANDAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHAMBARA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHAMBARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "COCHAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("COCHAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "COMAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("COMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "HEROINAS TOLEDO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HEROINAS TOLEDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "MANZANARES"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MANZANARES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "09",
-        "descripcion"=> "MARISCAL CASTILLA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("MARISCAL CASTILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "MATAHUASI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("MATAHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "11",
-        "descripcion"=> "MITO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("MITO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "12",
-        "descripcion"=> "NUEVE DE JULIO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("NUEVE DE JULIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "13",
-        "descripcion"=> "ORCOTUNA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("ORCOTUNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAN JOSE DE QUERO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SAN JOSE DE QUERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "02",
-        "id_distrito"=> "15",
-        "descripcion"=> "SANTA ROSA DE OCOPA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SANTA ROSA DE OCOPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHANCHAMAYO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHANCHAMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHANCHAMAYO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title( "CHANCHAMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "PERENE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("PERENE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "PICHANAQUI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PICHANAQUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "SAN LUIS DE SHUARO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SAN LUIS DE SHUARO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN RAMON"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "SAN RAMON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "VITOC"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("VITOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "JAUJA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("JAUJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "JAUJA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JAUJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOLLA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "APATA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("APATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "ATAURA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ATAURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "CANCHAYLLO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CANCHAYLLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "CURICACA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CURICACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "EL MANTARO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=>\Str::title( "EL MANTARO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUAMALI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUAMALI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUARIPAMPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("HUARIPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "10",
-        "descripcion"=> "HUERTAS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("HUERTAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "11",
-        "descripcion"=> "JANJAILLO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("JANJAILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "12",
-        "descripcion"=> "JULCAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("JULCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "13",
-        "descripcion"=> "LEONOR ORDO\u00d1EZ"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("LEONOR ORDOÑEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "14",
-        "descripcion"=> "LLOCLLAPAMPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("LLOCLLAPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "15",
-        "descripcion"=> "MARCO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("MARCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "16",
-        "descripcion"=> "MASMA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("MASMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "17",
-        "descripcion"=> "MASMA CHICCHE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("MASMA CHICCHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "18",
-        "descripcion"=> "MOLINOS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("MOLINOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "19",
-        "descripcion"=> "MONOBAMBA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("MONOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "20",
-        "descripcion"=> "MUQUI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("MUQUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "21",
-        "descripcion"=> "MUQUIYAUYO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("MUQUIYAUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "22",
-        "descripcion"=> "PACA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("PACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "23",
-        "descripcion"=> "PACCHA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("PACCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "24",
-        "descripcion"=> "PANCAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "24",
+            "descripcion"=> \Str::title("PANCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "25",
-        "descripcion"=> "PARCO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "25",
+            "descripcion"=> \Str::title("PARCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "26",
-        "descripcion"=> "POMACANCHA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "26",
+            "descripcion"=> \Str::title("POMACANCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "27",
-        "descripcion"=> "RICRAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "27",
+            "descripcion"=> \Str::title("RICRAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "28",
-        "descripcion"=> "SAN LORENZO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "28",
+            "descripcion"=> \Str::title("SAN LORENZO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "29",
-        "descripcion"=> "SAN PEDRO DE CHUNAN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "29",
+            "descripcion"=> \Str::title("SAN PEDRO DE CHUNAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "30",
-        "descripcion"=> "SAUSA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "30",
+            "descripcion"=> \Str::title("SAUSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "31",
-        "descripcion"=> "SINCOS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "31",
+            "descripcion"=> \Str::title("SINCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "32",
-        "descripcion"=> "TUNAN MARCA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "32",
+            "descripcion"=> \Str::title("TUNAN MARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "33",
-        "descripcion"=> "YAULI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "33",
+            "descripcion"=> \Str::title("YAULI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "04",
-        "id_distrito"=> "34",
-        "descripcion"=> "YAUYOS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "34",
+            "descripcion"=>\Str::title( "YAUYOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "JUNIN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title( "JUNIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "JUNIN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JUNIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "CARHUAMAYO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CARHUAMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "ONDORES"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ONDORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "ULCUMAYO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ULCUMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "SATIPO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SATIPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "SATIPO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SATIPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "COVIRIALI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COVIRIALI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "LLAYLLA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LLAYLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "PAMPA HERMOSA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "PAMPA HERMOSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "RIO NEGRO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("RIO NEGRO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "RIO TAMBO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("RIO TAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "06",
-        "id_distrito"=> "99",
-        "descripcion"=> "MAZAMARI - PANGOA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "99",
+            "descripcion"=> \Str::title("MAZAMARI - PANGOA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "TARMA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TARMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "TARMA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TARMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACOBAMBA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUARICOLCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUARICOLCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUASAHUASI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUASAHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA UNION"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LA UNION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "PALCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "PALCAMAYO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PALCAMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN PEDRO DE CAJAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN PEDRO DE CAJAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "07",
-        "id_distrito"=> "09",
-        "descripcion"=> "TAPO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("TAPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "YAULI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("YAULI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "LA OROYA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LA OROYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHACAPALPA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHACAPALPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAY-HUAY"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUAY-HUAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "MARCAPOMACOCHA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MARCAPOMACOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "MOROCOCHA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MOROCOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "PACCHA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PACCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "SANTA BARBARA DE CARHUACAYAN"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SANTA BARBARA DE CARHUACAYAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "SANTA ROSA DE SACCO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SANTA ROSA DE SACCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "SUITUCANCHA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SUITUCANCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "08",
-        "id_distrito"=> "10",
-        "descripcion"=> "YAULI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("YAULI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHUPACA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHUPACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHUPACA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHUPACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "AHUAC"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AHUAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHONGOS BAJO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHONGOS BAJO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUACHAC"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUACHAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUAMANCACA CHICO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUAMANCACA CHICO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN JUAN DE ISCOS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN JUAN DE ISCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN JUAN DE JARPA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN JUAN DE JARPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "08",
-        "descripcion"=> "TRES DE DICIEMBRE"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("TRES DE DICIEMBRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "12",
-        "id_provincia"=> "09",
-        "id_distrito"=> "09",
-        "descripcion"=> "YANACANCHA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("YANACANCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "LA LIBERTAD"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LA LIBERTAD")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "TRUJILLO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TRUJILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "TRUJILLO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TRUJILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "EL PORVENIR"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("EL PORVENIR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "FLORENCIA DE MORA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("FLORENCIA DE MORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUANCHACO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUANCHACO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA ESPERANZA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LA ESPERANZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "LAREDO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LAREDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "MOCHE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("MOCHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "POROTO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("POROTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "SALAVERRY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SALAVERRY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "SIMBAL"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SIMBAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "VICTOR LARCO HERRERA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("VICTOR LARCO HERRERA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "ASCOPE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title("ASCOPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "ASCOPE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ASCOPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHICAMA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHICAMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHOCOPE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHOCOPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "MAGDALENA DE CAO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MAGDALENA DE CAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "PAIJAN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PAIJAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "RAZURI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=>\Str::title("RAZURI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "SANTIAGO DE CAO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SANTIAGO DE CAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "CASA GRANDE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("CASA GRANDE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "BOLIVAR"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("BOLIVAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "BOLIVAR"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("BOLIVAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "BAMBAMARCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BAMBAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "CONDORMARCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CONDORMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "LONGOTEA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LONGOTEA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "UCHUMARCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("UCHUMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "UCUNCHA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("UCUNCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHEPEN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHEPEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHEPEN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title( "CHEPEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "PACANGA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("PACANGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "PUEBLO NUEVO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PUEBLO NUEVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "JULCAN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title( "JULCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "JULCAN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title( "JULCAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "CALAMARCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=>\Str::title( "CALAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CARABAMBA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CARABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUASO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUASO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "OTUZCO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("OTUZCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "OTUZCO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("OTUZCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "AGALLPAMPA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AGALLPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHARAT"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=>\Str::title("CHARAT")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUARANCHAL"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUARANCHAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "LA CUESTA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LA CUESTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "MACHE"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MACHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "PARANDAY"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PARANDAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "SALPO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SALPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "13",
-        "descripcion"=> "SINSICAP"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SINSICAP")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "06",
-        "id_distrito"=> "14",
-        "descripcion"=> "USQUIL"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("USQUIL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "PACASMAYO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PACASMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN PEDRO DE LLOC"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAN PEDRO DE LLOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "GUADALUPE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("GUADALUPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "JEQUETEPEQUE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("JEQUETEPEQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "PACASMAYO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PACASMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN JOSE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SAN JOSE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "PATAZ"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PATAZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "TAYABAMBA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TAYABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "BULDIBUYO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BULDIBUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHILLIA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHILLIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUANCASPATA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUANCASPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUAYLILLAS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUAYLILLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "HUAYO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("HUAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "ONGON"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("ONGON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "PARCOY"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PARCOY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "PATAZ"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PATAZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "10",
-        "descripcion"=> "PIAS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PIAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "11",
-        "descripcion"=> "SANTIAGO DE CHALLAS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SANTIAGO DE CHALLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "12",
-        "descripcion"=> "TAURIJA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("TAURIJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "08",
-        "id_distrito"=> "13",
-        "descripcion"=> "URPAY"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("URPAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "SANCHEZ CARRION"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SANCHEZ CARRION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUAMACHUCO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUAMACHUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHUGAY"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHUGAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "COCHORCO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COCHORCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "CURGOS"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CURGOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARCABAL"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MARCABAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "SANAGORAN"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SANAGORAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "SARIN"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SARIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "09",
-        "id_distrito"=> "08",
-        "descripcion"=> "SARTIMBAMBA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SARTIMBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "SANTIAGO DE CHUCO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SANTIAGO DE CHUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "SANTIAGO DE CHUCO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SANTIAGO DE CHUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANGASMARCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANGASMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "CACHICADAN"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CACHICADAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "MOLLEBAMBA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MOLLEBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "MOLLEPATA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MOLLEPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "QUIRUVILCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("QUIRUVILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "SANTA CRUZ DE CHUCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SANTA CRUZ DE CHUCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "10",
-        "id_distrito"=> "08",
-        "descripcion"=> "SITABAMBA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SITABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "GRAN CHIMU"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("GRAN CHIMU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "CASCAS"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CASCAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "LUCMA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("LUCMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "MARMOT"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MARMOT")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "SAYAPULLO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SAYAPULLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "12",
-        "id_distrito"=> "00",
-        "descripcion"=> "VIRU"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("VIRU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "12",
-        "id_distrito"=> "01",
-        "descripcion"=> "VIRU"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("VIRU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "12",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHAO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "13",
-        "id_provincia"=> "12",
-        "id_distrito"=> "03",
-        "descripcion"=> "GUADALUPITO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("GUADALUPITO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "LAMBAYEQUE"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LAMBAYEQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHICLAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHICLAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHICLAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHICLAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHONGOYAPE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHONGOYAPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "ETEN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ETEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "ETEN PUERTO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ETEN PUERTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "JOSE LEONARDO ORTIZ"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("JOSE LEONARDO ORTIZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "LA VICTORIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LA VICTORIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "LAGUNAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LAGUNAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "MONSEFU"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MONSEFU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "NUEVA ARICA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("NUEVA ARICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "OYOTUN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("OYOTUN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "PICSI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PICSI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "PIMENTEL"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("PIMENTEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "REQUE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("REQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "SA\u00d1A"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SAÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "16",
-        "descripcion"=> "CAYALTI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("CAYALTI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "17",
-        "descripcion"=> "PATAPO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("PATAPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "18",
-        "descripcion"=> "POMALCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("POMALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "19",
-        "descripcion"=> "PUCALA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("PUCALA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "01",
-        "id_distrito"=> "20",
-        "descripcion"=> "TUMAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("TUMAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "FERRE\u00d1AFE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("FERREÑAFE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "FERRE\u00d1AFE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("FERREÑAFE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CA\u00d1ARIS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAÑARIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "INCAHUASI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("INCAHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "MANUEL ANTONIO MESONES MURO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MANUEL ANTONIO MESONES MURO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "PITIPO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PITIPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "PUEBLO NUEVO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PUEBLO NUEVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "LAMBAYEQUE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LAMBAYEQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "LAMBAYEQUE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LAMBAYEQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHOCHOPE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHOCHOPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "ILLIMO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ILLIMO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "JAYANCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("JAYANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "MOCHUMI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MOCHUMI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "MORROPE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MORROPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "MOTUPE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("MOTUPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "OLMOS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("OLMOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "PACORA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PACORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "10",
-        "descripcion"=> "SALAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SALAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAN JOSE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SAN JOSE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "14",
-        "id_provincia"=> "03",
-        "id_distrito"=> "12",
-        "descripcion"=> "TUCUME"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("TUCUME")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "LIMA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LIMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "LIMA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LIMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "LIMA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LIMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANCON"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANCON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "ATE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ATE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "BARRANCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("BARRANCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "BRE\u00d1A"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("BREÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "CARABAYLLO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CARABAYLLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "CHACLACAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("CHACLACAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "CHORRILLOS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("CHORRILLOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "CIENEGUILLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("CIENEGUILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "COMAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("COMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "EL AGUSTINO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("EL AGUSTINO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "INDEPENDENCIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("INDEPENDENCIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "JESUS MARIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("JESUS MARIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "LA MOLINA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("LA MOLINA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "LA VICTORIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("LA VICTORIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "16",
-        "descripcion"=> "LINCE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("LINCE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "17",
-        "descripcion"=> "LOS OLIVOS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("LOS OLIVOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "18",
-        "descripcion"=> "LURIGANCHO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("LURIGANCHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "19",
-        "descripcion"=> "LURIN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("LURIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "20",
-        "descripcion"=> "MAGDALENA DEL MAR"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("MAGDALENA DEL MAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "21",
-        "descripcion"=> "PUEBLO LIBRE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("PUEBLO LIBRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "22",
-        "descripcion"=> "MIRAFLORES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("MIRAFLORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "23",
-        "descripcion"=> "PACHACAMAC"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("PACHACAMAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "24",
-        "descripcion"=> "PUCUSANA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "24",
+            "descripcion"=> \Str::title("PUCUSANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "25",
-        "descripcion"=> "PUENTE PIEDRA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "25",
+            "descripcion"=> \Str::title("PUENTE PIEDRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "26",
-        "descripcion"=> "PUNTA HERMOSA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "26",
+            "descripcion"=> \Str::title("PUNTA HERMOSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "27",
-        "descripcion"=> "PUNTA NEGRA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "27",
+            "descripcion"=> \Str::title("PUNTA NEGRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "28",
-        "descripcion"=> "RIMAC"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "28",
+            "descripcion"=> \Str::title("RIMAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "29",
-        "descripcion"=> "SAN BARTOLO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "29",
+            "descripcion"=> \Str::title("SAN BARTOLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "30",
-        "descripcion"=> "SAN BORJA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "30",
+            "descripcion"=> \Str::title("SAN BORJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "31",
-        "descripcion"=> "SAN ISIDRO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "31",
+            "descripcion"=> \Str::title("SAN ISIDRO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "32",
-        "descripcion"=> "SAN JUAN DE LURIGANCHO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "32",
+            "descripcion"=> \Str::title("SAN JUAN DE LURIGANCHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "33",
-        "descripcion"=> "SAN JUAN DE MIRAFLORES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "33",
+            "descripcion"=> \Str::title("SAN JUAN DE MIRAFLORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "34",
-        "descripcion"=> "SAN LUIS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "34",
+            "descripcion"=> \Str::title("SAN LUIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "35",
-        "descripcion"=> "SAN MARTIN DE PORRES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "35",
+            "descripcion"=> \Str::title("SAN MARTIN DE PORRES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "36",
-        "descripcion"=> "SAN MIGUEL"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "36",
+            "descripcion"=> \Str::title("SAN MIGUEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "37",
-        "descripcion"=> "SANTA ANITA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "37",
+            "descripcion"=> \Str::title("SANTA ANITA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "38",
-        "descripcion"=> "SANTA MARIA DEL MAR"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "38",
+            "descripcion"=> \Str::title("SANTA MARIA DEL MAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "39",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "39",
+            "descripcion"=> \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "40",
-        "descripcion"=> "SANTIAGO DE SURCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "40",
+            "descripcion"=> \Str::title("SANTIAGO DE SURCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "41",
-        "descripcion"=> "SURQUILLO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "41",
+            "descripcion"=> \Str::title("SURQUILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "42",
-        "descripcion"=> "VILLA EL SALVADOR"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "42",
+            "descripcion"=> \Str::title("VILLA EL SALVADOR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "01",
-        "id_distrito"=> "43",
-        "descripcion"=> "VILLA MARIA DEL TRIUNFO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "43",
+            "descripcion"=> \Str::title("VILLA MARIA DEL TRIUNFO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "BARRANCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("BARRANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "BARRANCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("BARRANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "PARAMONGA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("PARAMONGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "PATIVILCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PATIVILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "SUPE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SUPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "SUPE PUERTO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SUPE PUERTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "CAJATAMBO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CAJATAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "CAJATAMBO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CAJATAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "COPA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "GORGOR"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("GORGOR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUANCAPON"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUANCAPON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "MANAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CANTA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CANTA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ARAHUAY"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ARAHUAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAMANTANGA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUAMANTANGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAROS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAROS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "LACHAQUI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LACHAQUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN BUENAVENTURA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN BUENAVENTURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "SANTA ROSA DE QUIVES"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SANTA ROSA DE QUIVES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "CA\u00d1ETE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CAÑETE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN VICENTE DE CA\u00d1ETE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAN VICENTE DE CAÑETE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ASIA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ASIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALANGO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CALANGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "CERRO AZUL"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CERRO AZUL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHILCA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "COAYLLO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("COAYLLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "IMPERIAL"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("IMPERIAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "LUNAHUANA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("LUNAHUANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "MALA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("MALA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "NUEVO IMPERIAL"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("NUEVO IMPERIAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "PACARAN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PACARAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "12",
-        "descripcion"=> "QUILMANA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("QUILMANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "13",
-        "descripcion"=> "SAN ANTONIO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SAN ANTONIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "14",
-        "descripcion"=> "SAN LUIS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SAN LUIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "15",
-        "descripcion"=> "SANTA CRUZ DE FLORES"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SANTA CRUZ DE FLORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "05",
-        "id_distrito"=> "16",
-        "descripcion"=> "ZU\u00d1IGA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("ZUÑIGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUARAL"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUARAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUARAL"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUARAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "ATAVILLOS ALTO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ATAVILLOS ALTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "ATAVILLOS BAJO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ATAVILLOS BAJO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "AUCALLAMA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("AUCALLAMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHANCAY"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHANCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "IHUARI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("IHUARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "LAMPIAN"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LAMPIAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "PACARAOS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PACARAOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN MIGUEL DE ACOS"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN MIGUEL DE ACOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTA CRUZ DE ANDAMARCA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTA CRUZ DE ANDAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "11",
-        "descripcion"=> "SUMBILCA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SUMBILCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "06",
-        "id_distrito"=> "12",
-        "descripcion"=> "VEINTISIETE DE NOVIEMBRE"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("VEINTISIETE DE NOVIEMBRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUAROCHIRI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUAROCHIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "MATUCANA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MATUCANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANTIOQUIA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANTIOQUIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALLAHUANCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CALLAHUANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "CARAMPOMA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CARAMPOMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHICLA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHICLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "CUENCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CUENCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUACHUPAMPA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUACHUPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUANZA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUANZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "09",
-        "descripcion"=> "HUAROCHIRI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("HUAROCHIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "10",
-        "descripcion"=> "LAHUAYTAMBO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("LAHUAYTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "11",
-        "descripcion"=> "LANGA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("LANGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "12",
-        "descripcion"=> "LARAOS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("LARAOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "13",
-        "descripcion"=> "MARIATANA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("MARIATANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "14",
-        "descripcion"=> "RICARDO PALMA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("RICARDO PALMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "15",
-        "descripcion"=> "SAN ANDRES DE TUPICOCHA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("SAN ANDRES DE TUPICOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "16",
-        "descripcion"=> "SAN ANTONIO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("SAN ANTONIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "17",
-        "descripcion"=> "SAN BARTOLOME"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("SAN BARTOLOME")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "18",
-        "descripcion"=> "SAN DAMIAN"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("SAN DAMIAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "19",
-        "descripcion"=> "SAN JUAN DE IRIS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("SAN JUAN DE IRIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "20",
-        "descripcion"=> "SAN JUAN DE TANTARANCHE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("SAN JUAN DE TANTARANCHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "21",
-        "descripcion"=> "SAN LORENZO DE QUINTI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("SAN LORENZO DE QUINTI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "22",
-        "descripcion"=> "SAN MATEO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("SAN MATEO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "23",
-        "descripcion"=> "SAN MATEO DE OTAO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("SAN MATEO DE OTAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "24",
-        "descripcion"=> "SAN PEDRO DE CASTA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "24",
+            "descripcion"=> \Str::title("SAN PEDRO DE CASTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "25",
-        "descripcion"=> "SAN PEDRO DE HUANCAYRE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "25",
+            "descripcion"=> \Str::title("SAN PEDRO DE HUANCAYRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "26",
-        "descripcion"=> "SANGALLAYA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "26",
+            "descripcion"=> \Str::title("SANGALLAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "27",
-        "descripcion"=> "SANTA CRUZ DE COCACHACRA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "27",
+            "descripcion"=> \Str::title("SANTA CRUZ DE COCACHACRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "28",
-        "descripcion"=> "SANTA EULALIA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "28",
+            "descripcion"=> \Str::title("SANTA EULALIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "29",
-        "descripcion"=> "SANTIAGO DE ANCHUCAYA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "29",
+            "descripcion"=> \Str::title("SANTIAGO DE ANCHUCAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "30",
-        "descripcion"=> "SANTIAGO DE TUNA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "30",
+            "descripcion"=> \Str::title("SANTIAGO DE TUNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "31",
-        "descripcion"=> "SANTO DOMINGO DE LOS OLLEROS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "31",
+            "descripcion"=> \Str::title("SANTO DOMINGO DE LOS OLLEROS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "07",
-        "id_distrito"=> "32",
-        "descripcion"=> "SURCO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "32",
+            "descripcion"=> \Str::title("SURCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUAURA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUAURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUACHO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUACHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "AMBAR"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AMBAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALETA DE CARQUIN"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CALETA DE CARQUIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHECRAS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHECRAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUALMAY"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUALMAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "HUAURA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("HUAURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "LEONCIO PRADO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("LEONCIO PRADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "PACCHO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PACCHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "SANTA LEONOR"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SANTA LEONOR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTA MARIA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTA MARIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAYAN"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "11",
+            "descripcion"=>\Str::title("SAYAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "08",
-        "id_distrito"=> "12",
-        "descripcion"=> "VEGUETA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("VEGUETA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "OYON"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("OYON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "OYON"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("OYON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANDAJES"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANDAJES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAUJUL"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=>\Str::title( "CAUJUL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "COCHAMARCA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("COCHAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "NAVAN"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("NAVAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "PACHANGARA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PACHANGARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "YAUYOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("YAUYOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "YAUYOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("YAUYOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALIS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "ALLAUCA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ALLAUCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "AYAVIRI"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("AYAVIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "AZANGARO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("AZANGARO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "06",
-        "descripcion"=> "CACRA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CACRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "07",
-        "descripcion"=> "CARANIA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("CARANIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "08",
-        "descripcion"=> "CATAHUASI"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("CATAHUASI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "09",
-        "descripcion"=> "CHOCOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("CHOCOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "10",
-        "descripcion"=> "COCHAS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("COCHAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "11",
-        "descripcion"=> "COLONIA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("COLONIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "12",
-        "descripcion"=> "HONGOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("HONGOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "13",
-        "descripcion"=> "HUAMPARA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("HUAMPARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "14",
-        "descripcion"=> "HUANCAYA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("HUANCAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "15",
-        "descripcion"=> "HUANGASCAR"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("HUANGASCAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "16",
-        "descripcion"=> "HUANTAN"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "16",
+            "descripcion"=> \Str::title("HUANTAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "17",
-        "descripcion"=> "HUA\u00d1EC"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "17",
+            "descripcion"=> \Str::title("HUAÑEC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "18",
-        "descripcion"=> "LARAOS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "18",
+            "descripcion"=> \Str::title("LARAOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "19",
-        "descripcion"=> "LINCHA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "19",
+            "descripcion"=> \Str::title("LINCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "20",
-        "descripcion"=> "MADEAN"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "20",
+            "descripcion"=> \Str::title("MADEAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "21",
-        "descripcion"=> "MIRAFLORES"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "21",
+            "descripcion"=> \Str::title("MIRAFLORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "22",
-        "descripcion"=> "OMAS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "22",
+            "descripcion"=> \Str::title("OMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "23",
-        "descripcion"=> "PUTINZA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "23",
+            "descripcion"=> \Str::title("PUTINZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "24",
-        "descripcion"=> "QUINCHES"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "24",
+            "descripcion"=> \Str::title("QUINCHES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "25",
-        "descripcion"=> "QUINOCAY"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "25",
+            "descripcion"=> \Str::title("QUINOCAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "26",
-        "descripcion"=> "SAN JOAQUIN"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "26",
+            "descripcion"=> \Str::title("SAN JOAQUIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "27",
-        "descripcion"=> "SAN PEDRO DE PILAS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "27",
+            "descripcion"=> \Str::title("SAN PEDRO DE PILAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "28",
-        "descripcion"=> "TANTA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "28",
+            "descripcion"=> \Str::title("TANTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "29",
-        "descripcion"=> "TAURIPAMPA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "29",
+            "descripcion"=> \Str::title("TAURIPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "30",
-        "descripcion"=> "TOMAS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "30",
+            "descripcion"=> \Str::title("TOMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "31",
-        "descripcion"=> "TUPE"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "31",
+            "descripcion"=> \Str::title("TUPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "32",
-        "descripcion"=> "VI\u00d1AC"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "32",
+            "descripcion"=> \Str::title("VIÑAC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "15",
-        "id_provincia"=> "10",
-        "id_distrito"=> "33",
-        "descripcion"=> "VITIS"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "33",
+            "descripcion"=> \Str::title("VITIS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "LORETO"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LORETO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "MAYNAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MAYNAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "IQUITOS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("IQUITOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO NANAY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO NANAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "FERNANDO LORES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("FERNANDO LORES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "INDIANA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("INDIANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "LAS AMAZONAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LAS AMAZONAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "MAZAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MAZAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "NAPO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("NAPO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "PUNCHANA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PUNCHANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "PUTUMAYO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("PUTUMAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "TORRES CAUSANA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("TORRES CAUSANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "BELEN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("BELEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "SAN JUAN BAUTISTA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SAN JUAN BAUTISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "TENIENTE MANUEL CLAVERO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("TENIENTE MANUEL CLAVERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "ALTO AMAZONAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ALTO AMAZONAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "YURIMAGUAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("YURIMAGUAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "BALSAPUERTO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BALSAPUERTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "JEBEROS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("JEBEROS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "LAGUNAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LAGUNAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "SANTA CRUZ"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SANTA CRUZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "02",
-        "id_distrito"=> "11",
-        "descripcion"=> "TENIENTE CESAR LOPEZ ROJAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TENIENTE CESAR LOPEZ ROJAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "LORETO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LORETO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "NAUTA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("NAUTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "PARINARI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("PARINARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "TIGRE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("TIGRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "TROMPETEROS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("TROMPETEROS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "URARINAS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("URARINAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "MARISCAL RAMON CASTILLA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MARISCAL RAMON CASTILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "RAMON CASTILLA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("RAMON CASTILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "PEBAS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("PEBAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "YAVARI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("YAVARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "SAN PABLO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SAN PABLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "REQUENA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("REQUENA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "REQUENA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("REQUENA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO TAPICHE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO TAPICHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAPELO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CAPELO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "EMILIO SAN MARTIN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("EMILIO SAN MARTIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "MAQUIA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "MAQUIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "PUINAHUA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PUINAHUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAQUENA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAQUENA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "SOPLIN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=>\Str::title( "SOPLIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "TAPICHE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("TAPICHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "JENARO HERRERA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("JENARO HERRERA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "YAQUERANA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("YAQUERANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "UCAYALI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title( "UCAYALI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "CONTAMANA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CONTAMANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "INAHUAYA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("INAHUAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "PADRE MARQUEZ"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PADRE MARQUEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "PAMPA HERMOSA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PAMPA HERMOSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "SARAYACU"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SARAYACU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "VARGAS GUERRA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("VARGAS GUERRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "DATEM DEL MARA\u00d1ON"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("DATEM DEL MARAÑON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "BARRANCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("BARRANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAHUAPANAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAHUAPANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "MANSERICHE"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MANSERICHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "MORONA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=>\Str::title("MORONA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "PASTAZA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PASTAZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "16",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "ANDOAS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("ANDOAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "MADRE DE DIOS"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MADRE DE DIOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "TAMBOPATA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TAMBOPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "TAMBOPATA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TAMBOPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "INAMBARI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("INAMBARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "LAS PIEDRAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LAS PIEDRAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "LABERINTO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LABERINTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "MANU"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MANU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "MANU"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MANU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "FITZCARRALD"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("FITZCARRALD")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "MADRE DE DIOS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MADRE DE DIOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUEPETUHE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUEPETUHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "TAHUAMANU"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TAHUAMANU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "I\u00d1APARI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=>\Str::title( "IÑAPARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "IBERIA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("IBERIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "17",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "TAHUAMANU"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("TAHUAMANU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "MOQUEGUA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MOQUEGUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "MARISCAL NIETO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MARISCAL NIETO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "MOQUEGUA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MOQUEGUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CARUMAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CARUMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CUCHUMBAYA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CUCHUMBAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "SAMEGUA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SAMEGUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN CRISTOBAL"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SAN CRISTOBAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "TORATA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("TORATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "GENERAL SANCHEZ CERRO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("GENERAL SANCHEZ CERRO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "OMATE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("OMATE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHOJATA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHOJATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "COALAQUE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COALAQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "ICHU\u00d1A"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ICHUÑA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA CAPILLA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "LA CAPILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "LLOQUE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("LLOQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "MATALAQUE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=>\Str::title( "MATALAQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "PUQUINA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PUQUINA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "09",
-        "descripcion"=> "QUINISTAQUILLAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("QUINISTAQUILLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "UBINAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("UBINAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "02",
-        "id_distrito"=> "11",
-        "descripcion"=> "YUNGA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("YUNGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "ILO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ILO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "ILO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ILO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "EL ALGARROBAL"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("EL ALGARROBAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "18",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "PACOCHA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PACOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "PASCO"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PASCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "PASCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PASCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHAUPIMARCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHAUPIMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "HUACHON"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("HUACHON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUARIACA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUARIACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUAYLLAY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUAYLLAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "NINACACA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("NINACACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "PALLANCHACRA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PALLANCHACRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "PAUCARTAMBO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PAUCARTAMBO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN FRANCISCO DE ASIS DE YARUSYACAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN FRANCISCO DE ASIS DE YARUSYACAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "SIMON BOLIVAR"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SIMON BOLIVAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "TICLACAYAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("TICLACAYAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "TINYAHUARCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("TINYAHUARCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "VICCO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=>\Str::title( "VICCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "YANACANCHA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("YANACANCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "DANIEL ALCIDES CARRION"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("DANIEL ALCIDES CARRION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "YANAHUANCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("YANAHUANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHACAYAN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHACAYAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "GOYLLARISQUIZGA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("GOYLLARISQUIZGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "PAUCAR"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PAUCAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN PEDRO DE PILLAO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SAN PEDRO DE PILLAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "SANTA ANA DE TUSI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SANTA ANA DE TUSI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "TAPUC"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("TAPUC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "VILCABAMBA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("VILCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "OXAPAMPA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("OXAPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "OXAPAMPA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("OXAPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CHONTABAMBA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CHONTABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUANCABAMBA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUANCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "PALCAZU"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PALCAZU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "POZUZO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("POZUZO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "PUERTO BERMUDEZ"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PUERTO BERMUDEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "VILLA RICA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("VILLA RICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "19",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "CONSTITUCION"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("CONSTITUCION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "PIURA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PIURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "PIURA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PIURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "PIURA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PIURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CASTILLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CASTILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CATACAOS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CATACAOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "CURA MORI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("CURA MORI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "EL TALLAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("EL TALLAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "LA ARENA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("LA ARENA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "LA UNION"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("LA UNION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "LAS LOMAS"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("LAS LOMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "TAMBO GRANDE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("TAMBO GRANDE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "AYABACA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AYABACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "AYABACA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AYABACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "FRIAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("FRIAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "JILILI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("JILILI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "LAGUNAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=>\Str::title( "LAGUNAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "MONTERO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MONTERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "PACAIPAMPA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PACAIPAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "PAIMAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PAIMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAPILLICA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAPILLICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "09",
-        "descripcion"=> "SICCHEZ"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SICCHEZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "SUYO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANCABAMBA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANCABAMBA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUANCABAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "CANCHAQUE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CANCHAQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "EL CARMEN DE LA FRONTERA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("EL CARMEN DE LA FRONTERA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUARMACA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUARMACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "LALAQUIZ"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "LALAQUIZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN MIGUEL DE EL FAIQUE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN MIGUEL DE EL FAIQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "SONDOR"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SONDOR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "SONDORILLO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SONDORILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "MORROPON"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MORROPON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "CHULUCANAS"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CHULUCANAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "BUENOS AIRES"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BUENOS AIRES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "CHALACO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CHALACO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "LA MATANZA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LA MATANZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "MORROPON"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MORROPON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "SALITRAL"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SALITRAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN JUAN DE BIGOTE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN JUAN DE BIGOTE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "SANTA CATALINA DE MOSSA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SANTA CATALINA DE MOSSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "09",
-        "descripcion"=> "SANTO DOMINGO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SANTO DOMINGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "04",
-        "id_distrito"=> "10",
-        "descripcion"=> "YAMANGO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("YAMANGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "PAITA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PAITA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "PAITA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PAITA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "AMOTAPE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AMOTAPE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "ARENAL"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ARENAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "COLAN"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("COLAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "LA HUACA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LA HUACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "TAMARINDO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("TAMARINDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "VICHAYAL"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("VICHAYAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "SULLANA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SULLANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "SULLANA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SULLANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "BELLAVISTA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=>\Str::title( "BELLAVISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "IGNACIO ESCUDERO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("IGNACIO ESCUDERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "LANCONES"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LANCONES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "MARCAVELICA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MARCAVELICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "MIGUEL CHECA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MIGUEL CHECA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "QUERECOTILLO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("QUERECOTILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "SALITRAL"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SALITRAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "TALARA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TALARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "PARI\u00d1AS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PARIÑAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "EL ALTO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("EL ALTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "LA BREA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LA BREA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "LOBITOS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LOBITOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "LOS ORGANOS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("LOS ORGANOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "MANCORA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("MANCORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "SECHURA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SECHURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "SECHURA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SECHURA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "BELLAVISTA DE LA UNION"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BELLAVISTA DE LA UNION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "BERNAL"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("BERNAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "CRISTO NOS VALGA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CRISTO NOS VALGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "VICE"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("VICE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "20",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "RINCONADA LLICUAR"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("RINCONADA LLICUAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "PUNO"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PUNO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "PUNO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PUNO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "PUNO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PUNO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACORA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "AMANTANI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("AMANTANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "ATUNCOLLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ATUNCOLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "CAPACHICA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CAPACHICA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHUCUITO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=>\Str::title( "CHUCUITO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "COATA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("COATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "HUATA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("HUATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "MA\u00d1AZO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("MAÑAZO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "PAUCARCOLLA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("PAUCARCOLLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "11",
-        "descripcion"=> "PICHACANI"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PICHACANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "12",
-        "descripcion"=> "PLATERIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("PLATERIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "13",
-        "descripcion"=> "SAN ANTONIO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SAN ANTONIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "14",
-        "descripcion"=> "TIQUILLACA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("TIQUILLACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "01",
-        "id_distrito"=> "15",
-        "descripcion"=> "VILQUE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("VILQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "AZANGARO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("AZANGARO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "AZANGARO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AZANGARO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ACHAYA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ACHAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "ARAPA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ARAPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "ASILLO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("ASILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "CAMINACA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CAMINACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "CHUPA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CHUPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "07",
-        "descripcion"=> "JOSE DOMINGO CHOQUEHUANCA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("JOSE DOMINGO CHOQUEHUANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "08",
-        "descripcion"=> "MU\u00d1ANI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("MUÑANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "09",
-        "descripcion"=> "POTONI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("POTONI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAMAN"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAMAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "11",
-        "descripcion"=> "SAN ANTON"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("SAN ANTON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "12",
-        "descripcion"=> "SAN JOSE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SAN JOSE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "13",
-        "descripcion"=> "SAN JUAN DE SALINAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SAN JUAN DE SALINAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "14",
-        "descripcion"=> "SANTIAGO DE PUPUJA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SANTIAGO DE PUPUJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "02",
-        "id_distrito"=> "15",
-        "descripcion"=> "TIRAPATA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "15",
+            "descripcion"=> \Str::title("TIRAPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "CARABAYA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CARABAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "MACUSANI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MACUSANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "AJOYANI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AJOYANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "AYAPATA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("AYAPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "COASA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("COASA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "CORANI"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CORANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "06",
-        "descripcion"=> "CRUCERO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("CRUCERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "07",
-        "descripcion"=> "ITUATA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("ITUATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "08",
-        "descripcion"=> "OLLACHEA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("OLLACHEA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAN GABAN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAN GABAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "03",
-        "id_distrito"=> "10",
-        "descripcion"=> "USICAYOS"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("USICAYOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "CHUCUITO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CHUCUITO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "JULI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JULI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "DESAGUADERO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("DESAGUADERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUACULLANI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUACULLANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "KELLUYO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("KELLUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "PISACOMA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PISACOMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "POMATA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("POMATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "ZEPITA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("ZEPITA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "EL COLLAO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("EL COLLAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "ILAVE"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ILAVE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAPAZO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAPAZO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "PILCUYO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PILCUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CONDURIRI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CONDURIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUANCANE"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUANCANE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "HUANCANE"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("HUANCANE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "COJATA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("COJATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUATASANI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUATASANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "INCHUPALLA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("INCHUPALLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "PUSI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title("PUSI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "06",
-        "descripcion"=> "ROSASPATA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("ROSASPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "07",
-        "descripcion"=> "TARACO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("TARACO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "06",
-        "id_distrito"=> "08",
-        "descripcion"=> "VILQUE CHICO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("VILQUE CHICO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "LAMPA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "LAMPA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "CABANILLA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CABANILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALAPUJA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CALAPUJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "NICASIO"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=>\Str::title( "NICASIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "OCUVIRI"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("OCUVIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "PALCA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "PARATIA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PARATIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "PUCARA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("PUCARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "09",
-        "descripcion"=> "SANTA LUCIA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SANTA LUCIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "07",
-        "id_distrito"=> "10",
-        "descripcion"=> "VILAVILA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("VILAVILA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "MELGAR"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MELGAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "AYAVIRI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("AYAVIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANTAUTA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANTAUTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "CUPI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=>\Str::title( "CUPI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "LLALLI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("LLALLI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "MACARI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("MACARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "NU\u00d1OA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("NUÑOA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "ORURILLO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("ORURILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "UMACHIRI"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("UMACHIRI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "MOHO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MOHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "MOHO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MOHO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "CONIMA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CONIMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUAYRAPATA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUAYRAPATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "TILALI"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("TILALI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN ANTONIO DE PUTINA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SAN ANTONIO DE PUTINA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "PUTINA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PUTINA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANANEA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANANEA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "PEDRO VILCA APAZA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("PEDRO VILCA APAZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "QUILCAPUNCU"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("QUILCAPUNCU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "SINA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "SINA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "11",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN ROMAN"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SAN ROMAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "11",
-        "id_distrito"=> "01",
-        "descripcion"=> "JULIACA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JULIACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "11",
-        "id_distrito"=> "02",
-        "descripcion"=> "CABANA"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CABANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "11",
-        "id_distrito"=> "03",
-        "descripcion"=> "CABANILLAS"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CABANILLAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "11",
-        "id_distrito"=> "04",
-        "descripcion"=> "CARACOTO"
-    ]);
+            "id_provincia"=> "11",
+            "id_distrito"=> "04",
+            "descripcion"=>\Str::title( "CARACOTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "00",
-        "descripcion"=> "SANDIA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SANDIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "01",
-        "descripcion"=> "SANDIA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SANDIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "02",
-        "descripcion"=> "CUYOCUYO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CUYOCUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "03",
-        "descripcion"=> "LIMBANI"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LIMBANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "04",
-        "descripcion"=> "PATAMBUCO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PATAMBUCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "05",
-        "descripcion"=> "PHARA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PHARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "06",
-        "descripcion"=> "QUIACA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "06",
+            "descripcion"=>\Str::title( "QUIACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN JUAN DEL ORO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN JUAN DEL ORO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "08",
-        "descripcion"=> "YANAHUAYA"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "08",
+            "descripcion"=>\Str::title( "YANAHUAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "09",
-        "descripcion"=> "ALTO INAMBARI"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("ALTO INAMBARI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "12",
-        "id_distrito"=> "10",
-        "descripcion"=> "SAN PEDRO DE PUTINA PUNCO"
-    ]);
+            "id_provincia"=> "12",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("SAN PEDRO DE PUTINA PUNCO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "00",
-        "descripcion"=> "YUNGUYO"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("YUNGUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "01",
-        "descripcion"=> "YUNGUYO"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("YUNGUYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "02",
-        "descripcion"=> "ANAPIA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ANAPIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "03",
-        "descripcion"=> "COPANI"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("COPANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "04",
-        "descripcion"=> "CUTURAPI"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CUTURAPI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "05",
-        "descripcion"=> "OLLARAYA"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("OLLARAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "06",
-        "descripcion"=> "TINICACHI"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("TINICACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "21",
-        "id_provincia"=> "13",
-        "id_distrito"=> "07",
-        "descripcion"=> "UNICACHI"
-    ]);
+            "id_provincia"=> "13",
+            "id_distrito"=> "07",
+            "descripcion"=>\Str::title( "UNICACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN MARTIN"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SAN MARTIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "MOYOBAMBA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MOYOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "MOYOBAMBA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("MOYOBAMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CALZADA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CALZADA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "HABANA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=>\Str::title( "HABANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "JEPELACIO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("JEPELACIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "SORITOR"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SORITOR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "YANTALO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("YANTALO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "BELLAVISTA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("BELLAVISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "BELLAVISTA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("BELLAVISTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO BIAVO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO BIAVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "BAJO BIAVO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("BAJO BIAVO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "HUALLAGA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("HUALLAGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN PABLO"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SAN PABLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN RAFAEL"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN RAFAEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "EL DORADO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("EL DORADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAN JOSE DE SISA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAN JOSE DE SISA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "AGUA BLANCA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AGUA BLANCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "SAN MARTIN"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("SAN MARTIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "SANTA ROSA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SANTA ROSA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "03",
-        "id_distrito"=> "05",
-        "descripcion"=> "SHATOJA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SHATOJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "HUALLAGA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("HUALLAGA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "SAPOSOA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("SAPOSOA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO SAPOSOA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO SAPOSOA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "EL ESLABON"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("EL ESLABON")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "PISCOYACU"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PISCOYACU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "SACANCHE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SACANCHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "TINGO DE SAPOSOA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("TINGO DE SAPOSOA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "00",
-        "descripcion"=> "LAMAS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("LAMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "01",
-        "descripcion"=> "LAMAS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LAMAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALONSO DE ALVARADO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALONSO DE ALVARADO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "03",
-        "descripcion"=> "BARRANQUITA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("BARRANQUITA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "04",
-        "descripcion"=> "CAYNARACHI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CAYNARACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "05",
-        "descripcion"=> "CU\u00d1UMBUQUI"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CUÑUMBUQUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "06",
-        "descripcion"=> "PINTO RECODO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PINTO RECODO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "07",
-        "descripcion"=> "RUMISAPA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("RUMISAPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "08",
-        "descripcion"=> "SAN ROQUE DE CUMBAZA"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SAN ROQUE DE CUMBAZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "09",
-        "descripcion"=> "SHANAO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SHANAO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "10",
-        "descripcion"=> "TABALOSOS"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("TABALOSOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "05",
-        "id_distrito"=> "11",
-        "descripcion"=> "ZAPATERO"
-    ]);
+            "id_provincia"=> "05",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("ZAPATERO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "06",
-        "id_distrito"=> "00",
-        "descripcion"=> "MARISCAL CACERES"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("MARISCAL CACERES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "06",
-        "id_distrito"=> "01",
-        "descripcion"=> "JUANJUI"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("JUANJUI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "06",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAMPANILLA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAMPANILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "06",
-        "id_distrito"=> "03",
-        "descripcion"=> "HUICUNGO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("HUICUNGO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "06",
-        "id_distrito"=> "04",
-        "descripcion"=> "PACHIZA"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PACHIZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "06",
-        "id_distrito"=> "05",
-        "descripcion"=> "PAJARILLO"
-    ]);
+            "id_provincia"=> "06",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PAJARILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "00",
-        "descripcion"=> "PICOTA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PICOTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "01",
-        "descripcion"=> "PICOTA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PICOTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "02",
-        "descripcion"=> "BUENOS AIRES"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("BUENOS AIRES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "03",
-        "descripcion"=> "CASPISAPA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CASPISAPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "04",
-        "descripcion"=> "PILLUANA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PILLUANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "05",
-        "descripcion"=> "PUCACACA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PUCACACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN CRISTOBAL"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN CRISTOBAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN HILARION"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN HILARION")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "08",
-        "descripcion"=> "SHAMBOYACU"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("SHAMBOYACU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "09",
-        "descripcion"=> "TINGO DE PONASA"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("TINGO DE PONASA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "07",
-        "id_distrito"=> "10",
-        "descripcion"=> "TRES UNIDOS"
-    ]);
+            "id_provincia"=> "07",
+            "id_distrito"=> "10",
+            "descripcion"=>\Str::title("TRES UNIDOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "00",
-        "descripcion"=> "RIOJA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title( "RIOJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "01",
-        "descripcion"=> "RIOJA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("RIOJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "02",
-        "descripcion"=> "AWAJUN"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AWAJUN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "03",
-        "descripcion"=> "ELIAS SOPLIN VARGAS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ELIAS SOPLIN VARGAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "04",
-        "descripcion"=> "NUEVA CAJAMARCA"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("NUEVA CAJAMARCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "05",
-        "descripcion"=> "PARDO MIGUEL"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("PARDO MIGUEL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "06",
-        "descripcion"=> "POSIC"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("POSIC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "07",
-        "descripcion"=> "SAN FERNANDO"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("SAN FERNANDO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "08",
-        "descripcion"=> "YORONGOS"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("YORONGOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "08",
-        "id_distrito"=> "09",
-        "descripcion"=> "YURACYACU"
-    ]);
+            "id_provincia"=> "08",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("YURACYACU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "00",
-        "descripcion"=> "SAN MARTIN"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("SAN MARTIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "01",
-        "descripcion"=> "TARAPOTO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TARAPOTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALBERTO LEVEAU"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALBERTO LEVEAU")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "03",
-        "descripcion"=> "CACATACHI"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CACATACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "04",
-        "descripcion"=> "CHAZUTA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CHAZUTA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "05",
-        "descripcion"=> "CHIPURANA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("CHIPURANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "06",
-        "descripcion"=> "EL PORVENIR"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("EL PORVENIR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "07",
-        "descripcion"=> "HUIMBAYOC"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("HUIMBAYOC")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "08",
-        "descripcion"=> "JUAN GUERRA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("JUAN GUERRA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "09",
-        "descripcion"=> "LA BANDA DE SHILCAYO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("LA BANDA DE SHILCAYO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "10",
-        "descripcion"=> "MORALES"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("MORALES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "11",
-        "descripcion"=> "PAPAPLAYA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "11",
+            "descripcion"=> \Str::title("PAPAPLAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "12",
-        "descripcion"=> "SAN ANTONIO"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "12",
+            "descripcion"=> \Str::title("SAN ANTONIO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "13",
-        "descripcion"=> "SAUCE"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "13",
+            "descripcion"=> \Str::title("SAUCE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "09",
-        "id_distrito"=> "14",
-        "descripcion"=> "SHAPAJA"
-    ]);
+            "id_provincia"=> "09",
+            "id_distrito"=> "14",
+            "descripcion"=> \Str::title("SHAPAJA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "10",
-        "id_distrito"=> "00",
-        "descripcion"=> "TOCACHE"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TOCACHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "10",
-        "id_distrito"=> "01",
-        "descripcion"=> "TOCACHE"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TOCACHE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "10",
-        "id_distrito"=> "02",
-        "descripcion"=> "NUEVO PROGRESO"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("NUEVO PROGRESO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "10",
-        "id_distrito"=> "03",
-        "descripcion"=> "POLVORA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("POLVORA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "10",
-        "id_distrito"=> "04",
-        "descripcion"=> "SHUNTE"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("SHUNTE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "22",
-        "id_provincia"=> "10",
-        "id_distrito"=> "05",
-        "descripcion"=> "UCHIZA"
-    ]);
+            "id_provincia"=> "10",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("UCHIZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "TACNA"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TACNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "TACNA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TACNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "TACNA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TACNA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "ALTO DE LA ALIANZA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("ALTO DE LA ALIANZA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "CALANA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CALANA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "CIUDAD NUEVA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CIUDAD NUEVA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "INCLAN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("INCLAN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "PACHIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("PACHIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "PALCA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("PALCA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "08",
-        "descripcion"=> "POCOLLAY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("POCOLLAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "09",
-        "descripcion"=> "SAMA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "09",
+            "descripcion"=> \Str::title("SAMA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "01",
-        "id_distrito"=> "10",
-        "descripcion"=> "CORONEL GREGORIO ALBARRACIN LANCHIPA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "10",
+            "descripcion"=> \Str::title("CORONEL GREGORIO ALBARRACIN LANCHIPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CANDARAVE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CANDARAVE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "CANDARAVE"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CANDARAVE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAIRANI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAIRANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "CAMILACA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CAMILACA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "CURIBAYA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("CURIBAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "05",
-        "descripcion"=> "HUANUARA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("HUANUARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "02",
-        "id_distrito"=> "06",
-        "descripcion"=> "QUILAHUANI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("QUILAHUANI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "JORGE BASADRE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("JORGE BASADRE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "LOCUMBA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("LOCUMBA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "ILABAYA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=>\Str::title( "ILABAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "ITE"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("ITE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "00",
-        "descripcion"=> "TARATA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title( "TARATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "01",
-        "descripcion"=> "TARATA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TARATA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "02",
-        "descripcion"=> "HEROES ALBARRACIN"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("HEROES ALBARRACIN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "03",
-        "descripcion"=> "ESTIQUE"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "03",
+            "descripcion"=>\Str::title( "ESTIQUE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "04",
-        "descripcion"=> "ESTIQUE-PAMPA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "04",
+            "descripcion"=>\Str::title( "ESTIQUE-PAMPA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "05",
-        "descripcion"=> "SITAJARA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "05",
+            "descripcion"=>\Str::title( "SITAJARA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "06",
-        "descripcion"=> "SUSAPAYA"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SUSAPAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "07",
-        "descripcion"=> "TARUCACHI"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("TARUCACHI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "23",
-        "id_provincia"=> "04",
-        "id_distrito"=> "08",
-        "descripcion"=> "TICACO"
-    ]);
+            "id_provincia"=> "04",
+            "id_distrito"=> "08",
+            "descripcion"=> \Str::title("TICACO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "TUMBES"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TUMBES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "TUMBES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("TUMBES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "TUMBES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("TUMBES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CORRALES"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CORRALES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "LA CRUZ"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("LA CRUZ")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "PAMPAS DE HOSPITAL"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PAMPAS DE HOSPITAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "SAN JACINTO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("SAN JACINTO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "SAN JUAN DE LA VIRGEN"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("SAN JUAN DE LA VIRGEN")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "CONTRALMIRANTE VILLAR"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=>\Str::title( "CONTRALMIRANTE VILLAR")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "ZORRITOS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ZORRITOS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "CASITAS"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=>\Str::title( "CASITAS")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "CANOAS DE PUNTA SAL"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("CANOAS DE PUNTA SAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "ZARUMILLA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ZARUMILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "ZARUMILLA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("ZARUMILLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "AGUAS VERDES"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("AGUAS VERDES")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "03",
-        "id_distrito"=> "03",
-        "descripcion"=> "MATAPALO"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("MATAPALO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "24",
-        "id_provincia"=> "03",
-        "id_distrito"=> "04",
-        "descripcion"=> "PAPAYAL"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("PAPAYAL")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "00",
-        "id_distrito"=> "00",
-        "descripcion"=> "UCAYALI"
-    ]);
+            "id_provincia"=> "00",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("UCAYALI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "00",
-        "descripcion"=> "CORONEL PORTILLO"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("CORONEL PORTILLO")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "01",
-        "descripcion"=> "CALLERIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("CALLERIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "02",
-        "descripcion"=> "CAMPOVERDE"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("CAMPOVERDE")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "03",
-        "descripcion"=> "IPARIA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "03",
+            "descripcion"=>\Str::title( "IPARIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "04",
-        "descripcion"=> "MASISEA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("MASISEA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "05",
-        "descripcion"=> "YARINACOCHA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "05",
+            "descripcion"=> \Str::title("YARINACOCHA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "06",
-        "descripcion"=> "NUEVA REQUENA"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "06",
+            "descripcion"=> \Str::title("NUEVA REQUENA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "01",
-        "id_distrito"=> "07",
-        "descripcion"=> "MANANTAY"
-    ]);
+            "id_provincia"=> "01",
+            "id_distrito"=> "07",
+            "descripcion"=> \Str::title("MANANTAY")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "02",
-        "id_distrito"=> "00",
-        "descripcion"=> "ATALAYA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("ATALAYA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "02",
-        "id_distrito"=> "01",
-        "descripcion"=> "RAYMONDI"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("RAYMONDI")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "02",
-        "id_distrito"=> "02",
-        "descripcion"=> "SEPAHUA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("SEPAHUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "02",
-        "id_distrito"=> "03",
-        "descripcion"=> "TAHUANIA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "03",
+            "descripcion"=> \Str::title("TAHUANIA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "02",
-        "id_distrito"=> "04",
-        "descripcion"=> "YURUA"
-    ]);
+            "id_provincia"=> "02",
+            "id_distrito"=> "04",
+            "descripcion"=> \Str::title("YURUA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "03",
-        "id_distrito"=> "00",
-        "descripcion"=> "PADRE ABAD"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "00",
+            "descripcion"=> \Str::title("PADRE ABAD")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "03",
-        "id_distrito"=> "01",
-        "descripcion"=> "PADRE ABAD"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "01",
+            "descripcion"=> \Str::title("PADRE ABAD")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
-        "id_provincia"=> "03",
-        "id_distrito"=> "02",
-        "descripcion"=> "IRAZOLA"
-    ]);
+            "id_provincia"=> "03",
+            "id_distrito"=> "02",
+            "descripcion"=> \Str::title("IRAZOLA")
+        ]);
         Ubigeo::create([
             "id_departamento"=> "25",
             "id_provincia"=> "03",
             "id_distrito"=> "03",
-            "descripcion"=> "CURIMANA"
+            "descripcion"=> \Str::title("CURIMANA")
         ]);
         Ubigeo::create([
             "id_departamento"=> "25",
             "id_provincia"=> "04",
             "id_distrito"=> "00",
-            "descripcion"=> "PURUS"
+            "descripcion"=> \Str::title("PURUS")
         ]);
         Ubigeo::create([
             "id_departamento"=> "25",
             "id_provincia"=> "04",
             "id_distrito"=> "01",
-            "descripcion"=> "PURUS"
+            "descripcion"=> \Str::title("PURUS")
         ]);
 	}
 
